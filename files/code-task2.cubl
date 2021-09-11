@@ -1,0 +1,303 @@
+{
+  "cubes" : [
+    {
+      "y" : 7,
+      "visited" : false,
+      "z" : 1,
+      "x" : 1
+    },
+    {
+      "y" : 2,
+      "visited" : false,
+      "z" : 1,
+      "x" : 1
+    },
+    {
+      "y" : 6,
+      "visited" : false,
+      "z" : 1,
+      "x" : 1
+    },
+    {
+      "y" : 1,
+      "visited" : false,
+      "z" : 1,
+      "x" : 6
+    },
+    {
+      "y" : 3,
+      "visited" : false,
+      "z" : 1,
+      "x" : 1
+    },
+    {
+      "y" : 1,
+      "visited" : false,
+      "z" : 1,
+      "x" : 4
+    },
+    {
+      "y" : 1,
+      "visited" : false,
+      "z" : 1,
+      "x" : 3
+    },
+    {
+      "y" : 9,
+      "visited" : false,
+      "z" : 1,
+      "x" : 1
+    },
+    {
+      "y" : 4,
+      "visited" : false,
+      "z" : 1,
+      "x" : 1
+    },
+    {
+      "y" : 1,
+      "visited" : false,
+      "z" : 1,
+      "x" : 9
+    },
+    {
+      "y" : 5,
+      "visited" : false,
+      "z" : 1,
+      "x" : 1
+    },
+    {
+      "y" : 8,
+      "visited" : false,
+      "z" : 1,
+      "x" : 1
+    },
+    {
+      "y" : 1,
+      "visited" : false,
+      "z" : 1,
+      "x" : 7
+    },
+    {
+      "y" : 12,
+      "visited" : false,
+      "z" : 1,
+      "x" : 1
+    },
+    {
+      "y" : 11,
+      "visited" : false,
+      "z" : 1,
+      "x" : 1
+    },
+    {
+      "y" : 1,
+      "visited" : false,
+      "z" : 1,
+      "x" : 12
+    },
+    {
+      "y" : 1,
+      "visited" : false,
+      "z" : 1,
+      "x" : 11
+    },
+    {
+      "y" : -1,
+      "visited" : false,
+      "z" : 0,
+      "x" : -1
+    },
+    {
+      "y" : 1,
+      "visited" : false,
+      "z" : 1,
+      "x" : 1
+    },
+    {
+      "y" : 1,
+      "visited" : false,
+      "z" : 1,
+      "x" : 8
+    },
+    {
+      "y" : 1,
+      "visited" : false,
+      "z" : 1,
+      "x" : 2
+    },
+    {
+      "y" : 1,
+      "visited" : false,
+      "z" : 1,
+      "x" : 5
+    },
+    {
+      "y" : 1,
+      "visited" : false,
+      "z" : 1,
+      "x" : 10
+    },
+    {
+      "y" : 10,
+      "visited" : false,
+      "z" : 1,
+      "x" : 1
+    }
+  ],
+  "structCodeLines" : [
+    {
+      "lineNumber" : 1,
+      "lineType" : "setPosition",
+      "identifier" : 0,
+      "values" : [
+        {
+          "isSet" : true,
+          "value" : 1
+        },
+        {
+          "isSet" : true,
+          "value" : 1
+        },
+        {
+          "isSet" : true,
+          "value" : 1
+        }
+      ]
+    },
+    {
+      "lineNumber" : 2,
+      "lineType" : "setPosition",
+      "identifier" : 0,
+      "values" : [
+        {
+          "isSet" : true,
+          "value" : 2
+        },
+        {
+          "isSet" : true,
+          "value" : 1
+        },
+        {
+          "isSet" : true,
+          "value" : 1
+        }
+      ]
+    },
+    {
+      "lineNumber" : 3,
+      "lineType" : "loopStart",
+      "identifier" : 0,
+      "values" : [
+        {
+          "isSet" : true,
+          "value" : 12
+        }
+      ]
+    },
+    {
+      "lineNumber" : 4,
+      "lineType" : "buildPosition",
+      "identifier" : 0,
+      "values" : [
+        {
+          "isSet" : true,
+          "value" : 1
+        }
+      ]
+    },
+    {
+      "lineNumber" : 5,
+      "lineType" : "changePosition",
+      "identifier" : 0,
+      "values" : [
+        {
+          "isSet" : true,
+          "value" : 1
+        },
+        {
+          "isSet" : true,
+          "value" : 0
+        },
+        {
+          "isSet" : true,
+          "value" : 1
+        }
+      ]
+    },
+    {
+      "lineNumber" : 6,
+      "lineType" : "buildPosition",
+      "identifier" : 0,
+      "values" : [
+        {
+          "isSet" : true,
+          "value" : 2
+        }
+      ]
+    },
+    {
+      "lineNumber" : 7,
+      "lineType" : "changePosition",
+      "identifier" : 0,
+      "values" : [
+        {
+          "isSet" : true,
+          "value" : 2
+        },
+        {
+          "isSet" : true,
+          "value" : 1
+        },
+        {
+          "isSet" : true,
+          "value" : 0
+        }
+      ]
+    },
+    {
+      "lineNumber" : 8,
+      "lineType" : "loopEnd",
+      "identifier" : 0,
+      "values" : [
+
+      ]
+    },
+    {
+      "lineNumber" : 9,
+      "lineType" : "removeCoordinates",
+      "identifier" : 0,
+      "values" : [
+        {
+          "isSet" : true,
+          "value" : 1
+        },
+        {
+          "isSet" : true,
+          "value" : 1
+        }
+      ]
+    }
+  ],
+  "settings" : {
+    "cameraZPposition" : 17.621089935302734,
+    "typeOfCubes" : 0,
+    "visibilityOfYCurtain" : false,
+    "insertLineNumber" : 10,
+    "visibilityOfXCurtain" : false,
+    "visibilityOfRightView" : true,
+    "cameraYAngle" : -0.79000669717788696,
+    "numberOfFields" : 7,
+    "selectedLeftView" : 0,
+    "cubeOpacity" : 1,
+    "variablesAreEnabled" : true,
+    "axesNumbersAreEnabled" : true,
+    "coloredAxesAreEnabled" : true,
+    "loopsAreEnabled" : true,
+    "visibilityOfLeftView" : true,
+    "appVersion" : 7,
+    "selectedRightView" : 4,
+    "multiViewZoomLevel" : 1,
+    "cameraXAngle" : -0.74674493074417114
+  }
+}

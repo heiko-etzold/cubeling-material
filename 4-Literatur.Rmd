@@ -1,0 +1,60 @@
+# Weitere Materialien und Literatur {#Literatur}
+
+## Weitere Materialien {.unlisted .unnumbered #Material}
+
+***allgemein***
+
+* Kopiervorlage Bauplan (2x2cm pro Feld )
+  * [als pdf-Datei](files/Cubeling-BuildingPlan-v2-de.pdf){target="_blank"}
+  * [als pages-Datei](files/Cubeling-BuildingPlan-v2-de.pages){target="_blank"}
+  * [als docx-Datei](files/Cubeling-BuildingPlan-v2-de.docx){target="_blank"}  
+  
+* Kopiervorlage Bauplan kompakt (pro Feld 1x1cm)
+  * [als pdf-Datei](files/Cubeling-BuildingPlan-Compact-v2-de.pdf){target="_blank"}
+  * [als pages-Datei](files/Cubeling-BuildingPlan-Compact-v2-de.pages){target="_blank"}
+  * [als docx-Datei](files/Cubeling-BuildingPlan-Compact-v2-de.docx){target="_blank"}  
+  
+* Kopiervorlage Zweitafelbild
+  * [als pdf-Datei](files/Cubeling-Multiview-v2-de.pdf){target="_blank"}
+  * [als pages-Datei](files/Cubeling-Multiview-v2-de.pages){target="_blank"}
+  * [als docx-Datei](files/Cubeling-Multiview-v2-de.docx){target="_blank"}  
+  
+* Kopiervorlage Dreitafelbild
+  * [als pdf-Datei](files/Cubeling-Multiview3-v2-de.pdf){target="_blank"}
+  * [als pages-Datei](files/Cubeling-Multiview3-v2-de.pages){target="_blank"}
+  * [als docx-Datei](files/Cubeling-Multiview3-v2-de.docx){target="_blank"}  
+  
+* Kopiervorlage Isometriepapier
+  * [als pdf-Datei](files/Cubeling-Isometric-v2-de.pdf){target="_blank"}
+  * [als pages-Datei](files/Cubeling-Isometric-v2-de.pages){target="_blank"}
+  * [als docx-Datei](files/Cubeling-Isometric-v2-de.docx){target="_blank"}  
+  * [Punktemuster als cinderalla-Datei](files/Cubeling-Isometric.cdy){target="_blank"}  
+
+
+***zum Programmieren mit Klötzchen***
+
+* Arbeitsblatt
+  * [als pdf-Datei](files/Cubeling-Worksheet-v2-de.pdf){target="_blank"}
+  * [als pages-Datei](files/Cubeling-Worksheet-v2-de.pages){target="_blank"}
+  * [als docx-Datei](files/Cubeling-Worksheet-v2-de.docx){target="_blank"}  
+  
+* Präsentation mit Aufgabenstellungen  
+  * [als pdf-Datei](files/Cubeling-Tasks-v2-de.pdf){target="_blank"}
+  * [als keynote-Datei](files/Cubeling-Tasks-v2-de.key){target="_blank"}
+  * [als pptx-Datei](files/Cubeling-Tasks-v2-de.pptx){target="_blank"}
+
+* Lösungen zu den komplexen Übungen (Abschnitt \@ref(komplexeUebungen)) als cubl-Dateien  
+*Die Lösungen stellen nicht zwingend einen optimalen Code dar.*
+  * [Gebäude 1](files/code-task1.cubl){target="_blank"}
+  * [Gebäude 2](files/code-task2.cubl){target="_blank"}
+  * [Gebäude 3](files/code-task3.cubl){target="_blank"}
+  * [Gebäude 4](files/code-task4.cubl){target="_blank"}
+  * [Gebäude 5](files/code-task5.cubl){target="_blank"}
+  * [Gebäude 6](files/code-task6.cubl){target="_blank"}
+  * [Gebäude 7](files/code-task7.cubl){target="_blank"}
+  * [Gebäude 8](files/code-task8.cubl){target="_blank"}
+  
+## Literatur {.unlisted .unnumbered}
+`r if (knitr::is_html_output()) '<div id="refs"></div>'`
+
+
