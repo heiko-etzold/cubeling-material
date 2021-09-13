@@ -169,6 +169,11 @@ Sind in den globalen Einstellungen auch Variablen erlaubt, gibt es weitere Befeh
 * Mit **`ändere(Position, um: (Zahl, Zahl))`** änderst du eine Variable um eine Richtung, z. B. `ändere(VariableA, um: (1,0))`.
 * Über **`baueWürfel(bei: Position))`** und **`entferneWürfel(bei: Position)`** kannst du nun die Positionen verwenden, um dort Würfel zu bauen oder zu entfernen. 
 
+Du kannst die Stelle, an der eine Code-Zeile eingefügt wird, über den grauen **Pfeil am linken Rand der Code-Ansicht** verändern.
+
+<center>
+![Stellen zum Einfügen verändern](pictures/code-arrow.png){width=75%}
+</center>
 
 
 ### Code-Zeile entfernen
