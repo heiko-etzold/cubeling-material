@@ -11,9 +11,9 @@ output:
 
 Wenn du die App startest, siehst du einen zweigeteilten Bildschirm, links eine **3D-Ansicht** und rechts den **Bauplan**. 
 
-<center>
-![Startbild der App](pictures/app-start.png){width=75%}
-</center>
+```{r echo=FALSE, fig.cap="Startbild der App", fig.align='center', out.width='75%'}
+knitr::include_graphics("pictures/app-start.png")
+```
 
 Die App beinhaltet zwei Grundhandlungen:
 
@@ -36,9 +36,9 @@ Das Erstellen und Entfernen von Würfel funktioniert sowohl in der 3D-Ansicht al
 
 In der zentralen Einstellungs-App^[Die ist die App mit dem grauen Zahnrad-Symbol. Öffne diese und scrolle  dann so lange nach unten, bis du die Klötzchen-App findest. Wenn du die Klötzchen-App auf dem Mac verwendest, kannst du die Einstellungen in der Menüleiste über Klötzchen → Einstellungen öffnen.] kannst du Eigenschaften der App anpassen.
 
-<center>
-![App-Einstellungen](pictures/settings.png){width=75%}
-</center>
+```{r echo=FALSE, fig.cap="App-Einstellungen", fig.align='center', out.width='75%'}
+knitr::include_graphics("pictures/settings.png")
+```
 
 * Du kannst entscheiden, ob die farbigen **Koordinatenachsen** dargestellt werden sollen und ob diese mit **Ziffern beschriftet** werden.
 
@@ -59,14 +59,22 @@ In der zentralen Einstellungs-App^[Die ist die App mit dem grauen Zahnrad-Symbol
 
 Die 3D-Ansicht kann mit einem Finger gedreht werden und mit zwei Fingern gezoomt werden. So hat man quasi die Möglichkeit, um das Würfelgebäude herum zu gehen. Auch ist es möglich, den Bau von unten zu betrachten.
 
-### Schattenwände {#Schatteneinstellung}
+### Schattenwände und Sichtbarkeit {#Schatteneinstellung}
 
-Mit einem Tipp auf die drei Pünktchen unten links hast du die Möglichkeit, **Schattenwände** aufzubauen und die **Sichtbarkeit der Würfel** zu reduzieren. <!--Für diese Funktionen findest du in Kapitel \@ref(Schattenkapitel) einige Unterrichtsanregungen.-->
+Mit einem Tipp auf die drei Pünktchen unten links hast du die Möglichkeit, **Schattenwände** aufzubauen und die **Sichtbarkeit der Würfel** zu reduzieren. 
+
+```{r echo=FALSE, fig.cap="Einstellen der Schattenwände", fig.align='center', out.width='75%'}
+knitr::include_graphics("pictures/app-shadow.png")
+```
 
 
-<center>
-![Einstellen der Schattenwände](pictures/app-shadow.png){width=75%}
-</center>
+### Umriss
+
+Weiterhin kann über die drei Punkte eingestellt werden, dass nur der Umriss des gebauten Körpers zu sehen sein soll. Es besteht die Wahl zwischen den normalen Würfeln (Sonne), dem Verschwinden der Konturen (Wolke) oder vollkommen schwarzen Würfeln (Mond).
+
+```{r echo=FALSE, fig.cap="Umriss der Würfelbauwerke", fig.align='center', out.width='100%'}
+knitr::include_graphics("pictures/app-outline.png")
+```
 
 
 ### Weitere Ansichten
@@ -83,9 +91,10 @@ Innerhalb des Zwei-/Dreitafelbildes und der Schrägbilddarstellung können aller
 
 Wenn du das Zwei-/Dreitafelbild auswählst, erscheint in beiden Ansichten eine rote Leiste, die an der einen Seite einen kleinen Würfel und an der anderen Seite eine kleine Kugel enthält. Diese Leiste dient der Orientierung, wenn die 3D-Ansicht mal wild gedreht werden sollte. Dies ist besonders dann hilfreich, wenn du in den [globalen Einstellungen](#globaleEinstellungen) die blaue und grüne Achse ausschalten solltest.
 
-<center>
-![Zweitafelbild](pictures/app-multiview.png){width=75%}
-</center>
+```{r echo=FALSE, fig.cap="Zweitafelbild", fig.align='center', out.width='75%'}
+knitr::include_graphics("pictures/app-multiview.png")
+```
+
 
 Wenn du innerhalb des Zweitafelbildes mit zwei Fingern herauszoomst, ist noch eine dritte Tafel -- die Seitenansicht -- zu sehen. 
 
@@ -94,9 +103,10 @@ Wenn du innerhalb des Zweitafelbildes mit zwei Fingern herauszoomst, ist noch ei
 
 Die beiden Schrägbilder stellen ebenfalls das Gebäude dar. In der Isometriedarstellung siehst du noch einen kleinen roten Stock zwischen den Feldern (2|2) und (3|3). Dieser kann ebenfalls behilflich sein beim Interpretieren der Bilder.
 
-<center>
-![Isometrische Darstellung](pictures/app-isometric.png){width=75%}
-</center>
+```{r echo=FALSE, fig.cap="Isometrische Darstellung", fig.align='center', out.width='75%'}
+knitr::include_graphics("pictures/app-isometric.png")
+```
+
 
 ### Code-Ansicht
 
@@ -104,17 +114,19 @@ Die beiden Schrägbilder stellen ebenfalls das Gebäude dar. In der Isometriedar
 
 Weiterhin gibt es eine Code-Ansicht, in der der Bauprozess dokumentiert wird. Hier sind noch einmal vielfältige Interaktionen möglich, auf die in Kapitel \@ref(bedienungCode) genauer eingegangen wird.
 
-<center>
-![Code-Ansicht](pictures/app-code.png){width=75%}
-</center>
+```{r echo=FALSE, fig.cap="Code-Ansicht", fig.align='center', out.width='75%'}
+knitr::include_graphics("pictures/app-code.png")
+```
+
 
 ## Export und Import
 
 Über den **Ordner-Button** am unteren mittleren Rand ist es möglich, das Würfelbauerwerk bzw. einzelne Ansichten zu exportieren bzw. importeren.
 
-<center>
-![Export und Import](pictures/app-export.png){width=75%}
-</center>
+```{r echo=FALSE, fig.cap="Export und Import", fig.align='center', out.width='75%'}
+knitr::include_graphics("pictures/app-export.png")
+```
+
 
 ### Ansichten als Bilder exportieren
 
@@ -148,9 +160,11 @@ Es ist auch möglich, Dateien zu öffnen, die mit älteren Versionen der Klötzc
 
 In der Code-Ansicht wird zunächst einmal protokolliert, welche Würfel in der 3D-Ansicht bzw. im Bauplan hinzugefügt bzw. entfernt werden.
 
-<center>
-![Klötzchen-Programmierung](pictures/code-1.png){width=75%}
-</center>
+```{r echo=FALSE, fig.cap="Klötzchen-Programmierung", fig.align='center', out.width='75%'}
+knitr::include_graphics("pictures/code-1.png")
+```
+
+
 
 ### Code-Zeile hinzufügen
 
@@ -171,26 +185,32 @@ Sind in den globalen Einstellungen auch Variablen erlaubt, gibt es weitere Befeh
 
 Du kannst die Stelle, an der eine Code-Zeile eingefügt wird, über den grauen **Pfeil am linken Rand der Code-Ansicht** verändern.
 
-<center>
-![Stellen zum Einfügen verändern](pictures/code-arrow.png){width=75%}
-</center>
+```{r echo=FALSE, fig.cap="Stelle zum Einfügen verändern", fig.align='center', out.width='75%'}
+knitr::include_graphics("pictures/code-arrow.png")
+```
+
+
 
 
 ### Code-Zeile entfernen
 
 Um eine Code-Zeile zu entfernen, musst du diese **nach links wischen**. Dann ist ein rot hinterlegter Papierkorb-Button zu sehen, über den du die Zeile löschen kannst.
 
-<center>
-![Code-Zeile löschen](pictures/code-delete.png){width=75%}
-</center>
+```{r echo=FALSE, fig.cap="Code-Zeile löschen", fig.align='center', out.width='75%'}
+knitr::include_graphics("pictures/code-delete.png")
+```
+
 
 ### Code-Zeilen verschieben
 
 Über die **drei Striche** am rechten Rand der Code-Zeile kannst du die Reihenfolge der Zeilen verändern.
 
-<center>
-![Code-Zeile verschieben](pictures/code-move.png){width=75%}
-</center>
+
+```{r echo=FALSE, fig.cap="Code-Zeile verschieben", fig.align='center', out.width='75%'}
+knitr::include_graphics("pictures/code-move.png")
+```
+
+
 
 > Es bietet sich an zu untersuchen, inwieweit eine geänderte Reihenfolge der Code-Zeilen das Würfelbauwerk beeinflusst. Solange ausschließlich `baueWürfel`-Befehle genutzt werden, ist dies natürlich noch nicht so interessant. Aber sobald Schleifen oder Variablen eine Rolle spiele oder der `entferneWürfel`-Befehl genutzt wird, kann dies zu interessanten Erkundungen führen.
 
@@ -203,9 +223,11 @@ Es gibt zwei Möglichkeiten, die Zahlen, mit denen z. B. die Koordinaten beschr
 * Du kannst nun das **Nummern-Pad** nutzen, um die Zahlen, wie bei einer Tastatur, einzustellen. Über die **±-Taste** kannst du aus einer Zahl schnell ihre Gegenzahl machen.
 * Du kannst die **Pfeiltasten** verwenden, mit denen du die Zahlen schrittweise größer oder kleiner machen kannst.
 
-<center>
-![Zahlen verändern](pictures/code-number.png){width=75%}
-</center>
+
+```{r echo=FALSE, fig.cap="Zahlen verändern", fig.align='center', out.width='75%'}
+knitr::include_graphics("pictures/code-number.png")
+```
+
 
 ### Ablaufverfolgung
 
@@ -217,7 +239,10 @@ Wird eine **Schleife verfolgt**, so wird dargestellt, in welcher **Nummer der Sc
 
 Weiterhin ist es möglich, sich den **aktuellen Wert einer Position** anzeigen zu lassen. Dies ist dann von Relevanz, wenn sich der Wert innerhalb einer Schleife ändert und diese Veränderung nachvollzogen werden soll.
 
-<center>
-![Ablaufverfolgung](pictures/code-trace.png){width=75%}
-</center>
+
+```{r echo=FALSE, fig.cap="Ablaufverfolgung", fig.align='center', out.width='75%'}
+knitr::include_graphics("pictures/code-trace.png")
+```
+
+
 

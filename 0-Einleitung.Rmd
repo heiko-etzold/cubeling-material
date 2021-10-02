@@ -1,0 +1,46 @@
+# Einleitung {- #Einleitung}
+
+Holzwürfel lösen bei Kindern wie Erwachsenen eine große Faszination aus -- und das sogar schon dann, wenn man noch nicht einmal Mathematik mit ihnen betreibt. Diesen Schwung (bzw. Wurf) lohnt es zu nutzen. Im Geometrieunterricht vor allem, aber auch darüber hinaus, finden sich vielfältige Anlässe, Würfel als Zugang zu mathematischen Themen zu verwenden.
+
+Das funktioniert natürlich mit echten Holzwürfel, ziemlich gut sogar. Sollte man solche Erfahrungen wirklich durch eine App ersetzen? Nein! Aber die **Erfahrungen** lassen sich wunderbar **ergänzen**. Hier setzen ein paar Besonderheiten an, die nur **digitale Werkzeuge** bieten können, und diese führen dann zu weiteren Raumerfahrungen oder mehr Unterstützungsmöglichkeiten bzw. zu stärkeren Herausforderungen für Schülerinnen und Schüler.
+
+Die **Klötzchen-App**, auf die hier eingegangen wird, steht kostenlos für iOS- und macOS-Geräte (also iPads, Macs und eingeschränkt auch iPhones) unter https://apps.apple.com/de/app/klötzchen/id1027746349 zur Verfügung.
+
+
+## Über dieses „Buch“ {-}
+
+In diesem Dokument wird im ersten Kapitel zunächst die **[Bedienung](#bedienung-der-klötzchen-app)** der App an sich erklärt.
+
+In den weiteren Kapiteln folgen Einsatzmöglichkeiten für den Mathematikunterricht -- einerseits mit dem Schwerpunkt auf die **[Raumvorstellung](#Raumvorstellung)** und andererseits auf das **[Programmieren](#Coding)** im Zusammenhang mit dem Bauen von Würfelbauwerken.
+
+Es handelt es sich hier nicht um ein festes Buch. Mit der Zeit werden Dinge ergänzt oder auch mal verändert werden. Sehr gern nehmen wir auch Anregungen auf, um weitere Ideen zu verbreiten, wie die Klötzchen-App im Unterricht genutzt werden kann. 
+
+Die aktuelle Version dieses Buches bezieht sich auf die **Klötzchen-App in der Version 7.1**. Viele Funktionen sind aber auch mit vorherigen Versionen verfügbar. Das Buch, insbesondere Kapitel \@ref(Coding) baut auf einen vorherigen, zweiteiligen Leitfaden auf, siehe @Etzold:2018Praxis1 und @Etzold:2018Praxis2.
+
+Das Buch ist so geschrieben, dass es sich von vorn bis hinten einfach durchlesen lässt. Aber auch als schnelles Nachschlagewerk soll es dienen.
+
+::: {.task}
+Aufgaben für Schülerinnen und Schüler finden sich in den farbigen Boxen. 
+:::
+    
+::: {.hint}
+In grauen Boxen stehen weitere Hinweise, die beispielsweise im Unterrichtsgespräch genutzt werden können
+:::
+
+
+> Weiterhin finden sich über das Buch verstreut didaktische Kommentare zu einzelnen Themen. Auch werden Tipps dargestellt, welche Materialien sich für bestimmte Unterrichtssituationen eignen bzw. welche Einstellungen in der Klötzchen-App vorgenommen werden sollten.
+
+Im gesamten Buch wird sich **geduzt** :) Neben der kleinen persönlichen Note hat dies den Vorteil, dass einzelne Bestandteile des Buches auch direkt für den Unterricht genutzt werden können und die Schülerinnen und Schüler sich angesprochen fühlen können. 
+
+**Weitere Materialien**, wie die Zusammenstellung aller Aufgabenstellungen bzw. Arbeitsblätter, auf die an den einzelnen Stellen verwiesen werden, findest du noch einmal gesammelt [am Ende des Buches](#Material). 
+
+## Lizenz und Versionen dieses Buches {-}
+
+Dieses  Material  ist  eine  **offene  Bildungsressource**  und  steht  unter  der  Creative-Commons-Lizenz „Namensnennung - Weitergabe unter gleichen Bedingungen 4.0 International (**CC BY-SA 4.0**)“. Um eine Kopie dieser Lizenz zu sehen, besuche 
+[https://creativecommons.org/licenses/by-sa/4.0/deed.de](https://creativecommons.org/licenses/by-sa/4.0/deed.de){target="_blank"}.
+
+Es ist sowohl möglich als aus erwünscht, das **Material frei zu nutzen, zu ändern, weiterzuentwickeln** und entsprechend zu veröffentlichen. Bei entsprechender Passung können Änderungen oder Ergänzungen auch direkt hier im Buch aufgenommen werden, z. B. auch Übersetzungen -- nimm dazu einfach [Kontakt](mailto:heiko.etzold@uni-potsdam.de) zu mir auf.
+
+Die **Rohdaten** des Buches stehen unter [https://github.com/heiko-etzold/cubeling-material](https://github.com/heiko-etzold/cubeling-material){target="_blank"} zur Verfügung. Dort können, ensprechend eines GIT-Respositorys, auch vorherige Versionen und die Änderungen verfolgt werden.
+
+Eine Übersicht über alle Versionen des Buches kann unter  https://heiko-etzold.github.io/cubeling-material eingesehen werden.

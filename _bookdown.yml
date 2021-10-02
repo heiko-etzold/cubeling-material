@@ -1,1 +1,5 @@
-output_dir: "docs"
+view: "https://github.com/heiko-etzold/cubeling-material/blob/de.2.1/%s"
+output_dir: "docs/de/2.1"
+language:
+  label:
+    fig: 'Abb. '

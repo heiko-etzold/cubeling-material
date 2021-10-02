@@ -15,8 +15,16 @@ div.hint {
     text-indent: -10pt;
     padding-left: 10pt;
 	margin-bottom: 5pt;
-}  
+}
 
 img[alt$=">"] {
   float: right;
+}
+
+img[alt$="<"] {
+  float: left;
+}
+
+.listtab{
+  margin-left: 15px
 }
