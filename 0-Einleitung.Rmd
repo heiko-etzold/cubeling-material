@@ -1,3 +1,7 @@
+# UNDER CONSTRUCTION {-}
+
+The English translation of this book is currently under construction.
+
 # Einleitung {- #Einleitung}
 
 Holzwürfel lösen bei Kindern wie Erwachsenen eine große Faszination aus -- und das sogar schon dann, wenn man noch nicht einmal Mathematik mit ihnen betreibt. Diesen Schwung (bzw. Wurf) lohnt es zu nutzen. Im Geometrieunterricht vor allem, aber auch darüber hinaus, finden sich vielfältige Anlässe, Würfel als Zugang zu mathematischen Themen zu verwenden.
