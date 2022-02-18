@@ -4,9 +4,10 @@ The English translation of this book is currently under construction.
 
 # Einleitung {- #Einleitung}
 
-Ich schreibe einen Text. 
-
 Holzwürfel lösen bei Kindern wie Erwachsenen eine große Faszination aus -- und das sogar schon dann, wenn man noch nicht einmal Mathematik mit ihnen betreibt. Diesen Schwung (bzw. Wurf) lohnt es zu nutzen. Im Geometrieunterricht vor allem, aber auch darüber hinaus, finden sich vielfältige Anlässe, Würfel als Zugang zu mathematischen Themen zu verwenden.
+
+Wooden blocks (cubes?) fascinate children and adults alike – even already without doing any math with them. One should take advantage of/It is worth using this enthusiasm, while it is on a roll. Oder einfach ohne wortspiel: This momentum is worth using.
+Especially in geometry lessons, but also beyond that, there are numerous/various occasions to use cubes to approach mathematical topics.
 
 Das funktioniert natürlich mit echten Holzwürfel, ziemlich gut sogar. Sollte man solche Erfahrungen wirklich durch eine App ersetzen? Nein! Aber die **Erfahrungen** lassen sich wunderbar **ergänzen**. Hier setzen ein paar Besonderheiten an, die nur **digitale Werkzeuge** bieten können, und diese führen dann zu weiteren Raumerfahrungen oder mehr Unterstützungsmöglichkeiten bzw. zu stärkeren Herausforderungen für Schülerinnen und Schüler.
 
