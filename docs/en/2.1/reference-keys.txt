@@ -13,7 +13,7 @@ fig:unnamed-chunk-12
 fig:unnamed-chunk-13
 fig:unnamed-chunk-14
 Bedienung
-grundhandlungen-mit-würfeln
+grundhandlungen-mit-würfeln-basic-actions-with-cubes
 globaleEinstellungen
 ansichten-ergänzen-und-wechseln
 würfelgebäude-drehen-und-zoomen

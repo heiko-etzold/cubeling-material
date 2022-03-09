@@ -4,27 +4,30 @@ output:
   html_document: default
 ---
 
-# Bedienung der Klötzchen-App {#Bedienung}
+# How to use the Cubeling app {#Bedienung}
 
 
-## Grundhandlungen mit Würfeln
+## Grundhandlungen mit Würfeln/ Basic actions with cubes
 
-Wenn du die App startest, siehst du einen zweigeteilten Bildschirm, links eine **3D-Ansicht** und rechts den **Bauplan**. 
-
-```{r echo=FALSE, fig.cap="Startbild der App", fig.align='center', out.width='75%'}
+When you start the app, you will see a split screen, a **3D view** on the left and the **blueprint** on the right.
+```{r echo=FALSE, fig.cap="App launch screen", fig.align='center', out.width='75%'}
 knitr::include_graphics("pictures/app-start.png")
 ```
 
 Die App beinhaltet zwei Grundhandlungen:
+The app includes two basic actions:
 
-* **Würfel hinzufügen**  
-Um einen Würfel hinzuzufügen, **tippst** du einfach **auf eines der grauen Felder**. Natürlich kannst du auch auf einen Würfel noch einen Würfel setzen und noch einen usw. -- dazu musst du einfach immer wieder **auf den jeweiligen Würfel tippen.**
+* **Add cube**
+To add a cube, **tap** on one of the **gray spaces/fields**. You can, of course, also place a cube on top of another one, and another one, and so on -- simply **tap** on the respective cube again and again.
 
-* **Würfel entfernen**  
-Einen Würfel entfernst du, indem du **länger auf ihn drauf drückst.**
+* **Remove cube**
+**Touch and hold a cube** to remove it.
 
 Diese Erklärung findest du auch noch einmal in der App, wenn du auf das **i** unten links tippst. 
 Das Erstellen und Entfernen von Würfel funktioniert sowohl in der 3D-Ansicht als auch im Bauplan^[Im Bauplan lassen sich wegen der Eindeutigkeit der Darstellung nur Würfel hinzufügen oder entfernen, wenn man Holzwürfel eingestellt hat.]. Wenn du **in der einen Ansicht** etwas veränderst, geschieht dies sofort und **automatisch auch in der anderen Ansicht**.
+
+This explanation can also be found in the app by tapping on the **i** at the bottom left.
+Adding and removing cubes works both in the 3D view as well as in the blueprint mode^[In the blueprint view, you can only add or remove cubes if you have selected wooden cubes, due to the uniqueness of the build(?) ]. When you change something **in one view**, the same thing happens immediately and **automatically in the other view**.
 
 Über den **Mülleimer-Button** unten in der Mitte kannst du das komplette Würfelbauwerk **löschen**.
 
