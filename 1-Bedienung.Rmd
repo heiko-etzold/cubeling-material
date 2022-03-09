@@ -9,7 +9,7 @@ output:
 
 ## Grundhandlungen mit Würfeln/ Basic actions with cubes
 
-When you start the app, you will see a split screen, a **3D view** on the left and the **blueprint** on the right.
+When you open the app, you will see a split screen, a **3D view** on the left and the **blueprint** on the right.
 ```{r echo=FALSE, fig.cap="App launch screen", fig.align='center', out.width='75%'}
 knitr::include_graphics("pictures/app-start.png")
 ```
@@ -30,29 +30,30 @@ This explanation can also be found in the app by tapping on the **i** at the bot
 Adding and removing cubes works both in the 3D view as well as in the blueprint mode^[In the blueprint view, you can only add or remove cubes if you have selected wooden cubes, due to the uniqueness of the build(?) ]. When you change something **in one view**, the same thing happens immediately and **automatically in the other view**.
 
 Über den **Mülleimer-Button** unten in der Mitte kannst du das komplette Würfelbauwerk **löschen**.
+The **trash can button** at the bottom center allows you to **delete** the entire connected cube structure.
 
-> **Didaktischer Kommentar**    
-> Die Handlungen *Würfel hinzufügen* und *Würfel entfernen* gibt es natürlich auch, wenn man mit echten Würfeln agiert. In der App jedoch gibt es hierfür relativ starke Einschränkungen: Man nimmt nicht erst einen Würfel auf, man muss ihn nicht exakt anhand des Schachbrettmusters ausrichten, man muss ihn nicht loslassen -- das einzige, was man tut, ist das Feld anzutippen. Damit verliert man einerseits vielfältige reale, haptische Erfahrungen (was schon einmal zeigt, dass man nicht auf echte Würfel verzichten sollte). Andererseits haben so auch Schülerinnen und Schüler mit motorischen Einschränkungen die Möglichkeit, mithilfe von Würfelbauwerken komplexere Aufgaben zu lösen, wozu sie mit echtem Material evtl. nicht in der Lage wären.
+> **Didactic note**    
+> The actions **add cube** and **remove cube** of course also exist when working with real cubes. In the app, however, there are relatively strong constraints for this: You do not have to first pick up a cube, you do not have to align it perfectly according to the checkerboard pattern, you do not have to let it go -- the only thing you have to do is click on the space where you want it. On the one hand, you lose out on a range of real, haptic experiences (which goes to show that you should not forgo real cubes entirely). On the other hand, this gives students with motor impairments the opportunity to solve more complex tasks with the help of connected cube structures, which they might not be able to do with real objects. 
 
 
-## Globale Einstellungen {#globaleEinstellungen}
+## Global settings {#globaleEinstellungen}
 
-In der zentralen Einstellungs-App^[Die ist die App mit dem grauen Zahnrad-Symbol. Öffne diese und scrolle  dann so lange nach unten, bis du die Klötzchen-App findest. Wenn du die Klötzchen-App auf dem Mac verwendest, kannst du die Einstellungen in der Menüleiste über Klötzchen → Einstellungen öffnen.] kannst du Eigenschaften der App anpassen.
+In the main settings app on your device^[This is the app with the gray gear symbol. Open it and scroll down until you find the Cubeling app. If you are using the Cubeling app on a Mac, you can open the settings in the menu bar by clicking Cubeling → Preferences.] you can set your preferences for the app.
 
-```{r echo=FALSE, fig.cap="App-Einstellungen", fig.align='center', out.width='75%'}
+```{r echo=FALSE, fig.cap="App settings", fig.align='center', out.width='75%'}
 knitr::include_graphics("pictures/settings.png")
 ```
 
-* Du kannst entscheiden, ob die farbigen **Koordinatenachsen** dargestellt werden sollen und ob diese mit **Ziffern beschriftet** werden.
+* You can decide whether the colored **coordinate axes** should be displayed and if they should be labeled with **digits/numbers**.
 
-* Außerdem kannst du die **Größe des Feldes** ändern -- zwischen 3x3 und 10x10.
+* You can also change the **size of the board/field** -- ranging between 3x3 and 10x10.
 
-* Weiterhin besteht die Auswahl zwischen Holzwürfeln, Steckwürfeln und Magischen Würfeln. Außer, dass die Würfel ein wenig unterschiedlich aussehen, besteht auch im Bauverhalten ein Unterschied: 
-  * **Holzwürfel** lassen sich nur übereinander bauen, d.h. ein Würfel muss immer über einem anderen Würfel oder einem Schachbrett-Feld liegen. 
-  * **Steckwürfel** dagegen lassen sich auch seitlich anbauen. Auch beim Entfernen von Würfeln spielt dies eine Rolle: Holzwürfel lassen sich nur von oben nach unten abbauen, Steckwürfel beliebig, solange keine Würfel in der Luft schweben würden.
-  * **Magische Würfel** können Schweben. Der Aufbau erfolgt wie bei den Holzwürfeln, entfernen kann man Magische Würfel aber beliebig, so dass dann auch schwebende Würfel übrig bleiben können. 
+* Additionally, you can choose between wooden cubes, linking cubes, and magic cubes. Apart from the slight visual differences between the cubes, there is also a difference in their building behavior.
+  * **Wooden cubes** can only be stacked on top of each other, i.e. a cube always needs to lie either on top of another cube or directly on a checkerboard square.
+  * **Linking cubes**, on the other hand, can also be attached laterally. This also plays a role when removing cubes: Wooden cubes can only be removed from top to bottom, whereas linking cubes can be removed freely, as long as no cubes would be floating mid-air.
+  * **Magic cubes** can float. The construction is the same as with wooden cubes, but you can remove magic cubes freely, so that it is possible to have floating cubes remain. 
 
-* Außerdem kannst du entscheiden, ob in der Code-Ansicht **Schleifen** und **Variablen** möglich sind. Mehr dazu findest du im Abschnitt \@ref(bedienungCode).
+* You can also decide whether **loops** and **variables** are possible in the code view. You can find more on this in section \@ref(bedienungCode).
 
 
 
