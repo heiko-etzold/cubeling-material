@@ -57,53 +57,54 @@ knitr::include_graphics("pictures/settings.png")
 
 
 
-## Ansichten ergänzen und wechseln
+## Ansichten ergänzen und wechseln/ Change and add to views
 
-### Würfelgebäude drehen und zoomen
+### Rotate and zoom into connected cube structure
 
-Die 3D-Ansicht kann mit einem Finger gedreht werden und mit zwei Fingern gezoomt werden. So hat man quasi die Möglichkeit, um das Würfelgebäude herum zu gehen. Auch ist es möglich, den Bau von unten zu betrachten.
+Rotate the 3D view using one finger and zoom in or out with two. This practically gives you the ability to walk around the cube structure (?) - view the structure from all sides. It is also possible to view the structure from below.
 
-### Schattenwände und Sichtbarkeit {#Schatteneinstellung}
+### Shadow walls (?) and transparency {#Schatteneinstellung}
 
 Mit einem Tipp auf die drei Pünktchen unten links hast du die Möglichkeit, **Schattenwände** aufzubauen und die **Sichtbarkeit der Würfel** zu reduzieren. 
+With a tap on the three dots at the bottom left, you can build **shadow walls** and increase the **transparency** of the cubes/reduce **visibility**.
 
-```{r echo=FALSE, fig.cap="Einstellen der Schattenwände", fig.align='center', out.width='75%'}
+```{r echo=FALSE, fig.cap="Configuring the shadow walls", fig.align='center', out.width='75%'}
 knitr::include_graphics("pictures/app-shadow.png")
 ```
 
 
-### Umriss
+### Outline
 
-Weiterhin kann über die drei Punkte eingestellt werden, dass nur der Umriss des gebauten Körpers zu sehen sein soll. Es besteht die Wahl zwischen den normalen Würfeln (Sonne), dem Verschwinden der Konturen (Wolke) oder vollkommen schwarzen Würfeln (Mond).
+Via the same three dots, you can also set your ability to see the outline of the built cube structure. You can choose between the regular cubes (sun), the disappearance of contours (cloud) or completely blacked out cubes (moon).
 
-```{r echo=FALSE, fig.cap="Umriss der Würfelbauwerke", fig.align='center', out.width='100%'}
+```{r echo=FALSE, fig.cap="Outline of connected cube structure", fig.align='center', out.width='100%'}
 knitr::include_graphics("pictures/app-outline.png")
 ```
 
 
-### Weitere Ansichten
+### Further views
 
-Über die Umschalter am unteren Rand kannst du nun in weitere Ansichten wechseln. Links sind dies die schon bekannte 3D-Ansicht und der Bauplan und auf der rechten Seite hast du neben dem Bauplan die Wahl zwischen dem **Zwei-/Dreitafelbild**, der **Schrägbilddarstellung in Kavalierperspektive**, der **isometrischen Schrägbilddarstellung** sowie (bei Holzwürfeln) einer **Code-Ansicht**. Auch hier gilt wieder: Wenn du links etwas änderst, wirkt sich das sofort auf die Darstellungen der rechten Seite aus.
+You can use the toggle buttons at the bottom to switch between views. On the left, you have the, by now familiar, 3D view and the blueprint. On the right, in addition to the blueprint, you can choose between the **two/three-pane view**, the **oblique view in cavalier perspective**, the **isometric view**, and (for wooden cubes) a **code view**. Again, if you change something on one side, you will immediately see the change on the other as well.
 
-Innerhalb des Zwei-/Dreitafelbildes und der Schrägbilddarstellung können allerdings nicht selbst Würfel hinzugefügt werden -- dies geht nur in der 3D-Ansicht und (bei Holzwürfeln) im Bauplan sowie der Code-Ansicht.
+However, cubes cannot be added when you are in the two/three-pane view or one of the slanted views -- this is only possible in the 3D view and (for wooden cubes) in the blueprint as well as the code view.
 
-Über die grünen Umschalter am unteren linken und rechten Rand ist es weiterhin möglich, die linke bzw. rechte Ansicht vollständig auszublenden.
+It is still possible to completely hide the left or right view via the green toggles at the lower left and right edges.
 
-> Das Ausblenden einer Ansicht bietet sich z. B. an, wenn du einen Bauplan vorgibst, deine Schülerinnen und Schüler mit echten Würfeln das Gebäude erstellen sollen und dann die App nutzen können, um ihr Bauwerk zu überprüfen.
+> Hiding a view can be useful if, for example, you provide a blueprint and have your students build the connected cube structure using real cubes. Then they can use the app to check their creations.
 
-#### Zwei-/Dreitafelbild
+#### Two/three-pane view
 
-Wenn du das Zwei-/Dreitafelbild auswählst, erscheint in beiden Ansichten eine rote Leiste, die an der einen Seite einen kleinen Würfel und an der anderen Seite eine kleine Kugel enthält. Diese Leiste dient der Orientierung, wenn die 3D-Ansicht mal wild gedreht werden sollte. Dies ist besonders dann hilfreich, wenn du in den [globalen Einstellungen](#globaleEinstellungen) die blaue und grüne Achse ausschalten solltest.
+If you choose the two/three-pane view, a red bar will appear in both panes with a small cube on one side and a small sphere on the other. This bar acts a way to orient yourself if the 3D view should ever be ferociously rotated. This is especially helpful if you have switched off the blue and green axes in the [global settings](#globaleEinstellungen).
 
-```{r echo=FALSE, fig.cap="Zweitafelbild", fig.align='center', out.width='75%'}
+```{r echo=FALSE, fig.cap="Two-pane view", fig.align='center', out.width='75%'}
 knitr::include_graphics("pictures/app-multiview.png")
 ```
 
 
-Wenn du innerhalb des Zweitafelbildes mit zwei Fingern herauszoomst, ist noch eine dritte Tafel -- die Seitenansicht -- zu sehen. 
+If you are in the two-pane view and zoom out with two finger, a third pane -- the side view -- will appear.
 
 
-### Schrägbilder
+### Schrägbilder/parallel projections?
 
 Die beiden Schrägbilder stellen ebenfalls das Gebäude dar. In der Isometriedarstellung siehst du noch einen kleinen roten Stock zwischen den Feldern (2|2) und (3|3). Dieser kann ebenfalls behilflich sein beim Interpretieren der Bilder.
 
@@ -112,123 +113,123 @@ knitr::include_graphics("pictures/app-isometric.png")
 ```
 
 
-### Code-Ansicht
+### Code-view
 
-***Diese Funktion steht nur bei Holzwürfeln und nicht auf dem iPhone zur Verfügung.***
+***This function is only available when using wooden cubes and not on iPhones.***
 
-Weiterhin gibt es eine Code-Ansicht, in der der Bauprozess dokumentiert wird. Hier sind noch einmal vielfältige Interaktionen möglich, auf die in Kapitel \@ref(bedienungCode) genauer eingegangen wird.
+There is also a code-view, which documents the building process of the cube structure. Here, once again, a variety of interactions are possible, which will be discussed in more detail in chapter \@ref(bedienungCode).
 
-```{r echo=FALSE, fig.cap="Code-Ansicht", fig.align='center', out.width='75%'}
+```{r echo=FALSE, fig.cap="Code-view", fig.align='center', out.width='75%'}
 knitr::include_graphics("pictures/app-code.png")
 ```
 
 
-## Export und Import
+## Export and import
 
-Über den **Ordner-Button** am unteren mittleren Rand ist es möglich, das Würfelbauerwerk bzw. einzelne Ansichten zu exportieren bzw. importeren.
+Über den **Ordner-Button** am unteren mittleren Rand ist es möglich, das Würfelbauerwerk bzw. einzelne Ansichten zu exportieren bzw. importeren. Using the **folder icon** in the middle of the lower edge, it is possible to export and import the entire connected cube structure or individual views.
 
-```{r echo=FALSE, fig.cap="Export und Import", fig.align='center', out.width='75%'}
+```{r echo=FALSE, fig.cap="Export and import", fig.align='center', out.width='75%'}
 knitr::include_graphics("pictures/app-export.png")
 ```
 
 
-### Ansichten als Bilder exportieren
+### Export views as images
 
-Wähle  hier aus, welche der sechs Ansichten exportiert werden sollen. Anschließend kannst du diese als **png-Dateien** speichern oder verschicken.
+Select which of the six views you want to export. Then you can save or share them as **png-files**.
 
-### Code als Text exportieren
+### Export code as text
 
-***Diese Funktion steht nur bei Holzwürfeln und nicht auf dem iPhone zur Verfügung.***
+***This function is only available when using wooden cubes and not on iPhones.***
 
-Der Code, mit dem der Bauprozess des Würfelbauwerks dokumentiert wird, kann hiermit als **txt-Datei** gespeichert oder verschickt werden.
+The code documenting the building process of the cube structure can be saved or shared as a **txt-file**. 
 
-### Würfelgebäude speichern
+### Save connected cube structure
 
-Über diesen Button kann das komplette Würfelbauwerk inkl. aller Einstellungen, die vorgenommen worden sind, gespeichert oder verschickt werden.
+This button can be used to save or share the entire cube structure, including all settings that were specified.
 
-Der Export erfolgt als **cubl-Datei**, ein eigenes Dateiformat für die Klötzchen-App.
+The exported file results in a **cubl file**, a custom file format for the Cubeling app.
 
-> Wenn du auf diese Weise ein Würfelbauwek (z. B. per AirDrop oder E-Mail) an deine Schülerinnen und Schüler schickst, die die Klötzchen-App ebenfalls installiert haben, können diese sofort das Bauwerk auf ihren Geräten öffnen.
-
-
-### Würfelgebäude öffnen
-
-Ist auf dem Gerät eine **cubl-Datei** gespeichert, so kann diese mithilfe dieses Buttons geöffnet werden.
-
-Es ist auch möglich, Dateien zu öffnen, die mit älteren Versionen der Klötzchen-App erstellt worden sind (bis Version 6.0, dies sind dann cubeling-Dateien), allerdings werden dann ggf. nicht alle Einstellungen übernommen.
+> If you share a cube structure (via AirDrop or email, for example) with your students who also have the Cubeling app, they can immediately open the cube structure on their devices.
 
 
+### Open connected cube structure
 
-## Bedienung der Code-Ansicht {#bedienungCode}
+If a **cubl file** is saved on the device, you can use this button to open it.
+
+It is also possible to open files that were created with older version of the Cubeling app (up to version 6.0, these are then cubeling-files), but it might be that not all settings are transferred.
 
 
-In der Code-Ansicht wird zunächst einmal protokolliert, welche Würfel in der 3D-Ansicht bzw. im Bauplan hinzugefügt bzw. entfernt werden.
 
-```{r echo=FALSE, fig.cap="Klötzchen-Programmierung", fig.align='center', out.width='75%'}
+## How to work with the code view {#bedienungCode}
+
+
+In the code view, the first thing that is recorded is which cubes are added or removed in either the 3D view or blueprint.
+
+```{r echo=FALSE, fig.cap="Cubeling's programming", fig.align='center', out.width='75%'}
 knitr::include_graphics("pictures/code-1.png")
 ```
 
 
 
-### Code-Zeile hinzufügen
+### Add a line of code
 
-Es ist nun weiterhin möglich, selbst Befehle hinzuzufügen. Hierzu müssen die entsprechenden **Buttons** im unteren Bereich der Code-Ansicht **angetippt** werden: 
+It is still possible to add commands yourself. For this, the corresponding **buttons** at the bottom of the code view need to be **selected**:
 
-* **`baueWürfel(bei: (Zahl,Zahl))`** baut einen Würfel bei den angegebenen Koordinaten.
-* **`entferneWürfel(bei: (Zahl,Zahl))`** entfernt einen Würfel (sofern er existiert).
+* **`baueWürfel(bei: (Zahl,Zahl))`** inserts a cube at the specified coordinates.
+* **`entferneWürfel(bei: (Zahl,Zahl))`** removes a cube (should it exist).
 
-Sofern in den [globalen Einstellungen](#globaleEinstellungen) Schleifen erlaubt sind, ist weiterhin möglich:
+Provided that loops are allowed in the [global setting](#globaleEinstellungen), the following are also possible:
 
-* **`mache Anzahl mal {…}`** erzeugt eine Wiederholung, sodass der in der geschweiften Klammer stehende Befehl entsprechend oft ausgeführt wird.
+* **`mache Anzahl mal {…}`** creates a repetition so that the command in the curly brackets is executed the specified number of times. 
 
-Sind in den globalen Einstellungen auch Variablen erlaubt, gibt es weitere Befehle:
+If variables are also allowed in the global settings, further commands exist:
 
-* Über **`Position = (Zahl,Zahl)`** erstellst du eine Variable, z. B. `PositionA`.
-* Mit **`ändere(Position, um: (Zahl, Zahl))`** änderst du eine Variable um eine Richtung, z. B. `ändere(VariableA, um: (1,0))`.
-* Über **`baueWürfel(bei: Position))`** und **`entferneWürfel(bei: Position)`** kannst du nun die Positionen verwenden, um dort Würfel zu bauen oder zu entfernen. 
+* **`Position = (Zahl,Zahl)`** creates a variable, for example `PositionA`.
+* Change a variable by one direction with **`ändere(Position, um: (Zahl, Zahl))`**, for example `ändere(VariableA, um: (1,0))`.
+* With **`baueWürfel(bei: Position))`** and **`entferneWürfel(bei: Position)`** you can now use the positions to build or remove cubes there.
 
-Du kannst die Stelle, an der eine Code-Zeile eingefügt wird, über den grauen **Pfeil am linken Rand der Code-Ansicht** verändern.
+You can change where a line of code is inserted via the gray **arrow on the left edge of the code view**.
 
-```{r echo=FALSE, fig.cap="Stelle zum Einfügen verändern", fig.align='center', out.width='75%'}
+```{r echo=FALSE, fig.cap="Change build location", fig.align='center', out.width='75%'}
 knitr::include_graphics("pictures/code-arrow.png")
 ```
 
 
 
 
-### Code-Zeile entfernen
+### Remove a line of code
 
-Um eine Code-Zeile zu entfernen, musst du diese **nach links wischen**. Dann ist ein rot hinterlegter Papierkorb-Button zu sehen, über den du die Zeile löschen kannst.
+To remove a line of code, **swipe it left**. A trash can with red backdrop will appear, which you can use to delete the line.
 
-```{r echo=FALSE, fig.cap="Code-Zeile löschen", fig.align='center', out.width='75%'}
+```{r echo=FALSE, fig.cap="Delete line of code", fig.align='center', out.width='75%'}
 knitr::include_graphics("pictures/code-delete.png")
 ```
 
 
-### Code-Zeilen verschieben
+### Move a line of code
 
-Über die **drei Striche** am rechten Rand der Code-Zeile kannst du die Reihenfolge der Zeilen verändern.
+Rearrange code elements via the **three lines** at the right edge of the code.
 
 
-```{r echo=FALSE, fig.cap="Code-Zeile verschieben", fig.align='center', out.width='75%'}
+```{r echo=FALSE, fig.cap="Rearrange line of code", fig.align='center', out.width='75%'}
 knitr::include_graphics("pictures/code-move.png")
 ```
 
 
 
-> Es bietet sich an zu untersuchen, inwieweit eine geänderte Reihenfolge der Code-Zeilen das Würfelbauwerk beeinflusst. Solange ausschließlich `baueWürfel`-Befehle genutzt werden, ist dies natürlich noch nicht so interessant. Aber sobald Schleifen oder Variablen eine Rolle spiele oder der `entferneWürfel`-Befehl genutzt wird, kann dies zu interessanten Erkundungen führen.
+> At this point, it could be interesting to see how changing the order of lines of code changes the resulting connected cube structure. As long as only `baueWürfel`-commands are used, this does not prove very exciting. But as soon as loops or variables are included, or the `entferneWürfel`-command is used, this can lead to interesting explorations/results.
 
-Du kannst auch einzelne Code-Zeilen in bestehende Schleifen hineinziehen oder aus ihr herausziehen.
+You can also drag individual lines of code into or out of existing loops. 
 
-### Zahlen verändern ###
+### Changing numbers ###
 
-Es gibt zwei Möglichkeiten, die Zahlen, mit denen z. B. die Koordinaten beschrieben werden, im Code zu verändern. In beiden Fällen musst du zunächst in der Code-Zeile **auf die Zahl tippen**.
+There are two ways to change the numbers, like those used to describe the coordinates, in your code. In both cases you first have to **tap on the number** in the code.
 
-* Du kannst nun das **Nummern-Pad** nutzen, um die Zahlen, wie bei einer Tastatur, einzustellen. Über die **±-Taste** kannst du aus einer Zahl schnell ihre Gegenzahl machen.
-* Du kannst die **Pfeiltasten** verwenden, mit denen du die Zahlen schrittweise größer oder kleiner machen kannst.
+* You can now use the **number pad** to set the numbers, just like on a computer keyboard. The **±-key** allows you to quickly turn a number into its opposite number.
+* You can use the **arrow keys** to increase or decrease the numbers step by step.
 
 
-```{r echo=FALSE, fig.cap="Zahlen verändern", fig.align='center', out.width='75%'}
+```{r echo=FALSE, fig.cap="Change numbers", fig.align='center', out.width='75%'}
 knitr::include_graphics("pictures/code-number.png")
 ```
 
