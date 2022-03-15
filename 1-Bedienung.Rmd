@@ -41,7 +41,7 @@ The **trash can button** at the bottom center allows you to **delete** the entir
 In the main settings app on your device^[This is the app with the gray gear symbol. Open it and scroll down until you find the Cubeling app. If you are using the Cubeling app on a Mac, you can open the settings in the menu bar by clicking Cubeling → Preferences.] you can set your preferences for the app.
 
 ```{r echo=FALSE, fig.cap="App settings", fig.align='center', out.width='75%'}
-knitr::include_graphics("pictures/settings.png")
+knitr::include_graphics("pictures/settings-en.png")
 ```
 
 * You can decide whether the colored **coordinate axes** should be displayed and if they should be labeled with **digits/numbers**.
@@ -120,7 +120,7 @@ knitr::include_graphics("pictures/app-isometric.png")
 There is also a code-view, which documents the building process of the cube structure. Here, once again, a variety of interactions are possible, which will be discussed in more detail in chapter \@ref(bedienungCode).
 
 ```{r echo=FALSE, fig.cap="Code-view", fig.align='center', out.width='75%'}
-knitr::include_graphics("pictures/app-code.png")
+knitr::include_graphics("pictures/app-code-en.png")
 ```
 
 
@@ -129,7 +129,7 @@ knitr::include_graphics("pictures/app-code.png")
 Über den **Ordner-Button** am unteren mittleren Rand ist es möglich, das Würfelbauerwerk bzw. einzelne Ansichten zu exportieren bzw. importeren. Using the **folder icon** in the middle of the lower edge, it is possible to export and import the entire connected cube structure or individual views.
 
 ```{r echo=FALSE, fig.cap="Export and import", fig.align='center', out.width='75%'}
-knitr::include_graphics("pictures/app-export.png")
+knitr::include_graphics("pictures/app-export-en.png")
 ```
 
 
@@ -166,7 +166,7 @@ It is also possible to open files that were created with older version of the Cu
 In the code view, the first thing that is recorded is which cubes are added or removed in either the 3D view or blueprint.
 
 ```{r echo=FALSE, fig.cap="Cubeling's programming", fig.align='center', out.width='75%'}
-knitr::include_graphics("pictures/code-1.png")
+knitr::include_graphics("pictures/code-1-en.png")
 ```
 
 
@@ -191,7 +191,7 @@ If variables are also allowed in the global settings, further commands exist:
 You can change where a line of code is inserted via the gray **arrow on the left edge of the code view**.
 
 ```{r echo=FALSE, fig.cap="Change build location", fig.align='center', out.width='75%'}
-knitr::include_graphics("pictures/code-arrow.png")
+knitr::include_graphics("pictures/code-arrow-en.png")
 ```
 
 
@@ -202,7 +202,7 @@ knitr::include_graphics("pictures/code-arrow.png")
 To remove a line of code, **swipe it left**. A trash can with red backdrop will appear, which you can use to delete the line.
 
 ```{r echo=FALSE, fig.cap="Delete line of code", fig.align='center', out.width='75%'}
-knitr::include_graphics("pictures/code-delete.png")
+knitr::include_graphics("pictures/code-delete-en.png")
 ```
 
 
@@ -212,7 +212,7 @@ Rearrange code elements via the **three lines** at the right edge of the code.
 
 
 ```{r echo=FALSE, fig.cap="Rearrange line of code", fig.align='center', out.width='75%'}
-knitr::include_graphics("pictures/code-move.png")
+knitr::include_graphics("pictures/code-move-en.png")
 ```
 
 
@@ -230,7 +230,7 @@ There are two ways to change the numbers, like those used to describe the coordi
 
 
 ```{r echo=FALSE, fig.cap="Change numbers", fig.align='center', out.width='75%'}
-knitr::include_graphics("pictures/code-number.png")
+knitr::include_graphics("pictures/code-number-en.png")
 ```
 
 
@@ -246,7 +246,7 @@ Weiterhin ist es möglich, sich den **aktuellen Wert einer Position** anzeigen z
 
 
 ```{r echo=FALSE, fig.cap="Ablaufverfolgung", fig.align='center', out.width='75%'}
-knitr::include_graphics("pictures/code-trace.png")
+knitr::include_graphics("pictures/code-trace-en.png")
 ```
 
 
