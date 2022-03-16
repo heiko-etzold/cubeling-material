@@ -12,7 +12,7 @@ The **Cubeling app** covered here is available free of charge for iOS and macOS 
 
 ## About this "book" {-}
 
-The first chapter of this document will provide instructions as to **[how to use](#bedienung-der-klötzchen-app)** the app itself.
+The first chapter of this document will provide instructions as to **[how to use](#how-to-use)** the app itself.
 
 The following chapters will include possible applications for teaching mathematics -- on one hand with a focus on **[spatial imagination](#Raumvorstellung)**, on the other on **[programming](#Coding)** in connection with the building of cube structures.  
 

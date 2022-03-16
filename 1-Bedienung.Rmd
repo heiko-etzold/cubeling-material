@@ -4,7 +4,7 @@ output:
   html_document: default
 ---
 
-# How to use the Cubeling app {#Bedienung}
+# How to use the Cubeling app {#how-to-use}
 
 
 ## Basic actions with cubes
@@ -17,10 +17,12 @@ knitr::include_graphics("pictures/app-start.png")
 The app uses two basic actions:
 
 * **Add cube**
-To add a cube, **tap** on one of the dark or light **gray squares**. You can, of course, also place a cube on top of another one, and another one, and so on -- simply **tap** on the respective cube again and again.
+
+  To add a cube, **tap** on one of the dark or light **gray squares**. You can, of course, also place a cube on top of another one, and another one, and so on -- simply **tap** on the respective cube again and again.
 
 * **Remove cube**
-**Touch and hold a cube** to remove it.
+
+  **Touch and hold a cube** to remove it.
 
 This explanation can also be found in the app by tapping on the **i** at the bottom left.
 You can add and remove cubes in both the 3D view and in the blueprint mode^[In the blueprint view, you can only add or remove cubes if you have selected wooden cubes, due to the uniqueness of the build(?) ]. When you change something **in one view**, the same change is immediately and **automatically adopted in the other view**.
@@ -31,7 +33,7 @@ The **trash can button** at the bottom center allows you to **delete** the entir
 > The actions **add cube** and **remove cube** of course also exist when working with real cubes. In the app, however, there are relatively strong constraints for this: You do not have to first pick up a cube, you do not have to align it perfectly according to the checkerboard pattern, you do not have to let it go -- the only thing you have to do is click on the space where you want it. On the one hand, you lose out on a range of real, haptic experiences (which goes to show that you should not forgo real cubes entirely). On the other hand, this gives students with motor impairments the opportunity to solve more complex tasks with the help of connected cube structures, which they might not be able to do with real objects. 
 
 
-## Global settings {#globaleEinstellungen}
+## Global settings {#global-settings}
 
 In the main settings app on your device^[This is the app with the gray gear symbol. Open it and scroll down until you find the Cubeling app. If you are using the Cubeling app on a Mac, you can open the settings in the menu bar by clicking Cubeling → Preferences.] you can set your preferences for the app.
 
@@ -48,7 +50,7 @@ knitr::include_graphics("pictures/settings-en.png")
   * **Stackable cubes**, on the other hand, can also be attached laterally. This also plays a role when removing cubes: Wooden cubes can only be removed from top to bottom, whereas stacking cubes can be removed freely, as long as no cubes would be floating mid-air.
   * **Magic cubes** can float. The construction is the same as with wooden cubes, but you can remove magic cubes freely, so that it is possible to have floating cubes remain. 
 
-* You can also decide whether **loops** and **variables** are possible in the code view. You can find more on this in section \@ref(bedienungCode).
+* You can also decide whether **loops** and **variables** are possible in the code view. You can find more on this in section \@ref(how-to-code).
 
 
 
@@ -88,7 +90,7 @@ It is still possible to completely hide the left or right view via the green/blu
 
 #### Two/three-pane view
 
-If you choose the two/three-pane view, a red bar will appear in both panes with a small cube on one side and a small sphere on the other. This bar acts a way to orient yourself if the 3D view should ever be ferociously rotated. This is especially helpful if you have switched off the blue and green axes in the [global settings](#globaleEinstellungen).
+If you choose the two/three-pane view, a red bar will appear in both panes with a small cube on one side and a small sphere on the other. This bar acts a way to orient yourself if the 3D view should ever be ferociously rotated. This is especially helpful if you have switched off the blue and green axes in the [global settings](#global-settings).
 
 ```{r echo=FALSE, fig.cap="Two-pane view", fig.align='center', out.width='75%'}
 knitr::include_graphics("pictures/app-multiview.png")
@@ -111,7 +113,7 @@ knitr::include_graphics("pictures/app-isometric.png")
 
 ***This function is only available when using wooden cubes and not on iPhones.***
 
-There is also a code-view, which documents the building process of the cube structure. Here, once again, a variety of actions are possible, which will be discussed in more detail in chapter \@ref(bedienungCode).
+There is also a code-view, which documents the building process of the cube structure. Here, once again, a variety of actions are possible, which will be discussed in more detail in chapter \@ref(how-to-code).
 
 ```{r echo=FALSE, fig.cap="Code-view", fig.align='center', out.width='75%'}
 knitr::include_graphics("pictures/app-code-en.png")
@@ -154,7 +156,7 @@ It is also possible to open files that were created with older version of the Cu
 
 
 
-## How to work with the code view {#bedienungCode}
+## How to work with the code view {#how-to-code}
 
 
 In the code view, the first thing that is recorded is which cubes are added or removed in either the 3D view or blueprint.
@@ -172,14 +174,14 @@ It is possible to add commands yourself. For this, the corresponding **buttons**
 * **`buildCube(at: (number,number))`** inserts a cube at the specified coordinates.
 * **`removeCube(at: (number,number))`** removes a cube (should it exist).
 
-Provided that loops are allowed in the [global setting](#globaleEinstellungen), the following are also possible:
+Provided that loops are allowed in the [global setting](#global-settings), the following are also possible:
 
 * **`do counting number times {…}`** creates a repetition so that the command in the curly brackets is executed the specified number of times. 
 
 If variables are also allowed in the global settings, further commands exist:
 
-* **`position = (number,number)`** creates a variable, for example `PositionA`.
-* Change a variable by one direction with **`change(position, by: (number,number))`**, for example `change(VariableA, by: (1,0))`.
+* **`position = (number,number)`** creates a variable, for example `positionA`.
+* Change a variable by one direction with **`change(position, by: (number,number))`**, for example `change(positionA, by: (1,0))`.
 * With **`buildCube(at: position))`** and **`removeCube(at: position)`** you can now use the positions to build or remove cubes there.
 
 You can change where a line of code is inserted via the gray **arrow on the left edge of the code view**.
@@ -211,7 +213,7 @@ knitr::include_graphics("pictures/code-move-en.png")
 
 
 
-> At this point, it could be interesting to see how changing the order of lines of code changes the resulting connected cube structure. As long as only `buildCube`-commands are used, this does not prove very exciting. But as soon as loops or variables are included, or the `removeCube`-command is used, this can lead to interesting explorations/results.
+> At this point, it could be interesting to see how changing the order of lines of code changes the resulting connected cube structure. As long as only `buildCube` commands are used, this does not prove very exciting. But as soon as loops or variables are included, or the `removeCube` command is used, this can lead to interesting explorations/results.
 
 You can also drag individual lines of code into or out of existing loops. 
 
@@ -239,13 +241,9 @@ If a **loop is played/traced**, the **number of the current pass** is displayed.
 Moreover, it is possible to have the **current value of a position** displayed. This is relevant if the value of a position changes within a loop and this change is to be understood.
 
 
-<<<<<<< Updated upstream
-```{r echo=FALSE, fig.cap="Ablaufverfolgung", fig.align='center', out.width='75%'}
-knitr::include_graphics("pictures/code-trace-en.png")
-=======
+
 ```{r echo=FALSE, fig.cap="Code tracing", fig.align='center', out.width='75%'}
-knitr::include_graphics("pictures/code-trace.png")
->>>>>>> Stashed changes
+knitr::include_graphics("pictures/code-trace-en.png")
 ```
 
 

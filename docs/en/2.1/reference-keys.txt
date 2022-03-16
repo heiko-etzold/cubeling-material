@@ -12,9 +12,9 @@ fig:unnamed-chunk-11
 fig:unnamed-chunk-12
 fig:unnamed-chunk-13
 fig:unnamed-chunk-14
-Bedienung
+how-to-use
 basic-actions-with-cubes
-globaleEinstellungen
+global-settings
 modify-and-switch-views
 rotate-and-zoom-into-connected-cube-structure
 Schatteneinstellung
@@ -28,7 +28,7 @@ export-views-as-images
 export-code-as-text
 save-connected-cube-structure
 open-connected-cube-structure
-bedienungCode
+how-to-code
 add-a-line-of-code
 remove-a-line-of-code
 move-a-line-of-code
