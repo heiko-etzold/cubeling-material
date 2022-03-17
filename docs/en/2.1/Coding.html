@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <title>3 Programming with Cubeling | Cubeling – Teachers’ Guide</title>
   <meta name="description" content="Instructions on how to use the app Cubeling and handout for its use in mathematics classes" />
-  <meta name="generator" content="bookdown 0.22 and GitBook 2.6.7" />
+  <meta name="generator" content="bookdown 0.24 and GitBook 2.6.7" />
 
   <meta property="og:title" content="3 Programming with Cubeling | Cubeling – Teachers’ Guide" />
   <meta property="og:type" content="book" />
@@ -33,7 +33,8 @@
 <link rel="prev" href="Raumvorstellung.html"/>
 <link rel="next" href="Literatur.html"/>
 <script src="libs/header-attrs-2.11/header-attrs.js"></script>
-<script src="libs/jquery-2.2.3/jquery.min.js"></script>
+<script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
 <link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
 <link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
 <link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
@@ -41,7 +42,6 @@
 <link href="libs/gitbook-2.6.7/css/plugin-search.css" rel="stylesheet" />
 <link href="libs/gitbook-2.6.7/css/plugin-fontsettings.css" rel="stylesheet" />
 <link href="libs/gitbook-2.6.7/css/plugin-clipboard.css" rel="stylesheet" />
-
 
 
 
@@ -185,18 +185,18 @@ div.csl-indent {
 <div id="Coding" class="section level1" number="3">
 <h1><span class="header-section-number">3</span> Programming with Cubeling</h1>
 <p>The goal of this section is not to turn your students into programmers with the help of digital cubes. Rather, the aim is to develop a <strong>feeling for an algorithmic perspective</strong> on building connected cube structures and to focus on the <strong>process of building</strong>. This process is documented, made <em>translatable</em> for a computer, and, through the use of basic programming structures like loops, the <strong>potential of these structures</strong> is made visible using the example of cube structures.</p>
-<p>Cubeling’s code view was developed in connection with a trial at a school in Brandenburg. Based on the experiences gained in the project week, this chapter presents a possible sequence of four teaching blocks that can be used to explore the programming in the Cubeling app. Of course, a more spread out and gradual incorporation into math lessons is also possible.</p>
+<p>Cubeling’s code view was developed in connection with a trial at a school in Brandenburg. Based on the experiences gained in that project week, this chapter presents a possible sequence of four teaching blocks that can be used to explore the programming in the Cubeling app. Of course, a more spread out and gradual incorporation into math lessons is also possible.</p>
 <div id="einordnung-und-ziele" class="section level2" number="3.1">
 <h2><span class="header-section-number">3.1</span> Einordnung und Ziele</h2>
 <p>Programming with Cubeling addresses both mathematical and media informatics skills.</p>
 <p><strong><em>Mathematics Educational Standards.</em></strong> With regard to the educational standards for primary school level <span class="citation">(KMK, <a href="Literatur.html#ref-KMK:2005" role="doc-biblioref">2005</a>)</span>, the competency of <strong>representation</strong> is particularly encouraged: Students can create, select, and use appropriate representations for working on mathematical problems and can compare and evaluate representations with one another. Also at secondary school
-levels <span class="citation">(KMK, <a href="Literatur.html#ref-KMK:2004" role="doc-biblioref">2004</a>)</span>, the concept offers ties to the competencies <strong>use of mathematical representations</strong> (especially creating and using standard representations/models of mathematical objects and situations, interpreting or modifying given representations reasonably, evaluating different representations and forms of representation in a purpose-oriented way) and <strong>dealing with symbolic, technical, and formal elements of mathematics</strong> (here, specifically, using mathematical aids and digital mathematical tools directly, applying formal mathematical procedures, and selecting and using digital mathematical tools efficiently depending on the situation and purpose).</p>
+levels <span class="citation">(KMK, <a href="Literatur.html#ref-KMK:2004" role="doc-biblioref">2004</a>)</span>, the concept furthers the competencies <strong>use of mathematical representations</strong> (especially creating and using standard representations/models of mathematical objects and situations, interpreting or modifying given representations reasonably, evaluating different representations and forms of representation in a purpose-oriented way) and <strong>dealing with symbolic, technical, and formal elements of mathematics</strong> (here, specifically, using mathematical aids and digital mathematical tools directly, applying formal mathematical procedures, and selecting and using digital mathematical tools efficiently depending on the situation and purpose).</p>
 <p>This is all implemented in the app’s concept particularly with the <strong>guiding principle of space and shape</strong> in mind.</p>
-<p>The individual tasks most definitely also address numerous other general mathematical competencies and content-related mathematical competencies, but the ones mentioned here represent the main goals of the concept.</p>
-<p><strong><em>KMK: Education in the digital world.</em></strong> The concept continues to make a contribution to fulfilling some of the competencies that were issued by the Standing Conference of the Ministers of Education and Cultural Affairs conference in their strategy for “Education in the digital world” <span class="citation">(KMK, <a href="Literatur.html#ref-KMK:2016" role="doc-biblioref">2016</a>)</span>. Particularly noteworthy here are: <strong>Recognizing and formulating algorithms</strong> (5.5), <strong>Knowing and understanding operating principles and basic principles of the digital world</strong> (5.5.1), <strong>Recognizing and formulating algorithmic structures in the digital tools used</strong> (5.5.2), and <strong>planning and using a structured, algorithmic sequence to solve a problem</strong> (5.5.3).</p>
-<p><strong><em>D-EDK: Medien und Informatik.</em></strong> In dem von der deutschschweizerische Erziehungsdirektorenkonferenzherausgegebenen Lehrplan 21 zum Fach „Medien und Informatik“ <span class="citation">(D-EDK, <a href="Literatur.html#ref-D-EDK:2016" role="doc-biblioref">2016</a>)</span> sind einige detailliertere Ziele für Bildung im Zusammenhang mit digitalen Medien formuliert, die beim Programmieren mit der Klötzchen-App angesprochen werden. Besonderer Schwerpunkt liegt auf folgenden Kompetenzen (MI2.2): Die Schülerinnen und Schüler können <strong>einfache Abläufe mit Schleifen und Parametern lesen und manuell ausführen</strong>; sie verstehen, dass ein <strong>Computer nur vordefinierte Anweisungen ausführen</strong> kann und dass ein <strong>Programm eine Abfolge von solchen Anweisungen</strong> ist; sie können <strong>Programme mit Schleifen und Parametern schreiben und testen</strong>; sie können <strong>selbstentwickelte Algorithmen in Form von lauffähigen und korrekten Computerprogrammen mit Variablen formulieren</strong> und sie können <strong>verschiedene Algorithmen zur Lösung desselben Problems vergleichen und beurteilen</strong>.</p>
+<p>The individual tasks most definitely also address numerous other general and content-related mathematical competencies, but the ones mentioned here represent the main goals of the concept.</p>
+<p><strong><em>KMK: Education in the digital world.</em></strong> The concept also contributes to fulfilling some of the competencies that were issued by the Standing Conference of the Ministers of Education and Cultural Affairs conference in their strategy for “Education in the digital world” <span class="citation">(KMK, <a href="Literatur.html#ref-KMK:2016" role="doc-biblioref">2016</a>)</span>. Particularly noteworthy here are: <strong>Recognizing and formulating algorithms</strong> (5.5), <strong>Knowing and understanding operating principles and basic principles of the digital world</strong> (5.5.1), <strong>Recognizing and formulating algorithmic structures in the digital tools used</strong> (5.5.2), and <strong>planning and using a structured, algorithmic sequence to solve a problem</strong> (5.5.3).</p>
+<p><strong><em>D-EDK: Media and Informatics.</em></strong> In the Curriculum 21 on the subject of “Media and Informatics” <span class="citation">(D-EDK, <a href="Literatur.html#ref-D-EDK:2016" role="doc-biblioref">2016</a>)</span> issued by the German-Swiss conference of Directors of Education, some more detailed goals for education in connection with digital media are stated, which are targeted when programming with the Cubeling app. Particular emphasis in put on the following competencies (MI2.2): Students can <strong>read and manually execute simple sequences with loops and parameters</strong>; they understand that a <strong>computer can only execute predefined instructions</strong> and that a <strong>program is a sequence of such instructions</strong>; they can <strong>write and test programs with loops and parameters</strong>; they can <strong>formulate their own algorithms in the form of functioning and correct computer programs with variables</strong>; and they can <strong>compare and evaluate different algorithms for solving the same problem</strong>.</p>
 <blockquote>
-<p>Dem selbstständigen Entdecken kommt hierbei eine besondere Bedeutung zu. Die bei Würfelbau-Aufgaben gesammelte Erfahrungen führen zum Entdecken allgemeiner Lösungsstrategien, die beim Programmieren auf ihre Wirksamkeit und Effektivität getestet und evtl. verbessert werden können. Dass dies insbesondere auf spielerische und handlungsorientierte Weise zu erfolgen hat, wird durch den Klötzchenbau und die Anknüpfung an die Erfahrungen aus dem Mathematikunterricht realisiert.</p>
+<p>Self-discovery is of particular importance here. The experiences gained in cube building tasks lead to the discovery of general methods, which can be tested for effectiveness and efficiency during programming and possibly improved. The fact that this has to be done in a playful and action-oriented way is realized by the building of cube structures and the links to experiences from math lessons.</p>
 </blockquote>
 </div>
 <div id="einführung-in-beschreib-prozesse" class="section level2" number="3.2">
@@ -579,7 +579,6 @@ Nun galt es, diesen noch in die Klötzchen-Programmiersprache zu übersetzen, al
     </div>
   </div>
 <script src="libs/gitbook-2.6.7/js/app.min.js"></script>
-<script src="libs/gitbook-2.6.7/js/lunr.js"></script>
 <script src="libs/gitbook-2.6.7/js/clipboard.min.js"></script>
 <script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
 <script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
@@ -619,6 +618,10 @@ gitbook.start({
 "text": null
 },
 "download": null,
+"search": {
+"engine": "fuse",
+"options": null
+},
 "toc": {
 "collapse": "subsection"
 },
