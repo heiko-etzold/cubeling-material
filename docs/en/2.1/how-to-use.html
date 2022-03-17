@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <title>1 How to use the Cubeling app | Cubeling – Teachers’ Guide</title>
   <meta name="description" content="Instructions on how to use the app Cubeling and handout for its use in mathematics classes" />
-  <meta name="generator" content="bookdown 0.22 and GitBook 2.6.7" />
+  <meta name="generator" content="bookdown 0.24 and GitBook 2.6.7" />
 
   <meta property="og:title" content="1 How to use the Cubeling app | Cubeling – Teachers’ Guide" />
   <meta property="og:type" content="book" />
@@ -33,7 +33,8 @@
 <link rel="prev" href="Einleitung.html"/>
 <link rel="next" href="Raumvorstellung.html"/>
 <script src="libs/header-attrs-2.11/header-attrs.js"></script>
-<script src="libs/jquery-2.2.3/jquery.min.js"></script>
+<script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
 <link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
 <link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
 <link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
@@ -41,7 +42,6 @@
 <link href="libs/gitbook-2.6.7/css/plugin-search.css" rel="stylesheet" />
 <link href="libs/gitbook-2.6.7/css/plugin-fontsettings.css" rel="stylesheet" />
 <link href="libs/gitbook-2.6.7/css/plugin-clipboard.css" rel="stylesheet" />
-
 
 
 
@@ -132,11 +132,11 @@ div.csl-indent {
 <li class="chapter" data-level="3" data-path="Coding.html"><a href="Coding.html"><i class="fa fa-check"></i><b>3</b> Programming with Cubeling</a>
 <ul>
 <li class="chapter" data-level="3.1" data-path="Coding.html"><a href="Coding.html#einordnung-und-ziele"><i class="fa fa-check"></i><b>3.1</b> Einordnung und Ziele</a></li>
-<li class="chapter" data-level="3.2" data-path="Coding.html"><a href="Coding.html#einführung-in-beschreib-prozesse"><i class="fa fa-check"></i><b>3.2</b> Einführung in Beschreib-Prozesse</a>
+<li class="chapter" data-level="3.2" data-path="Coding.html"><a href="Coding.html#einführung-in-beschreib-prozesse-introduction-to-processes-of-description"><i class="fa fa-check"></i><b>3.2</b> Einführung in Beschreib-Prozesse/ Introduction to processes of description</a>
 <ul>
-<li class="chapter" data-level="3.2.1" data-path="Coding.html"><a href="Coding.html#motivations--und-kennenlernphase"><i class="fa fa-check"></i><b>3.2.1</b> Motivations- und Kennenlernphase</a></li>
-<li class="chapter" data-level="3.2.2" data-path="Coding.html"><a href="Coding.html#zielformulierung"><i class="fa fa-check"></i><b>3.2.2</b> Zielformulierung</a></li>
-<li class="chapter" data-level="3.2.3" data-path="Coding.html"><a href="Coding.html#beschreiben-eines-würfels"><i class="fa fa-check"></i><b>3.2.3</b> Beschreiben eines Würfels</a></li>
+<li class="chapter" data-level="3.2.1" data-path="Coding.html"><a href="Coding.html#motivations--und-kennenlernphasemotivation-and-familiarization-phase"><i class="fa fa-check"></i><b>3.2.1</b> Motivations- und Kennenlernphase/Motivation and familiarization phase</a></li>
+<li class="chapter" data-level="3.2.2" data-path="Coding.html"><a href="Coding.html#settingformulating-the-goal"><i class="fa fa-check"></i><b>3.2.2</b> Setting/formulating the goal</a></li>
+<li class="chapter" data-level="3.2.3" data-path="Coding.html"><a href="Coding.html#describing-a-cube"><i class="fa fa-check"></i><b>3.2.3</b> Describing a cube</a></li>
 <li class="chapter" data-level="3.2.4" data-path="Coding.html"><a href="Coding.html#beschreiben-von-würfelbauwerken"><i class="fa fa-check"></i><b>3.2.4</b> Beschreiben von Würfelbauwerken</a></li>
 <li class="chapter" data-level="3.2.5" data-path="Coding.html"><a href="Coding.html#freie-erkundung-der-app"><i class="fa fa-check"></i><b>3.2.5</b> Freie Erkundung der App</a></li>
 <li class="chapter" data-level="3.2.6" data-path="Coding.html"><a href="Coding.html#übungen-zum-bauen-von-würfelbauwerken"><i class="fa fa-check"></i><b>3.2.6</b> Übungen zum Bauen von Würfelbauwerken</a></li>
@@ -187,7 +187,7 @@ div.csl-indent {
 <div id="basic-actions-with-cubes" class="section level2" number="1.1">
 <h2><span class="header-section-number">1.1</span> Basic actions with cubes</h2>
 When you open the app, you will see a split screen, a <strong>3D view</strong> on the left and the <strong>blueprint</strong> on the right.
-<div class="figure" style="text-align: center"><span id="fig:unnamed-chunk-1"></span>
+<div class="figure" style="text-align: center"><span style="display:block;" id="fig:unnamed-chunk-1"></span>
 <img src="pictures/app-start.png" alt="App launch screen" width="75%" />
 <p class="caption">
 Fig. 1.1: App launch screen
@@ -211,7 +211,7 @@ The actions <strong>add cube</strong> and <strong>remove cube</strong> of course
 <div id="global-settings" class="section level2" number="1.2">
 <h2><span class="header-section-number">1.2</span> Global settings</h2>
 <p>In the main settings app on your device<a href="#fn2" class="footnote-ref" id="fnref2"><sup>2</sup></a> you can set your preferences for the app.</p>
-<div class="figure" style="text-align: center"><span id="fig:unnamed-chunk-2"></span>
+<div class="figure" style="text-align: center"><span style="display:block;" id="fig:unnamed-chunk-2"></span>
 <img src="pictures/settings-en.png" alt="App settings" width="75%" />
 <p class="caption">
 Fig. 1.2: App settings
@@ -238,7 +238,7 @@ Fig. 1.2: App settings
 <div id="Schatteneinstellung" class="section level3" number="1.3.2">
 <h3><span class="header-section-number">1.3.2</span> Shadow walls (?) and transparency</h3>
 <p>By clicking on the three dots at the bottom left, you can build <strong>shadow walls</strong> and increase the <strong>transparency</strong> of the cubes/reduce <strong>visibility</strong>.</p>
-<div class="figure" style="text-align: center"><span id="fig:unnamed-chunk-3"></span>
+<div class="figure" style="text-align: center"><span style="display:block;" id="fig:unnamed-chunk-3"></span>
 <img src="pictures/app-shadow.png" alt="Configuring the shadow walls" width="75%" />
 <p class="caption">
 Fig. 1.3: Configuring the shadow walls
@@ -248,7 +248,7 @@ Fig. 1.3: Configuring the shadow walls
 <div id="outline" class="section level3" number="1.3.3">
 <h3><span class="header-section-number">1.3.3</span> Outline</h3>
 <p>Via the same three dots, you can also set your ability to see the outline of the built cube structure. You can choose between the regular cubes (sun), the disappearance of contours (cloud) or completely blacked out cubes (moon).</p>
-<div class="figure" style="text-align: center"><span id="fig:unnamed-chunk-4"></span>
+<div class="figure" style="text-align: center"><span style="display:block;" id="fig:unnamed-chunk-4"></span>
 <img src="pictures/app-outline.png" alt="Outline of connected cube structure" width="100%" />
 <p class="caption">
 Fig. 1.4: Outline of connected cube structure
@@ -266,7 +266,7 @@ Fig. 1.4: Outline of connected cube structure
 <div id="twothree-pane-view" class="section level4" number="1.3.4.1">
 <h4><span class="header-section-number">1.3.4.1</span> Two/three-pane view</h4>
 <p>If you choose the two/three-pane view, a red bar will appear in both panes with a small cube on one side and a small sphere on the other. This bar acts a way to orient yourself if the 3D view should ever be ferociously rotated. This is especially helpful if you have switched off the blue and green axes in the <a href="how-to-use.html#global-settings">global settings</a>.</p>
-<div class="figure" style="text-align: center"><span id="fig:unnamed-chunk-5"></span>
+<div class="figure" style="text-align: center"><span style="display:block;" id="fig:unnamed-chunk-5"></span>
 <img src="pictures/app-multiview.png" alt="Two-pane view" width="75%" />
 <p class="caption">
 Fig. 1.5: Two-pane view
@@ -278,7 +278,7 @@ Fig. 1.5: Two-pane view
 <div id="schrägbilderparallel-projections" class="section level3" number="1.3.5">
 <h3><span class="header-section-number">1.3.5</span> Schrägbilder/parallel projections?</h3>
 <p>Die beiden Schrägbilder stellen ebenfalls das Gebäude dar. In der Isometriedarstellung siehst du noch einen kleinen roten Stock zwischen den Feldern (2|2) und (3|3). Dieser kann ebenfalls behilflich sein beim Interpretieren der Bilder.</p>
-<div class="figure" style="text-align: center"><span id="fig:unnamed-chunk-6"></span>
+<div class="figure" style="text-align: center"><span style="display:block;" id="fig:unnamed-chunk-6"></span>
 <img src="pictures/app-isometric.png" alt="Isometrische Darstellung" width="75%" />
 <p class="caption">
 Fig. 1.6: Isometrische Darstellung
@@ -289,7 +289,7 @@ Fig. 1.6: Isometrische Darstellung
 <h3><span class="header-section-number">1.3.6</span> Code-view</h3>
 <p><strong><em>This function is only available when using wooden cubes and not on iPhones.</em></strong></p>
 <p>There is also a code-view, which documents the building process of the cube structure. Here, once again, a variety of actions are possible, which will be discussed in more detail in chapter <a href="how-to-use.html#how-to-code">1.5</a>.</p>
-<div class="figure" style="text-align: center"><span id="fig:unnamed-chunk-7"></span>
+<div class="figure" style="text-align: center"><span style="display:block;" id="fig:unnamed-chunk-7"></span>
 <img src="pictures/app-code-en.png" alt="Code-view" width="75%" />
 <p class="caption">
 Fig. 1.7: Code-view
@@ -300,7 +300,7 @@ Fig. 1.7: Code-view
 <div id="export-and-import" class="section level2" number="1.4">
 <h2><span class="header-section-number">1.4</span> Export and import</h2>
 <p>If you click on the <strong>folder button</strong> in the middle of the lower edge, it is possible to export the entire connected cube structure or individual views as well open a previously saved cube building.</p>
-<div class="figure" style="text-align: center"><span id="fig:unnamed-chunk-8"></span>
+<div class="figure" style="text-align: center"><span style="display:block;" id="fig:unnamed-chunk-8"></span>
 <img src="pictures/app-export-en.png" alt="Export and import" width="75%" />
 <p class="caption">
 Fig. 1.8: Export and import
@@ -332,7 +332,7 @@ Fig. 1.8: Export and import
 <div id="how-to-code" class="section level2" number="1.5">
 <h2><span class="header-section-number">1.5</span> How to work with the code view</h2>
 <p>In the code view, the first thing that is recorded is which cubes are added or removed in either the 3D view or blueprint.</p>
-<div class="figure" style="text-align: center"><span id="fig:unnamed-chunk-9"></span>
+<div class="figure" style="text-align: center"><span style="display:block;" id="fig:unnamed-chunk-9"></span>
 <img src="pictures/code-1-en.png" alt="Cubeling's programming" width="75%" />
 <p class="caption">
 Fig. 1.9: Cubeling’s programming
@@ -356,7 +356,7 @@ Fig. 1.9: Cubeling’s programming
 <li>With <strong><code>buildCube(at: position))</code></strong> and <strong><code>removeCube(at: position)</code></strong> you can now use the positions to build or remove cubes there.</li>
 </ul>
 <p>You can change where a line of code is inserted via the gray <strong>arrow on the left edge of the code view</strong>.</p>
-<div class="figure" style="text-align: center"><span id="fig:unnamed-chunk-10"></span>
+<div class="figure" style="text-align: center"><span style="display:block;" id="fig:unnamed-chunk-10"></span>
 <img src="pictures/code-arrow-en.png" alt="Change build location" width="75%" />
 <p class="caption">
 Fig. 1.10: Change build location
@@ -366,7 +366,7 @@ Fig. 1.10: Change build location
 <div id="remove-a-line-of-code" class="section level3" number="1.5.2">
 <h3><span class="header-section-number">1.5.2</span> Remove a line of code</h3>
 <p>To remove a line of code, <strong>swipe it left</strong>. A trash can with red backdrop will appear, which you can use to delete the line.</p>
-<div class="figure" style="text-align: center"><span id="fig:unnamed-chunk-11"></span>
+<div class="figure" style="text-align: center"><span style="display:block;" id="fig:unnamed-chunk-11"></span>
 <img src="pictures/code-delete-en.png" alt="Delete line of code" width="75%" />
 <p class="caption">
 Fig. 1.11: Delete line of code
@@ -376,7 +376,7 @@ Fig. 1.11: Delete line of code
 <div id="move-a-line-of-code" class="section level3" number="1.5.3">
 <h3><span class="header-section-number">1.5.3</span> Move a line of code</h3>
 <p>Rearrange code elements via the <strong>three lines</strong> at the right edge of the code.</p>
-<div class="figure" style="text-align: center"><span id="fig:unnamed-chunk-12"></span>
+<div class="figure" style="text-align: center"><span style="display:block;" id="fig:unnamed-chunk-12"></span>
 <img src="pictures/code-move-en.png" alt="Rearrange line of code" width="75%" />
 <p class="caption">
 Fig. 1.12: Rearrange line of code
@@ -394,7 +394,7 @@ Fig. 1.12: Rearrange line of code
 <li>You can now use the <strong>number pad</strong> to set the numbers, just like on a computer keyboard. The <strong>±-key</strong> allows you to quickly turn a number into its opposite number.</li>
 <li>You can use the <strong>arrow keys</strong> to increase or decrease the numbers step by step.</li>
 </ul>
-<div class="figure" style="text-align: center"><span id="fig:unnamed-chunk-13"></span>
+<div class="figure" style="text-align: center"><span style="display:block;" id="fig:unnamed-chunk-13"></span>
 <img src="pictures/code-number-en.png" alt="Change numbers" width="75%" />
 <p class="caption">
 Fig. 1.13: Change numbers
@@ -409,7 +409,7 @@ Fig. 1.13: Change numbers
 </blockquote>
 <p>If a <strong>loop is played/traced</strong>, the <strong>number of the current pass</strong> is displayed. Accordingly, at the end of the loop, it is decided whether it starts again or if it continues to the next line of code.</p>
 <p>Moreover, it is possible to have the <strong>current value of a position</strong> displayed. This is relevant if the value of a position changes within a loop and this change is to be understood.</p>
-<div class="figure" style="text-align: center"><span id="fig:unnamed-chunk-14"></span>
+<div class="figure" style="text-align: center"><span style="display:block;" id="fig:unnamed-chunk-14"></span>
 <img src="pictures/code-trace-en.png" alt="Code tracing" width="75%" />
 <p class="caption">
 Fig. 1.14: Code tracing
@@ -436,7 +436,6 @@ Fig. 1.14: Code tracing
     </div>
   </div>
 <script src="libs/gitbook-2.6.7/js/app.min.js"></script>
-<script src="libs/gitbook-2.6.7/js/lunr.js"></script>
 <script src="libs/gitbook-2.6.7/js/clipboard.min.js"></script>
 <script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
 <script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
@@ -476,6 +475,10 @@ gitbook.start({
 "text": null
 },
 "download": null,
+"search": {
+"engine": "fuse",
+"options": null
+},
 "toc": {
 "collapse": "subsection"
 },

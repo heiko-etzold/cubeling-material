@@ -37,10 +37,10 @@ code-tracing
 Raumvorstellung
 Coding
 einordnung-und-ziele
-einführung-in-beschreib-prozesse
-motivations--und-kennenlernphase
-zielformulierung
-beschreiben-eines-würfels
+einführung-in-beschreib-prozesse-introduction-to-processes-of-description
+motivations--und-kennenlernphasemotivation-and-familiarization-phase
+settingformulating-the-goal
+describing-a-cube
 beschreiben-von-würfelbauwerken
 freie-erkundung-der-app
 übungen-zum-bauen-von-würfelbauwerken
