@@ -89,87 +89,87 @@ Act out the situation with the person sitting next to you by pretending to be th
 
 Especially the last point should be emphasized by the teacher, because the students in our session tended to take their previous knowledge as given and "probed" the other student less. But that is exactly the goal of the exercise! The point is to describe the shape of a cube as clearly and precisely as possible, so that everyone is able to unambiguously conceive this object. The alien serves as a representative object, for which it is necessary to describe with exactness.
 
-Due to the openness of the task, there is no one correct solution. Therefore, in our case, the students tried to draw, build, or use terms like "corners", "sides", or "edges" to describe the shape. Depending on how much time you want to take for this task, you could discuss when a cube is mathematically unambigously defined or not. It is important to work out the different ways the descriptions were expressed/presented: verbally, through gestures, graphically, crafting, ... In each of these cases, it can be discussed that an unambiguous, unequivocal description is not so easy. The advantages and disadvantages of each mode of describing can also be discussed. Describing cubes, cube structures, or the building process itself will be a common thread throughout the entire lesson. The alien situation has demonstrated the necessity of describing and can now be referred back to in the further course of the lesson.
+Due to the openness of the task, there is no one correct solution. Therefore, in our case, the students tried to draw, build, or use terms like "corners", "sides", or "edges" to describe the shape. Depending on how much time you want to take for this task, you could discuss when a cube is mathematically unambiguously defined or not. It is important to work out the different ways the descriptions were expressed/presented: verbally, through gestures, graphically, crafting, ... In each of these cases, it can be discussed that an unambiguous, unequivocal description is not so easy. The advantages and disadvantages of each mode of describing can also be discussed. Describing cubes, cube structures, or the building process itself will be a common thread throughout the entire lesson. The alien situation has demonstrated the necessity of describing and can now be referred back to in the further course of the lesson.
 
-### Beschreiben von Würfelbauwerken
+### Describing cube structures
 
-Der nächste Schritt ist nun die Beschreibung einer komplexeren Form: eines Würfelbauwerkes. Folgende Aufgabenstellung wurde den Schülerinnen und Schülern gegeben:
-
-```{block, type="task"}
-Stelle zwischen dir und deinem Banknachbarn oder deiner Banknachbarin einen Sichtschutz auf. Du denkst dir ein Würfelgebäude mit 10 Klötzchen aus und baust es vor dir auf! Erkläre deinem/deiner Partner/-in, wie er/sie dieses Gebäude bauen kann! Vergleicht anschließend und tauscht die Rollen!
-
-Welche Probleme sind beim Beschreiben des Bauprozesses entstanden?
-```
-
-Ziel dieser Aufgabe ist der Ansatz, dass es hilfreich sein könnte, nicht nur das fertige Gebäude zu beschreiben, sondern den Prozess der Entstehung darzulegen. Außerdem wird die Entwicklung eines „Befehlssystems“ trainiert: Die Schülerinnen und Schüler mussten sich sehr genau überlegen, welche Handlungsanweisungen sie ansprechen, ohne missverstanden zu werden. Ähnlich wie bei der Aufgabe zuvor, entstanden die verschiedensten Lösungsansätze. So unterteilten die Kinder ihre Figur in kleinere „leichtere Einheiten“, wie etwa eine Reihe, einen Turm oder einen 2x2x2-Würfel. Es fielen sogar interessante Anweisungen, wie „Lege ein 2x4-Rechteck!“ Ein weiterer Ansatz war es, die Steine und Positionen auf dem Tisch zu nummerieren – ähnlich eines Koordinatensystem oder eines Schachbrettmusters. Die meisten waren sich beim Zusammentragen in der Klasse einig, dass es am sinnvollsten sei, zu Beginn ein Klötzchen zu legen und dann von diesem mit Richtungen zu beschreiben, an welche Seite wie viele Würfel angelegt werden sollen. Eine Gruppe ließ sogar nicht nur „bauen“, sondern beschrieb eine größere, einfache Form und ließ von dieser dann Würfel entfernen.
-
-Viele dieser Ideen und Herangehensweisen sind nützlich, um beim späteren „Programmieren“ auf sie zurückzugreifen. So ist beispielsweise das Zerlegen in „kleinere Einheiten“ ein wesentliches Vorgehen in der Informatik und spiegeln sich beim Klötzchen-Programmieren wider (z. B. beim Bauen einer Reihe mittels Wiederholungschleifen). Die Idee des Nummerierens wird in der App besonders durch das Schachbrettmuster und den Wunsch nach einer konkreten Verortung der Klötzchen deutlich. Durch Positionen und Verschiebungen kann man genau sagen, in welche Richtung wie viele Klötzchen gebaut werden sollen und auch die Idee des Entfernens von Würfeln aus einer größeren Form wird sich in ähnlicher Form in einer Übungsaufgabe wiederfinden.
-
-### Freie Erkundung der App
-
-Verglichen mit der Alien-Situation soll nun das iPad als „Alien“ betrachtet werden: Ihm muss genau beschrieben werden, wie es ein bestimmtes Würfelgebäude bauen soll. Dazu durften die Kinder (nach einer kurzen Belehrung zum Umgang mit den iPads) zu zweit 10 Minuten lang beliebig mit der App „Klötzchen“ experimentieren. Auf allen iPads wurde die Anzahl der Zeilen/Spalten in den Einstellungen auf 7 festgelegt, Schleifen und Variablen wurden zunächst deaktiviert und als Art der Würfel wurden die „Holzwürfel“ festgelegt.
+The next step is now to describe a more complex shape: a connected cube structure. The students received the following task:
 
 ```{block, type="task"}
-Stellt euch vor ihr seid Architekten und wollt einem Computer ein Würfelgebäude beschreiben, damit dieser es darstellen kann. Eindeutigkeit und Klarheit sind hierbei von besonderer Bedeutung.
+Put a privacy shield between you and the person sitting next to you. Think of a cube structure with 10 cubes and build it on your side. Explain to your partner how he/she can build this structure. Then compare your cube structures and switch roles.
 
-Findet heraus, was die Klötzchen-App alles kann.
+What problems arose when describing the building process of the cube structure?
 ```
 
-Das freie Experimentieren trainiert die schnelle Auffassungsgabe von Kindern und ermöglicht grundsätzlich jedem, sich in seiner eigenen Geschwindigkeit auf eine neue (in diesem Fall virtuelle) Umgebung einzustellen und sich mit dieser vertraut zu machen. Um die Kommunikation zu steigern und damit nicht so viele technische Geräte benötigt werden, können die Kinder zu zweit arbeiten.
+The goal of this task is the notion that it could be helpful to not only describe the finished structure, but also the process of how it was built. It also trains the development of a "command system": Students had to think very carefully about which actions to mention without being misunderstood. Similar to the previous task, a wide variety of solutions were presented. For example, students divided their structures into smaller "easier units", such as a row, a tower, or a 2x2x2 cube. They even gave interesting instructions like, "Make a 2x4 rectangle!". A further approach was to number the pieces and positions on the table - similar to a coordinate system or a checkerboard pattern. Most agreed, when discussing it as a class, that it makes the most sense to start with one cube and then describing the next moves by using its directions to specify on which side how many cubes should be placed. Instead of only "building" the structure, one group even described a larger, easier shape and then had cubes removed from it.
 
-Anschließend wurden in einem Unterrichtsgespräch die wichtigsten Funktionen der App zusammengetragen. Dabei ist es noch nicht wichtig, jedes kleine Detail zu erklären. Die wichtigsten Fragen, die in dieser Runde geklärt werden sollten, sind folgende:
+Many of these ideas and approaches are helpful to call on later when the students are "coding". For example the breaking down into "smaller units" is an essential approach in informatics and is reflected in the coding in the Cubeling app (e.g. building a row using loops). The idea of numbering is particularly prominent in the app through the checkerboard pattern and the desire for concrete locations of the cubes. Positions and relocations can be used to specify exactly in what direction the cubes are to be built, and the idea of removing cubes from a larger shape will also be found in a similar form in an exercise task. 
+
+### Free/unhindered exploration of the app
+
+Compared to the alien situation, now it is the iPad that should be viewed as an "alien": It needs to be told exactly how to build a specific cube structure. The children, in groups of two, were given 10 minutes (after a short ... how to handle the iPads) to experiment at will with the Cubeling app. The settings on all iPads were set to 7 rows/columns. Loops and variables were initially deactivated and the type of cube was set to "wooden cubes".
+
+```{block, type="task"}
+Imagine you are architects and want to describe a cube structure to a computer so that it can model it. Unambiguity and clarity are of particular importance here.
+
+Find out everything the Cubeling app can do.
+```
+
+The unhindered experimenting trains children's quick comprehension skills and essentially allows everyone to adjust to and become familiar with a new (in this case virtual) environment at their own speed. To increase communication and so that not as many technical devices are needed, the children can work in pairs.
+
+Afterwards, the most important functions of the app were collected in a class discussion. At this point it is not yet necessary to explain every minor detail. The most important questions that should be clarified in this round are the following:
 
 ```{block, type="hint"}
-- Welche Ansichten gibt es, wie heißen sie und wie wechsle ich zwischen ihnen?
-- Wie baue oder entferne ich Klötzchen in der 3D-Ansicht und im Bauplan?
-- Wie baue oder entferne ich Klötzchen in der Code-Ansicht?
-- Wie kann ich eine Seite ausblenden?
-- Wie entferne ich alle Würfel (und auch die Codes) auf einmal?
-- Wofür stehen die Farben blau und grün?
+- Which different views are there, what are they called, and how do I switch from one to the other?
+- How do I build or remove cubes in the 3D view and in the blueprint?
+- How do I build or remove cubes in the code view?
+- How can I hide one side?
+- How can I remove all cubes (and the lines of code) at once?
+- What do the colors blue and green represent?
 ```
 
-Diese Fragen sind insofern wichtig, als dass die Schülerinnen und Schüler so die wichtigsten Funktionen kennenlernen und man sich im weiteren Verlauf des Projektes mithilfe der Fachbegriffe für die verschiedenen Ansichten verständigen kann.
+These questions are important in that they help the students get to know the most important functions and, as the project progresses, they can use the technical terms for the different views when communicating with each other.
 
-Die Code-Ansicht ist damit eine weitere Möglichkeit (neben den in der Regel schon bekannten), Würfelbauwerke darzustellen. Diese Ansicht hat an dieser Stelle noch nicht zwingend eine besondere Bedeutung, sondern ist eben nur eine von vielen. Welche Mächtigkeit sie eigentlich besitzt, wird erst im weiteren Verlauf noch erarbeitet.
+The code view is thus another possibility (apart from those usually already known) to display cube structures. This view does not necessarily have a special meaning at this point, but is rather just one of many. What power it actually possesses will be explored as the project progresses.
 
-### Übungen zum Bauen von Würfelbauwerken
+### Exercises on building cube structures
 
-Darauf folgte die erste Übungsphase, in der eine vertiefende Beschäftigung mit der App im Fokus stand. 
+This was followed by the first practice stage, which focused on a more in-depth engagement with the app.
 
 
 
 ```{block, type="task"}
-Bearbeite die Aufgaben 1 bis 4 des [Arbeitsblattes](files/Cubeling-Worksheet-v2-de.pdf){target="_blank"}!
+Complete tasks 1 to 4 on the [worksheet](files/Cubeling-Worksheet-v2-de.pdf){target="_blank"}!
 ```
 
-Mit den Aufgaben 1 bis 4 des Arbeitsblattes werden strukturiert die einzelnen Ansichten und Funktionsweisen der App durchgearbeitet. Auch fließen einige Praxisbezüge (z. B. das Schreiben von Buchstaben auf einem karierten Muster mithilfe von Blöcken, wie an den Anzeigen in der Bahn) mit ein und können mündlich thematisiert werden. Bei Aufgabe 3 („Baue ein größtmögliches X!“) wird bereits eine Besonderheit sichtbar: So ist es in der Code-Ansicht theoretisch möglich, über das 7x7-Feld hinauszubauen und somit ein „unendlich“ großes X zu bauen. Dies ist natürlich praktisch nicht realisierbar und selbst eine Größe von 100 Kästchen in jede Richtung ist ohne die Wiederholungsschleife ausgesprochen mühsam. Diese Problematik wird auch im Aufgabe 4 noch einmal aufgegriffen („Was passiert, wenn ich einen Würfel außerhalb des gegebenen Bereiches baue?“) Die Aufgabe dient insgesamt dem besseren Verstehen der Konzeption der Code-Ansicht der App. Die Schülerinnen und Schüler sollen nicht nur die App verwenden können, sondern auch verstehen, weshalb einige Funktionsweisen oder grafische Symbole so sind, wie sie in der Umgebung dargestellt werden.
+With the tasks 1 to 4, students can work through the individual views and functions of the app in a structured way. Some practical references (e.g., writing letters on a checkered pattern using cubes/blocks, like on the displays in the train) are also included and can be thematized verbally. Task 3 ("Build the largest possible X!") already reveals a special feature: In the code view, it is theoretically possible to build beyond the 7x7 board and thus build an "infinitely" large X. This is, of course, not feasible in practice, and even a size of 100 squares in each direction is very tedious without a loop. This issue is again addressed in task 4 ("What happens when I build a cube outside the given range?"). The overall purpose of the task is to better understand the concept of the app's code view. Students should not only be able to use the app but also understand why some functionalities or graphical symbols are presented the way they are.
 
 
 
-## Arbeiten mit der Code-Ansicht
+## Working with the code view
 
-Du benötigst:
+You will need:
 
-> iPads mit der Klötzchen-App,  
-> [Arbeitsblatt](files/Cubeling-Worksheet-v2-de.pdf){target="_blank"} (Aufgaben 5 bis 7)  
-> ggf. [Präsentation mit Aufgabenstellungen](files/Cubeling-Tasks-v2-de.pdf){target="_blank"}
+> iPads with the Cubeling app installed,  
+> [Worksheet](files/Cubeling-Worksheet-v2-de.pdf){target="_blank"} (Tasks 5 to 7)  
+> possibly [presentation with tasks](files/Cubeling-Tasks-v2-de.pdf){target="_blank"}
 
-Empfohlene App-Einstellungen: 
+Recommended app settings: 
 
-> Anzahl der Zeilen/Spalten: 7, 
-> Holzwürfel,  
-> Achsenmarkierung und farbige Achsen an,  
-> Schleifen und Variablen aus  
+> Number of rows/columns: 7,  
+> Wooden cubes,  
+> Show coordinate numbers and colored axes,  
+> No loops or variables    
 
 
 
-### Analyse der Code-Ansicht
+### Analysis of the code view
 
-Sobald die ersten Schülerinnen und Schüler die Aufgaben 1 bis 4 beendet hatten, wurde Aufgabe 4 gemeinsam an der Tafel besprochen. Aufgaben 1 bis 3 lassen sich nur schwer vergleichen und es gab hier auch nur wenig Gesprächsbedarf. Kleinere Fragen, insbesondere der Funktionsweise der App, wurden meist schon während der Einzelarbeit geklärt.
+As soon as the first students had finished tasks 1 to 4, task 4 was discussed together on the (chalk/white)board. Tasks 1 to 3 are hard to compare and there was little need for discussion here. Smaller questions, especially geared towards the functionalities of the app, were mostly resolved during the individual work phase. 
 
-Bei der Besprechung von Aufgabe 4 lag der Fokus darauf, die Ablaufverfolgung kennenzulernen. Diese wird in den kommenden Aufgaben und zur Visualisierung von Schleifen benötigt. 
+The discussion of task 4 was focused on getting familiar with the sequence tracking. It will be needed in the subsequent tasks and for visualizing loops. 
 
-![Zahlen verändern >](pictures/code-number.png){width=50%}
+![Change numbers >](pictures/code-number.png){width=50%}
 An dieser Stelle bieten sich auch Anknüpfungspunkte zur Behandlung von negativen Zahlen und die Beschreibung von Orten in der Ebene mithilfe eines speziellen Koordinatensystems. Wir sind hierbei nicht in die Tiefe gegangen, sondern haben eher intuitiv damit gearbeitet, was den Schülerinnen und Schülern aber keine Schwierigkeiten bereitete. Unterstützung bieten hier die veränderlichen Variableneinträge: Tippt man in der Code-Ansicht auf eine Koordinate, so kann man diese über die grünen bzw. blauen Pfeile schrittweise verändern – auch in den negativen Bereich. 
 
 <!-- <center> -->

@@ -59,3 +59,9 @@ doppelschleifen
 komplexeUebungen
 zusammenfassung-und-weiterführende-möglichkeiten
 Literatur
+describing-cube-structures
+freeunhindered-exploration-of-the-app
+exercises-on-building-cube-structures
+working-with-the-code-view
+analysis-of-code-view
+analysis-of-the-code-view
