@@ -65,3 +65,5 @@ exercises-on-building-cube-structures
 working-with-the-code-view
 analysis-of-code-view
 analysis-of-the-code-view
+using-the-code-view
+distinction-between-process-and-product
