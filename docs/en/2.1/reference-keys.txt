@@ -67,3 +67,9 @@ analysis-of-code-view
 analysis-of-the-code-view
 using-the-code-view
 distinction-between-process-and-product
+classification-and-goals
+introduction-to-processes-of-description
+motivation-and-familiarization-phase
+formulating-the-goal
+loops-and-loop-variables
+introduction-to-repeat-loops
