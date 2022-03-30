@@ -73,3 +73,6 @@ motivation-and-familiarization-phase
 formulating-the-goal
 loops-and-loop-variables
 introduction-to-repeat-loops
+explorationinvestigation-of-loop-variables
+systematische-behandlung-von-laufvariablensystematically-dealing-with-loop-variables
+exercises-on-loop-variables
