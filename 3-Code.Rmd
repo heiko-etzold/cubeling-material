@@ -346,91 +346,91 @@ Up to this point, the students have become familiar with the entire app and shou
 The first is to now move from the mundane(leidlichen) execution of a code to the creation of your own by adhering to/according to certain patterns. The use of loop variables is the most complex topic here and, as expected, requires some practice. Thus, at the beginning of the lesson, we briefly verbally reviewed what "set" and "change" commands can do. Then, the students were given the following task:
 
 ::: {.task}
-Baue ein Klötzchen auf einem beliebigen Feld!
-Baue von diesem Feld aus eine Reihe mit 40 Klötzchen in folgende Richtungen:  
-- nach rechts  
-- nach vorn  
-- nach links  
-- nach hinten  
-- diagonal nach vorn rechts  
-- diagonal nach vorn links  
-- diagonal nach hinten links  
-- diagonal nach hinten rechts
+Build/add a cube to any random square!
+From this square, continue building a row of 40 cubes in the following directions:  
+- to the right  
+- to the front  
+- to the left  
+- behind it  
+- diagonally to the front right  
+- diagonally to the front left 
+- diagonally to the back left
+- diagonally to the back right
 :::
 
-Je nach Sichtweise auf die 3D-Ansicht kann man auch von „oben“ statt „vorn“ und „unten“ statt „hinten“. Wir nutzten erst die Bezeichnung „oben“, weshalb einige Schülerinnen und Schüler jedoch in die Höhe gebaut haben.
+Depending on how you look at the 3D view, you can also have "upwards" instead of "to the front" and "downwards" instead of "behind it". We first used the term "upwards", which resulted in some students building in height/vertically.
 
-Insgesamt ergibt sich ein Muster, das an einen Stern erinnert. Das Endprodukt haben wir auch an die Tafel projiziert. Die Übung scheint sehr aufwendig zu sein und macht im ersten Moment den Eindruck, dass immer wieder stupide dasselbe gemacht werden müsste. Allerdings war es für die Schülerinnen und Schüler an der Stelle eine große Herausforderung, die richten Änderungen der Laufvariablen einzugeben. Insbesondere die Änderung um negative Zahlen war hier – verständlicherweise – nicht intuitiv. Allerdings blieben die Kinder „am Ball“ – die Aussicht auf das fertige Würfelbauwerk scheint also Motivation genug gewesen zu sein, die Aufgabe auch erfolgreich zu lösen. 
+The final result is a pattern that resembles a star. We also projected the final product on the chalk/white board. The exercise might seem to be very time-consuming and simply mindlessly doing the same thing over and over again. However, it proved challenging for the students at that point to enter the correct changes of the loop variables. Especially dealing with/the change into negative numbers was - understandably - not intuitive. Still, the children remained on top of it - the prospect of the finished cube structure seems to have been motivation enough to want to successfully solve the task.
 
-### Diskussion zum Live-Coding
+### Discussions on live coding
 
-Dass die App den Code immer sofort live ausführt, soll natürlich als Hilfestellung für die Schülerinnen und Schüler gedacht sein. Allerdings kann es die Lernenden allerdings auch verwirren, was im Unterricht aufgegriffen werden sollte. Dieser Fall trat sogar relativ häufig auf. Angenommen, man baut einen Würfel auf dem Feld (4,4) und will von dort aus nun eine Reihe von 40 Klötzchen nach vorn bauen. Der fertige Code sieht folgendermaßen aus:
-
-<center>
-![Befehl für 40er-Schlange](pictures/code-star1.png){width=50%}
-</center>
-
-Viele Schülerinnen und Schüler hatten auch diese richtige Idee, waren dann jedoch verwirrt, bevor sie den „ändere“-Befehl eingegeben haben:
+The fact that the app always executes the code immediately is of course intended to help the students. Nevertheless, it can also confuse learners, which should be addressed in class. In fact, this occurred relatively frequently. Suppose one build a cube on the square (4,4) and now wants to build a row of 40 cubes forward from there. The finished code looks like this:
 
 <center>
-![40er-Schlange ohne „ändere“-Befehl](pictures/code-star2.png){width=50%}
+![Command for row of 40](pictures/code-star1.png){width=50%}
 </center>
 
-An dieser Stelle gibt einem das Live-Coding nämlich einen Turm bei (4,5) aus. Die Lernenden dachten nun, dass sie etwas falsch gemacht hätten, da sie an dieser Stelle natürlich keinen Turm haben wollten. Hier wurde dann mit der Klasse diskutiert, wieso die App dies tut. Sollten die Schülerinnen und Schüler zu sehr verwirrt werden, bietet es sich zunächst an, die linke Seite der App temporär auszuschalten und erst nach Fertigstellung des Codes zu überprüfen. Diese Live-Coding-Diskussion kann natürlich auch an anderer Stelle schon geführt werden. Wir haben sie hier aufgeführt, da es bei den 40er-Reihen im Unterricht bei besonders vielen Schülerinnen und Schülern sichtbar wurde.
+Many students also had this correct idea but got confused before they had added the "change" command:
 
-### Doppelschleifen
+<center>
+![Row of 40 without the "change" command](pictures/code-star2.png){width=50%}
+</center>
 
-***4. Mauerbau: Doppelschleifen.*** Die meisten Kinder fühlten sich mit der Anwendung der Laufvariablen nach dieser Übung relativ sicher. Bevor die Schülerinnen und Schüler sich nun finalen Üben widmen durften, kam es zur Auswertung des kompaktesten Weges, die 11x6-Mauer zu bauen. Durch das praktische Vorzeigen auf dem Spielfeld wurde im Unterrichtsgespräch der Code zunächst in Worten entwickelt: Man baut 6 Klötzchen übereinander und geht dann ein Feld nach rechts. Diesen gesamten Prozess muss man 11 mal hintereinander ausführen.
+At this point, the live code returns a tower at (4,5). The students now thought they had done something wrong, since they of course did not want to have a tower here. It was then discussed with the class why the app was doing this. If the students get too confused, a good first step is to temporarily turn off/hide the left side of the app and check it only after the code is complete. This live code discussion can certainly be had at a different point in time. We have included it here because a lot of students noticed it when building the rows of 40. 
 
-Die Entwicklung des Codes mit Worten war sehr hilfreich und wurde in einer „Pseudo“-Sprache an der Tafel schrittweise entwickelt:
+### Double loops
 
-*Schritt 1*: 
+***4th wall construction: Double loops.*** Most of the children felt relatively confident with the use of the loop variables after the exercise. Before the students were now allowed to engage in final practice, the assessment of the most compact way to build the 11x6 wall took place. By again utilzing the practical demonstration on the carpet/playing field , the code was first developed in words as a class: You build 6 cubes on top of each other and then move one square to the right. You have to do this whole process 11 times in a row.
+
+The development of the code with words was very helpful and was recorded on the board in a "pseudo" language:
+
+*Step 1*: 
 ```
-baue 6er-Turm 
-gehe eins nach rechts
-baue wieder 6er-Turm
-mach das insgesamt 11 mal   
+build a tower of 6 
+go one step to the right
+build another tower of 6
+do this 11 times   
 ```
 
-*Schritt 2:*
+*Step 2:*
 ```
-mache 11 mal {
-	baue 6er-Turm
-	gehe eins nach rechts
+do 11 times {
+	build a tower of 6
+	go one step to the right
 }
 ```
 
-*Schritt 3:*
+*Step 3:*
 ```
-setze PositionA auf (1,1)
-mache 11 mal {
-    baue 6er-Turm bei PositionA
-    ändere PositionA um (1,0)
+set positionA to (1,1)
+do 11 times {
+    build tower of 6 at positionA
+    change positionA by (1,0)
 }
 ```
 
-![ideaeler Mauerbau >](pictures/code-wall.png){width=50%}
-Nun galt es, diesen noch in die Klötzchen-Programmiersprache zu übersetzen, also letztlich das Bauen des Turmes noch als Code auszudrücken. Es ergibt sich eine Schleife in der Schleife. Ein Kind aus der Klasse hat diesen Code erzeugt, während sein iPad live an die Tafel projiziert wurde. Anschließend hat jeder diesen Code noch einmal für sich programmiert und überprüft, wie durch eine Änderung der 11 und 6 mithilfe der roten Pfeile leicht Zeilen oder Spalten der Mauer hinzugefügt bzw. entfernt werden können. Der Code hat sich damit auf 7 Zeilen reduziert – von ursprünglich 66.
+![ideal wall construction >](pictures/code-wall.png){width=50%}
+Now it was still necessary to translate this into the cubeling programming language, i.e. lastly expressing the construction of the tower in/as code. This results in a loop within the loop. One student from the class generated this code while their iPad was projected live on the board. Afterwards, everyone wrote this code again for themselves and tested how changing 11 and 6 using the red arrows could easily add or remove rows or columns from the wall. The code was thus reduced to 7 lines - from the original 66.
 
-Auch kann thematisiert werden, dass durch die Ablaufverfolgung deutlich wird, dass dieser Code nicht besonders praktisch ist, wenn es um die Stabilität beim Bauprozess geht (da eben turmweise und nicht etagenweise gebaut wird). Dies liegt an der Programmiersprache, da man für Türme die Positionen nicht verändern muss und damit Zeilen im Code spart. Als Zusatzaufgabe konnten die Lernenden am Ende der Stunde überlegen, wie der Code aussehen müsse, damit übereinander liegende Reihen gebaut werden. Ist es dann auch noch so einfach, Zeilen oder Spalten hinzuzufügen? Wieso nicht?
+It can also be discussed that the sequence tracking makes it clear that this code is not particularly practical when it comes to the stability of the construction process (since it is built tower by tower and not floor/level by floor). This is due to the programming language, as you do not have to change the positions for towers and thus reducing the number of lines of code. As an additional task at the end of the lesson, the students could think about how the code would have to look if we wanted to build one row on top of the other instead. Is it still as easy to add further rows or columns? Why not?
 
 ### Komplexe Übungen {#komplexeUebungen}
 
-Schließlich wurde den Schülern und Schülerinnen per AirDrop Bildschirmfotos von komplexeren Gebäuden geschickt, sie sie nun mithilfe von Wiederholungsschleifen und Laufvariablen möglichst effektiv bauen sollten. Dabei wurden die Aufgaben immer komplizierter, bis hin zu einer dreifachen Schleife bei einem großen Würfel. 
+Finally, the students were sent screenshots of more complex structures via AirDrop, which they now had to recreate as effectively/efficiantly as possible using loops and loop variables. The tasks become more and more complicated, up to a triple loop for a large cube.
 
 ::: {.task}
-Programmiere die Würfelbauwerke!
+Write a code to build the cube structures!
 :::
 
-Auch diese Aufgaben bieten wieder das Potenzial, verschiedene Lösungswege zu diskutieren und über eine Optimierung des geschriebenen Codes nachzudenken. Gleichzeitig kann hier auch die Kreativität der Schülerinnen und Schüler beim Erstellen eigener Gebäude gefördert werden.   
+These tasks again offer the potential to discuss different ways of solving the problem and to think about optimizing the code. At the same time, the creativity of the students can be encouraged here when creating their own structures.
 
 
 
-## Zusammenfassung und weiterführende Möglichkeiten
+## Summary and follow-up/next possibilities
 
-Zum Schluss der Stunde wurde die Klasse gebeten, die Projektphase auszuwerten und Wünsche zu äußern. Häufig wurde beschrieben, dass sie gelernt hätten, wie praktisch und mächtig die Code-Ansicht ist und dass sie sich anfänglich gescheut hätten, mit ihr zu arbeiten, nun diese aber sogar präferieren würden („Am Anfang fand ich das mit dem Code ja nicht so spannend, da habe ich lieber in der 3D-Ansicht gebaut. Aber jetzt, wo wir die Schleifen haben, mach ich das lieber mit dem Code.“). Außerdem wünschten sich einige Kinder farbige Klötzchen in der App oder die Programmierung auch mit den Steckwürfeln, um beispielsweise Häuser mit Fenstern bauen zu können. Es war eine große Begeisterung für das Erlernen des „Architekten-Daseins“ und des Programmieren sichtbar, viele Schülerinnen und Schüler stellten auch noch nach dem Pausenklingeln Fragen, wie etwa zur alternativen Methode für die 11x6-Mauer. Außerdem wurden wir häufig gefragt, ob es eine Möglichkeit gibt, die App auch privat zu Hause nutzen zu können. Das Interesse der Klasse und die Begeisterung über diese für viele Kinder sehr außergewöhnliche Art der Arbeit war deutlich zu spüren.
+At the end of the lesson, the class was asked to evaluate the project phase and express any wishes. A common answer was that they had learned how practical and powerful the code view is and that they had initially shied away from working with it, but now actually prefer it ("At the start I did not find coding very exciting, I preferred building in the 3D view. But now that we have the loops, I prefer to do it with the code."). In addition, some children wished for colored cubes in the app or the ability to code with the stacking cubes as well, to for example be able to construct houses with windows. There was a lot of enthusiasm visible for learning "how to be an architect" and how to code, with many students asking questions, like about the alternative method for the 11x6 wall, even after the bell had rung. We were also frequently asked if there was a way to use the app for playing around at home. The interest of the class and the enthusiasm about this for many children very unusual way of solving tasks was very apparent.
 
-Aus didaktischer Sicht wollen wir noch einmal betonen, dass die App in ihrer Komplexität eingeschränkt ist. Farbige Würfel oder Steckwürfelprogrammierung ist nicht möglich und für die Zukunft auch nicht angedacht. Ziel ist es, mithilfe der App einen Einblick in die Grundideen der Programmierung, insbesondere von Schleifen, anhand der Darstellung von Würfelbauwerken zu gewinnen. Weiterführend kann dann auf Programme wie Minecraft (siehe z. B. https://minecraft-de.gamepedia.com/Koordinaten) zurückgegriffen werden, in denen der Kreativität tatsächlich kaum mehr Grenzen gesetzt sind.
+From a didactic point of view, we want to once again emphasize that the app is limited in complexity. Colored cubes or stackable cubes is not possible and is not something we are working on. The aim is to use the app to gain an insight into the basic ideas of coding, in particular of loops, using the representation of cube structures. Further learning can then be done with programs such as Minecraft (see e.g. https://minecraft.fandom.com/wiki/Coordinates), where the are seemingly no limits to one's creativity.
 
 
 
