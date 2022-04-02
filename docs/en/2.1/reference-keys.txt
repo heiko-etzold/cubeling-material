@@ -79,3 +79,5 @@ exercises-on-loop-variables
 discussions-on-live-coding
 double-loops
 summary-and-follow-upnext-possibilities
+oblique-projections
+multiview-orthographic-projection

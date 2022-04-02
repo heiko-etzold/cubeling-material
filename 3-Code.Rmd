@@ -1,13 +1,13 @@
 # Programming with Cubeling {#Coding}
 
-The goal of this section is not to turn your students into programmers with the help of digital cubes. Rather, the aim is to develop a **feeling for an algorithmic perspective** on building connected cube structures and to focus on the **process of building**. This process is documented, made *translatable* for a computer, and, through the use of basic coding structures like loops, the **potential of these structures** is made visible using the example of cube structures.
+The goal of this section is not to turn your students into programmers with the help of digital cubes. Rather, the aim is to develop a **feeling for an algorithmic perspective** on building connected cube structures and to focus on the **process of construction**. This process is documented, made *translatable* for a computer, and basic coding structures like loops are made visible to showcase the **potential of these structures**.
 
-Cubeling's code view was developed in connection with a trial at a school in Brandenburg. Based on the experiences gained in that project week, this chapter presents a possible sequence of four teaching blocks that can be used to explore the coding in the Cubeling app. Of course, a more spread out and gradual incorporation into math lessons is also possible.
+Cubeling's code view was developed in connection with a trial at a school in Brandenburg. Based on the experiences gained in that project week, this chapter presents a possible sequence of four teaching blocks that can be used to explore coding in the Cubeling app. Of course, a more spread out and gradual incorporation into math lessons is also possible.
 
 
 ## Classification and goals
 
-Coding with Cubeling addresses both mathematical and media informatics skills.
+Coding with Cubeling addresses skills in the fields of both mathematics and media informatics.
 
 ***Mathematics Educational Standards.*** With regard to the educational standards for primary school level [KMK, -@KMK:2005], the competency of **representation** is particularly encouraged: Students can create, select, and use appropriate representations for working on mathematical problems and can compare and evaluate representations with one another. At secondary school levels [KMK, -@KMK:2004], the concept also furthers the competencies **use of mathematical representations** (especially creating and using standard representations of mathematical objects and situations, interpreting or modifying given representations reasonably, evaluating different representations and forms of representation in a purpose-oriented way) and **dealing with symbolic, technical, and formal elements of mathematics** (here specifically, using mathematical aids and digital mathematical tools directly, applying formal mathematical procedures, and selecting and using digital mathematical tools efficiently depending on the situation and purpose).
 
@@ -28,16 +28,16 @@ The individual tasks most definitely also address numerous other general and con
 
 You will need:
 
-> about 10 small wooden cubes per student,  
-> dice,   
-> iPads with the Cubeling app installed,  
-> [worksheet](files/Cubeling-Worksheet-v2-de.pdf){target="_blank"} (tasks 1 to 4)  
-> possibly [presentation with tasks](files/Cubeling-Tasks-v2-de.pdf){target="_blank"}
+> About 10 small wooden cubes per student;  
+> Dice;   
+> iPads with the Cubeling app installed;  
+> [Worksheet](files/Cubeling-Worksheet-v2-de.pdf){target="_blank"} (tasks 1 to 4);  
+> Possibly [presentation with tasks](files/Cubeling-Tasks-v2-de.pdf){target="_blank"}
 
 Recommended app settings: 
 
 > Number of rows/columns: 7;  
-> Wooden cubes;
+> Wooden cubes;   
 > Show coordinate numbers and colored axes;  
 > No loops or variables  
 
@@ -56,9 +56,9 @@ As a warm-up and a means to get to know each other, the students were given the 
 **Task**  
 Toss a die and do all actions that are assigned to a number less than or equal to the one you rolled:  
 **1** Make yourself a name tag!  
-**2** Write an adjective in front of your name that begins with the same letter as your first name! 
-**3** Draw a small picture on your name tag that has something to do with your favorite hobby! 
-**4** Estimate how many cubes each of your classmates would have to take out of the box so that all children have the same number of cubes. Write this number on your name tag! 
+**2** Write an adjective in front of your name that begins with the same letter as your first name!  
+**3** Draw a small picture on your name tag that has something to do with your favorite hobby!  
+**4** Estimate how many cubes each of your classmates would have to take out of the box so that all children have the same number of cubes. Write this number on your name tag!  
 **5** Think about what animal living in the forest you would most like to be and draw or write it on your name tag!  
 **6** Try to recreate this animal using the cubes. 
 ```
@@ -167,7 +167,7 @@ Recommended app settings:
 
 As soon as the first students had finished tasks 1 to 4, task 4 was discussed together on the (chalk/white)board. Tasks 1 to 3 are hard to compare and there was little need for discussion here. Smaller questions, especially geared towards the functionalities of the app, were mostly resolved during the individual work phase. 
 
-The discussion of task 4 was focused on getting familiar with the sequence tracking. It will be needed in the subsequent tasks and for visualizing loops. 
+The discussion of task 4 was focused on getting familiar with the code tracing. It will be needed in the subsequent tasks and for visualizing loops. 
 
 ![Change numbers >](pictures/code-number.png){width=50%}
 This stage also provides opportunity for making ties to working with negative numbers and describing locations in the plane with the help of a special coordinate system. We did not go into depth here, instead working rather intuitively with everything, which did not present any difficulties for the students. The changeable values for variables provided support: If you touch a coordinate in the code view, you can change it step by step using the green or blue arrows - also into the negative range. 
@@ -330,7 +330,7 @@ These four students were also given a sign to put around their necks on which to
 This game makes the dynamics of the process become apparent. The construction workers represent the positions specified in the code, which change throughout the course of the construction process. The construction supervisor has the task of executing the code correctly, e.g. counting the number of cycles of a loop. Of course, this game can be expanded/enriched with different roles/parts and characters as you go along. 
 
 After the first round, the roles/parts can be switched amongst the students, so that all students had to play an active part at least once. It may even be a good idea to divide the class into 2 groups and prepare 2 playing fields, otherwise there will simply be too many people standing around the field and possibly even in each other's way. 
-It was surprising for us that the students had hardly any problems with the "change" command, although the coordinates given in it represent a shift and no longer a position. The command supports this with its notation "change(..., **by**: ...)", whereas positions are written as "buildCube(**at**: ...)". The game provides experience in using the commands by having to explicitly calculate the new positions. In addition, the app's sequence tracking also shows what the current value of a position is at any given time. THe diffrent use of coordinates for positions and shifts is comparable to the position and direction vectors in secondary school.
+It was surprising for us that the students had hardly any problems with the "change" command, although the coordinates given in it represent a shift and no longer a position. The command supports this with its notation "change(..., **by**: ...)", whereas positions are written as "buildCube(**at**: ...)". The game provides experience in using the commands by having to explicitly calculate the new positions. In addition, the app's code tracing also shows what the current value of a position is at any given time. THe diffrent use of coordinates for positions and shifts is comparable to the position and direction vectors in secondary school.
 
 In our run-through, the following lesson block had some students who had difficulties with their code going to the carpet on their own and retracing the construction process there. As a teacher, you should therefore make this field (or alternatively one with small wooden cubes) permanently available if space permits.
 
@@ -412,7 +412,7 @@ do 11 times {
 ![ideal wall construction >](pictures/code-wall.png){width=50%}
 Now it was still necessary to translate this into the cubeling programming language, i.e. lastly expressing the construction of the tower in/as code. This results in a loop within the loop. One student from the class generated this code while their iPad was projected live on the board. Afterwards, everyone wrote this code again for themselves and tested how changing 11 and 6 using the red arrows could easily add or remove rows or columns from the wall. The code was thus reduced to 7 lines - from the original 66.
 
-It can also be discussed that the sequence tracking makes it clear that this code is not particularly practical when it comes to the stability of the construction process (since it is built tower by tower and not floor/level by floor). This is due to the programming language, as you do not have to change the positions for towers and thus reducing the number of lines of code. As an additional task at the end of the lesson, the students could think about how the code would have to look if we wanted to build one row on top of the other instead. Is it still as easy to add further rows or columns? Why not?
+It can also be discussed that the code tracing makes it clear that this code is not particularly practical when it comes to the stability of the construction process (since it is built tower by tower and not floor/level by floor). This is due to the programming language, as you do not have to change the positions for towers and thus reducing the number of lines of code. As an additional task at the end of the lesson, the students could think about how the code would have to look if we wanted to build one row on top of the other instead. Is it still as easy to add further rows or columns? Why not?
 
 ### Komplexe Übungen {#komplexeUebungen}
 

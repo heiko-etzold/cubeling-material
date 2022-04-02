@@ -4,30 +4,30 @@ The English translation of this book is currently under construction.
 
 # Introduction {- #Einleitung}
 
-Wooden cubes fascinate children and adults alike – even before doing any math with them. This enthusiasm is worth taking advantage of! Especially in geometry lessons, but also beyond that, there are numerous/various occasions to use cubes to approach mathematical topics.
+Wooden cubes fascinate children and adults alike – even before doing any math with them. This enthusiasm is worth taking advantage of! Especially in geometry lessons, but also beyond that, there are numerous occasions to use cubes to approach mathematical topics.
 
-Of course this works with actual wooden cubes, pretty well actually. Should experiences like that really be replaced by an app? No! But those **experiences** can be wonderfully **expanded** upon. Here a few special features come into play that only **digital tools** can provide. These lead to further spatial cognition or more opportunities to support and challenge your students.
+Of course this works with actual wooden cubes, pretty well actually. Should experiences like that really be replaced by an app? No! But those **experiences** can be wonderfully **expanded** upon. Here, a few special features come into play that only **digital tools** can provide. These lead to further spatial cognition or more opportunities to support and challenge your students.
 
-The **Cubeling app** covered here is available free of charge for iOS and macOS devices (i.e. iPads, Macs, and, to a limited extent, iPhones) under https://apps.apple.com/de/app/klötzchen/id1027746349.
+The **Cubeling app** introduced here is available free of charge for iOS and macOS devices (i.e. iPads, Macs, and, to a limited extent, iPhones) under https://apps.apple.com/de/app/klötzchen/id1027746349.
 
 ## About this "book" {-}
 
 The first chapter of this document will provide instructions as to **[how to use](#how-to-use)** the app itself.
 
-The following chapters will include possible applications for teaching mathematics -- on one hand with a focus on **[spatial imagination](#Raumvorstellung)**, on the other on **[programming](#Coding)** in connection with the building of cube structures.  
+The following chapters will include possible applications for teaching mathematics -- on one hand with a focus on **[spatial imagination](#Raumvorstellung)**, on the other on **[coding](#Coding)** in connection with the building of cube structures.  
 
-This is not a fixed book. Over time, things will be added or sometimes changed. We will also gladly take up any suggestions in order to share more ideas on how to use the Cubeling app in the classroom. 
+The contents of this book are not set in stone. Over time, things will be added or sometimes changed. We will also gladly take up any suggestions in order to share more ideas on how to use the Cubeling app in the classroom. 
 
-The current version of this book refers to the **Cubeling app of the version 7.1**, but many functions are also available with earlier versions. The book, especially chapter \@ref(Coding), builds on a previous, two-part guide (view @Etzold:2018Praxis1 und @Etzold:2018Praxis2).
+The current version of this book refers to the **Cubeling app of the version 7.1**, but many functions are also available with earlier versions. The book, especially chapter \@ref(Coding), builds on a previous, two-part guide (view @Etzold:2018Praxis1 and @Etzold:2018Praxis2).
 
-The book is written in a way that makes it easy to read through front to back, but it is intended to also function as a quick reference work.
+The book is written in a way that makes it easy to read cover to cover, but it is also intended to function as a quick reference work.
 
 ::: {.task}
-Tasks for students can be found in the colored boxes. 
+Tasks for students can be found in the colored text boxes. 
 :::
     
 ::: {.hint}
-Gray boxes provide further hints that can, for example, be used in class discussions.
+Gray text boxes provide further hints that can, for example, be used in class discussions.
 :::
 
 
@@ -40,7 +40,7 @@ Gray boxes provide further hints that can, for example, be used in class discuss
 
 This material is an **open educational resource** and is licensed under the Creative-Commons attribution ShareAlike 4.0 (**CC BY-SA 4.0**). To view a copy of this license, visit [https://creativecommons.org/licenses/by-sa/4.0/deed.de](https://creativecommons.org/licenses/by-sa/4.0/deed.de){target="_blank"}.
 
-It is both possible and desired to **freely use, modify, and develop the material** and publish it accordingly. If appropriate, changes or additions can also be included in the book itself, for example translations -- simply [contact me](mailto:heiko.etzold@uni-potsdam.de) for that.
+It is both possible and desired to **freely use, modify, and develop the material** and publish it accordingly. If appropriate, changes or additions, such as translated contents, can also be included in the book itself -- simply [contact me](mailto:heiko.etzold@uni-potsdam.de) for that.
 
 The **raw data** of the book is available at [https://github.com/heiko-etzold/cubeling-material](https://github.com/heiko-etzold/cubeling-material){target="_blank"}. There, via a GIT-repository, earlier versions and the changes can be tracked.
 An overview of all versions of the book can be found at https://heiko-etzold.github.io/cubeling-material.
