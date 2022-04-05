@@ -4,11 +4,11 @@
 
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <title>3 Programming with Cubeling | Cubeling – Teachers’ Guide</title>
+  <title>3 Coding with Cubeling | Cubeling – Teachers’ Guide</title>
   <meta name="description" content="Instructions on how to use the app Cubeling and handout for its use in mathematics classes" />
-  <meta name="generator" content="bookdown 0.22 and GitBook 2.6.7" />
+  <meta name="generator" content="bookdown 0.24 and GitBook 2.6.7" />
 
-  <meta property="og:title" content="3 Programming with Cubeling | Cubeling – Teachers’ Guide" />
+  <meta property="og:title" content="3 Coding with Cubeling | Cubeling – Teachers’ Guide" />
   <meta property="og:type" content="book" />
   <meta property="og:url" content="https://heiko-etzold.github.io/cubeling-material/en/2.1" />
   
@@ -16,7 +16,7 @@
   <meta name="github-repo" content="heiko-etzold/cubeling-material/tree/en.2.1" />
 
   <meta name="twitter:card" content="summary" />
-  <meta name="twitter:title" content="3 Programming with Cubeling | Cubeling – Teachers’ Guide" />
+  <meta name="twitter:title" content="3 Coding with Cubeling | Cubeling – Teachers’ Guide" />
   
   <meta name="twitter:description" content="Instructions on how to use the app Cubeling and handout for its use in mathematics classes" />
   
@@ -33,7 +33,8 @@
 <link rel="prev" href="Raumvorstellung.html"/>
 <link rel="next" href="Literature.html"/>
 <script src="libs/header-attrs-2.11/header-attrs.js"></script>
-<script src="libs/jquery-2.2.3/jquery.min.js"></script>
+<script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
 <link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
 <link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
 <link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
@@ -41,7 +42,6 @@
 <link href="libs/gitbook-2.6.7/css/plugin-search.css" rel="stylesheet" />
 <link href="libs/gitbook-2.6.7/css/plugin-fontsettings.css" rel="stylesheet" />
 <link href="libs/gitbook-2.6.7/css/plugin-clipboard.css" rel="stylesheet" />
-
 
 
 
@@ -128,7 +128,7 @@ div.csl-indent {
 </ul></li>
 </ul></li>
 <li class="chapter" data-level="2" data-path="Raumvorstellung.html"><a href="Raumvorstellung.html"><i class="fa fa-check"></i><b>2</b> Build with Cubeling</a></li>
-<li class="chapter" data-level="3" data-path="Coding.html"><a href="Coding.html"><i class="fa fa-check"></i><b>3</b> Programming with Cubeling</a>
+<li class="chapter" data-level="3" data-path="Coding.html"><a href="Coding.html"><i class="fa fa-check"></i><b>3</b> Coding with Cubeling</a>
 <ul>
 <li class="chapter" data-level="3.1" data-path="Coding.html"><a href="Coding.html#classification-and-goals"><i class="fa fa-check"></i><b>3.1</b> Classification and goals</a></li>
 <li class="chapter" data-level="3.2" data-path="Coding.html"><a href="Coding.html#introduction-to-processes-of-description"><i class="fa fa-check"></i><b>3.2</b> Introduction to processes of description</a>
@@ -157,11 +157,11 @@ div.csl-indent {
 <li class="chapter" data-level="3.5.1" data-path="Coding.html"><a href="Coding.html#exercises-on-loop-variables"><i class="fa fa-check"></i><b>3.5.1</b> Exercises on loop variables</a></li>
 <li class="chapter" data-level="3.5.2" data-path="Coding.html"><a href="Coding.html#discussions-on-live-coding"><i class="fa fa-check"></i><b>3.5.2</b> Discussions on live coding</a></li>
 <li class="chapter" data-level="3.5.3" data-path="Coding.html"><a href="Coding.html#double-loops"><i class="fa fa-check"></i><b>3.5.3</b> Double loops</a></li>
-<li class="chapter" data-level="3.5.4" data-path="Coding.html"><a href="Coding.html#komplexeUebungen"><i class="fa fa-check"></i><b>3.5.4</b> Complex exercises</a></li>
+<li class="chapter" data-level="3.5.4" data-path="Coding.html"><a href="Coding.html#complexexercises"><i class="fa fa-check"></i><b>3.5.4</b> Complex exercises</a></li>
 </ul></li>
 <li class="chapter" data-level="3.6" data-path="Coding.html"><a href="Coding.html#summary-and-next-steps"><i class="fa fa-check"></i><b>3.6</b> Summary and next steps</a></li>
 </ul></li>
-<li class="chapter" data-level="4" data-path="Literature.html"><a href="Literature.html"><i class="fa fa-check"></i><b>4</b> More materials and literature</a></li>
+<li class="chapter" data-level="4" data-path="Literature.html"><a href="Literature.html"><i class="fa fa-check"></i><b>4</b> Additional material and literature</a></li>
 <li class="divider"></li>
 <li><a href="https://creativecommons.org/licenses/by-sa/4.0/"><img src="pictures/by-sa.png" height="20px"/></a></li>
 </ul>
@@ -182,13 +182,12 @@ div.csl-indent {
 
             <section class="normal" id="section-">
 <div id="Coding" class="section level1" number="3">
-<h1><span class="header-section-number">3</span> Programming with Cubeling</h1>
+<h1><span class="header-section-number">3</span> Coding with Cubeling</h1>
 <p>The goal of this section is not to turn your students into programmers with the help of digital cubes. Rather, the aim is to develop a <strong>feeling for an algorithmic perspective</strong> on building connected cube structures and to focus on the <strong>process of construction</strong>. This process is documented, made <em>translatable</em> for a computer, and basic coding structures like loops are made visible to showcase the <strong>potential of these structures</strong>.</p>
 <p>Cubeling’s code view was developed in connection with a trial at a school in Brandenburg. Based on the experiences gained in that project week, this chapter presents a possible sequence of four teaching blocks that can be used to explore coding in the Cubeling app. Of course, a more spread out and gradual incorporation into math lessons is also possible.</p>
 <div id="classification-and-goals" class="section level2" number="3.1">
 <h2><span class="header-section-number">3.1</span> Classification and goals</h2>
-<p>Coding with Cubeling addresses skills in the fields of both mathematics and media informatics.</p>
-<p><strong><em>HIER BEZUG ZU DEUTSCHEN BILDUNGSKONTEXT ERWÄHNEN</em></strong></p>
+<p>Coding with Cubeling addresses skills in the fields of both mathematics and media informatics. This section is based on the German educational context.</p>
 <p><strong><em>Mathematics Educational Standards.</em></strong> With regard to the educational standards for primary school level <span class="citation">(KMK, <a href="Literature.html#ref-KMK:2005" role="doc-biblioref">2005</a>)</span>, the competency of <strong>representation</strong> is particularly encouraged: Students can create, select, and use appropriate representations for working on mathematical problems and can compare and evaluate representations with one another. At secondary school levels <span class="citation">(KMK, <a href="Literature.html#ref-KMK:2004" role="doc-biblioref">2004</a>)</span>, the concept also furthers the competencies <strong>use of mathematical representations</strong> (especially creating and using standard representations of mathematical objects and situations, interpreting or modifying given representations reasonably, evaluating different representations and forms of representation in a purpose-oriented way) and <strong>dealing with symbolic, technical, and formal elements of mathematics</strong> (here specifically, using mathematical aids and digital mathematical tools directly, applying formal mathematical procedures, and selecting and using digital mathematical tools efficiently depending on the situation and purpose).</p>
 <p>This is all implemented in the app’s concept with particularly the <strong>guiding principle of space and shape</strong> in mind.</p>
 <p>The individual tasks most definitely also address numerous other general and content-related mathematical competencies, but the ones mentioned here represent the main goals of the concept.</p>
@@ -231,7 +230,7 @@ Toss a die and do all actions that are assigned to a number less than or equal t
 <strong>6</strong> Try to recreate this animal using the cubes.
 </p>
 </div>
-<p>A large box with wooden cubes was placed on the teacher’s desk. We used wooden cubes of the size 2 x 2 x 2 cm.<a href="#fn3" class="footnote-ref" id="fnref3"><sup>3</sup></a></p>
+<p>A large box with wooden cubes was placed on the teacher’s desk. We used wooden cubes of the size 2 x 2 x 2 cm.<a href="#fn1" class="footnote-ref" id="fnref1"><sup>1</sup></a></p>
 <p>The first pragmatic purpose was clearly the creation of the name tags. In addition, this task also includes the deliberate estimation of quantities, and the last task even already touches on the upcoming activities with the cubes.</p>
 <p>This phase already allows for various differentiation possibilities: Students who were able to finish their (few) tasks early can help others or complete further tasks voluntarily.</p>
 </div>
@@ -292,10 +291,10 @@ Find out everything the Cubeling app can do.
 Which different views are there, what are they called, and how do I switch from one to the other?
 </li>
 <li>
-How do I add or remove cubes in the 3D view and in the building plan?
+How do I build or remove cubes in the 3D view and in the building plan?
 </li>
 <li>
-How do I add or remove cubes in the code view?
+How do I build or remove cubes in the code view?
 </li>
 <li>
 How can I hide one side?
@@ -319,7 +318,7 @@ What do the colors blue and green represent?
 Complete tasks 1 to 4 on the <a href="files/Cubeling-Worksheet-v2-de.pdf" target="_blank">worksheet</a>!
 </p>
 </div>
-<p>Tasks 1 to 4 guide the students through the individual views and functions of the app in a structured way. Some practical references (e.g., using cubes to construct letters on a checkerboard pattern, like on the displays in the train) are also included and can be made the subject of discussion verbally. Task 3 (“Build the largest possible X!”) already reveals a special feature: In the code view, it is theoretically possible to build beyond the 7x7 board and thus build an “infinitely” large X. This is, of course, not feasible in practice, and even a size of 100 squares in each direction is very tedious without a loop. This issue is again addressed in task 4 (“What happens when I build a cube outside the given range?”). The overall purpose of the tasks is to better understand the concept of the app’s code view. Students should not only be able to use the app but also understand why some functionalities or graphical symbols are presented the way they are.</p>
+<p>Tasks 1 to 4 guide the students through the individual views and functions of the app in a structured way. Some practical references (e.g., using cubes to construct letters on a grid pattern, as pixels do on the displays in the train) are also included and can be made the subject of discussion verbally. Task 3 (“Build the largest possible X!”) already reveals a special feature: In the code view, it is theoretically possible to build beyond the 7x7 grid and thus build an “infinitely” large X. This is, of course, not feasible in practice, and even a size of 100 squares in each direction is very tedious without a loop. This issue is again addressed in task 4 (“What happens when I build a cube outside the given range?”). The overall purpose of the tasks is to better understand the concept of the app’s code view. Students should not only be able to use the app but also understand why some functionalities or graphical symbols are presented the way they are.</p>
 </div>
 </div>
 <div id="working-with-the-code-view" class="section level2" number="3.3">
@@ -345,7 +344,7 @@ No loops or variables</p>
 This stage also provides opportunity for making ties to working with negative numbers and describing locations in the plane with the help of a special coordinate system. We did not go into depth here, instead working rather intuitively with everything, which did not present any difficulties for the students. The changeable values for variables provided support: If you touch a coordinate in the code view, you can change it step by step using the green or blue arrows - also into the negative range.</p>
 <!-- <center> -->
 <!-- </center> -->
-<p>The decision to be able to build beyond the borders provided by the app’s checkerboard, in both the positive and negative direction, was in part implemented to avoid faulty codes: At latest, problems would arise with larger loops. In principle, the app is designed in such a way that hardly any errors occur, and the questions in task 4 draw attention to those few that are possible. The key here is to encourage the children to ask questions like “What happens if…?” Incorrect or incomplete lines of code are not executed.</p>
+<p>The decision to be able to build beyond the borders provided by the app’s grid, in both the positive and negative direction, was in part implemented to avoid faulty codes: At the latest, problems would arise with larger loops. In principle, the app is designed in such a way that hardly any errors occur, and the questions in task 4 draw attention to those few that are possible. The key here is to encourage the children to ask questions like “What happens if…?” Incorrect or incomplete lines of code are not executed.</p>
 </div>
 <div id="using-the-code-view" class="section level3" number="3.3.2">
 <h3><span class="header-section-number">3.3.2</span> Using the code view</h3>
@@ -353,7 +352,7 @@ This stage also provides opportunity for making ties to working with negative nu
 <div class="task">
 <p>Do tasks 5 to 7 on the <a href="files/Cubeling-Worksheet-v2-de.pdf" target="_blank">worksheet</a>!</p>
 </div>
-<p>Task 5 (reflection of cube structure in the code view) initially involves recognizing the mathematical structure of the reflection. The question about the transfer to an 8x8 or 9x9 board is supposed to motivate the generalization of the task and the underlying rules. We took this opportunity to show the class how to increase the size of the board up to 10x10 squares in the settings. During our run through, some students found the number pairs 1 and 7, 2 and 6, 3 and 5, … and also intuitively recognized a pattern. But only after our hint, “What do the two numbers add up to?” were they able to formulate a rule. The observed connection was written down for all to see as follows:</p>
+<p>Task 5 (reflection of cube structure in the code view) initially involves recognizing the mathematical structure of the reflection. The question about the transfer to an 8x8 or 9x9 grid is supposed to motivate the generalization of the task and the underlying rules. We took this opportunity to show the class how to increase the size of the grid up to 10x10 squares in the settings. During our run through, some students found the number pairs 1 and 7, 2 and 6, 3 and 5, … and also intuitively recognized a pattern. But only after our hint, “What do the two numbers add up to?” were they able to formulate a rule. The observed connection was written down for all to see as follows:</p>
 <p><span class="math display">\[
 \begin{align}
 green_\mathrm{old} + green_\mathrm{new} &amp;= 8, \mathrm{therefore}\\
@@ -368,7 +367,7 @@ green_\mathrm{new} &amp;= n+1 - green_\mathrm{old}
 \end{align}
 \]</span></p>
 <p>Whether the variables <span class="math inline">\(n\)</span>, <span class="math inline">\(green_\mathrm{old}\)</span>, and <span class="math inline">\(green_\mathrm{new}\)</span> should actually be used or not depends greatly on the class. However, due to the concrete association with the built cube structures, no difficulties presented themselves in our run-through. Interestingly, this observed connection is independent of whether <span class="math inline">\(n\)</span> is even or odd - though, when <span class="math inline">\(n\)</span> is even, no cubes can be on the axis of reflection, but when n is odd, they can.</p>
-<p>In task 5 (step-by-step addition of lines of code to build three cube structures), cubes must be added and removed from structure 1 to structure 2 and structure 3, respectively. The goal is to gain a first insight into the fact that during the construction of a cube structure, several “partial structures” are already created as well. This progression is easy to follow in the code.</p>
+<p>In task 5 (step-by-step addition of lines of code to build three cube structures), cubes must be built and removed from structure 1 to structure 2 and structure 3, respectively. The goal is to gain a first insight into the fact that during the construction of a cube structure, several “partial structures” are already created as well. This progression is easy to follow in the code.</p>
 <center>
 <img src="pictures/cubes-front.png" title="fig:" style="width:75.0%" alt="Cube structure" />
 </center>
@@ -376,11 +375,11 @@ green_\mathrm{new} &amp;= n+1 - green_\mathrm{old}
 <div class="hint">
 <ul>
 <li>Which views are unique?</li>
-<li>Why can I not tap to add cubes in all views?</li>
+<li>Why can I not tap to build cubes in all views?</li>
 <li>Can I build two different buildings that have the same multiview orthographic projection, the same oblique view, or the same isometric view?</li>
 </ul>
 </div>
-<p>The fact that not all views allow adding cubes by touch is precisely due to the uniqueness. Only the 3D view and - for wooden cubes - the building plan and code view are unique. This discussion provides a good transition from the content of math lessons (uniqueness of projections, descriptions) to the code view in the app and thus to coding and working with algorithms. Coding (or programming) is therefore “only” an additional form of representation and made easily accessible to the children via the example of cube structures.</p>
+<p>The fact that not all views allow building cubes by touch is precisely due to the uniqueness. Only the 3D view and - for wooden cubes - the building plan and code view are unique. This discussion provides a good transition from the content of math lessons (uniqueness of projections, descriptions) to the code view in the app and thus to coding and working with algorithms. Coding (or programming) is therefore “only” an additional form of representation and made easily accessible to the children via the example of cube structures.</p>
 </div>
 <div id="distinction-between-process-and-product" class="section level3" number="3.3.3">
 <h3><span class="header-section-number">3.3.3</span> Distinction between process and product</h3>
@@ -397,7 +396,7 @@ green_\mathrm{new} &amp;= n+1 - green_\mathrm{old}
 <li>Is one structure constructed “better” than the other? What might “better” mean in this context?</li>
 </ul>
 </div>
-<p>In most cases, the same structure as the one up front at the teacher’s desk was built. However, due to a non-existent coordinate system, the structures were in different positions. In addition, it is possible to add cubes in a different order and to correct mistakes (for example, incorrectly placed cubes), which can still be seen in the code view. Especially the code view should stand out here, because it is not only the only always unique view, but it also stores information about the process of creation.</p>
+<p>In most cases, the same structure as the one up front at the teacher’s desk was built. However, due to a non-existent coordinate system, the structures were in different positions. In addition, it is possible to build cubes in a different order and to correct mistakes (for example, incorrectly placed cubes), which can still be seen in the code view. Especially the code view should stand out here, because it is not only the only always unique view, but it also stores information about the process of creation.</p>
 <p>The discussion about a “better” construction can easily lead to the advantages of “coding.” For this purpose, the students were reminded of the initial scenario (“Imagine you are architects”). The length of the code (as few errors as possible) as an evaluation criterion or the sequence in which the construction of a structure is planned can hence be of significance. To illustrate this, a student can be asked to construct a small wall of wooden blocks on the teacher’s desk. Mostly likely, for reasons of stability, they will not build and assemble little individual towers but rather stack rows on top of each other. The order can therefore also be of relevance in practice.</p>
 <center>
 <img src="pictures/cubes-order.png" title="fig:" style="width:75.0%" alt="Sequence of construction" />
@@ -439,16 +438,16 @@ Allow loops and variables</p>
 <div class="task">
 <p>Build a wall that is 11 cubes long and 6 cubes high!</p>
 </div>
-<p>The task indirectly forces the use of the code view, since only it can add cubes outside of the 10x10 range.</p>
+<p>The task indirectly forces the use of the code view, since only it can build cubes outside of the 10x10 grid.</p>
 <p><img src="pictures/code-wall-en.png" style="width:50.0%" alt="ideal wall construction &gt;" />
 Afterwards, it was discussed that it seems to be extremely complicated and time-consuming to erect such a simple, in terms of its shape, cube structure. To motivate the students and as an outlook, the class can be briefly shown how, at the end of the lesson, the structure can be built with only 7 instead of the previous 66 rows. Additionally, the class can be stunned with how easily the height or length of the wall can be changed at will using the red arrow keys. This sparked noticeable amazement and ambition in the class, making the referral to the end goal a suitable lesson starter in this case.</p>
 <p>The structure can theoretically be much more easily described verbally. Because of this, one can refer to the verbal possibilities devised in the first lesson to describe a structure: For example, one can say “Do … x times!” Such an action is called a loop. To be able to use them in the app, loops and variables have to be allowed in the settings. Afterwards, we showed the children how to easily build a tower 50 cubes high with only 2 commands. The meaning of the curly brackets are explained during this (everything written inside them is repeated) and how they can change the number of repetitions using the red arrows (similar to the variables for specifying coordinates). They are then asked to try it out for themselves using the following example:</p>
 <div class="task">
 <p>Build a bulky 2x2 tower with a height of 30!</p>
 </div>
-<p>The students were not used to the order of commands here. One would naturally rather say “Add cube at position … and do this … times!”; the code first requires the number of repetitions (“do … times”) and only then is the actual add-cube command inserted inside the curly brackets. By moving lines of code into the loop, however, this can also be done in the more intuitive order.</p>
+<p>The students were not used to the order of commands here. One would naturally rather say “Build cube at position … and do this … times!”; the code first requires the number of repetitions (“do … times”) and only then is the actual build-cube command inserted inside the curly brackets. By moving lines of code into the loop, however, this can also be done in the more intuitive order.</p>
 <p><img src="pictures/code-tower-en.png" style="width:50.0%" alt="Comparison for construction of tower &gt;" />
-This task again invites a discussion on the “best” code possible. For example, the codes shown in the figures both produce the same end product. Sequence tracing is a good basis for the discussion of these two possibilities. For this, we projected two iPads simultaneously onto the board using the software “Reflector” and then the children took turns showing the code tracing step by step. It became apparent that the first version builds the tower “floor by floor,” whereas the second version builds it “tower by tower.” The former is therefore not only shorter in its code, but the order of construction is also much more stable. This astonished many students, because even those who coded the first version did not necessarily expect a cube to be placed on each of the four squares before the next floor was built. This is mainly due to the fact that the code is executed “live,” i.e., if you type the second, third, or fourth command inside the loop, the complete code is executed immediately and the 3D view only shows the newly added cube towers - but not the order in which they were created.</p>
+This task again invites a discussion on the “best” code possible. For example, the codes shown in the figures both produce the same end product. Sequence tracing is a good basis for the discussion of these two possibilities. For this, we projected two iPads simultaneously onto the board using the software “Reflector” and then the children took turns showing the code tracing step by step. It became apparent that the first version builds the tower “floor by floor,” whereas the second version builds it “tower by tower.” The former is therefore not only shorter in its code, but the order of construction is also much more stable. This astonished many students, because even those who coded the first version did not necessarily expect a cube to be placed on each of the four squares before the next floor was built. This is mainly due to the fact that the code is executed “live,” i.e., if you type the second, third, or fourth command inside the loop, the complete code is executed immediately and the 3D view only shows the newly built cube towers - but not the order in which they were created.</p>
 <p>Of course, it remains to mention that the second version is not wrong, just less clever. The distinction between looking at the process or the product from the previous teaching unit becomes clear once again.
 In their playful zeal, the children will probably try to exhaust the height of the tower. Here, however, the iPad also reaches its limits, meaning when something is repeated 500 or so times, the iPad is likely to crash. In this case, close the app completely and launch it anew.</p>
 <p><strong><em>2nd wall construction: Loops without loop variables.</em></strong> Now that the students have been introduced to loops, they can build the 11x6 wall again. This is possible (as long as one doesn’t use double loops) with eleven loops of the type “do 6 times” - this results in a total of 33 lines of code.</p>
@@ -459,18 +458,18 @@ In their playful zeal, the children will probably try to exhaust the height of t
 <div class="task">
 <p>Investigate for yourself what you can do with the commands <code>position</code> and <code>change</code>!</p>
 </div>
-<p>Similar to the first lesson unit, the focus was put on discovery through trial (and error). It was interesting to note that the students were already using the functions somewhat more purposefully than in the first unit. The question “What happens if I …?” was heard much more frequently than in the previous lessons. Of course, this could also be due to the fact that the class was only asked to explore two functions here as opposed to a completely new app. Nevertheless, in our eyes, their approach has improved.</p>
+<p>Similar to the first lesson unit, the focus was put on making discoveries by testing things out. It was interesting to note that the students were already using the functions somewhat more purposefully than in the first unit. The question “What happens if I …?” was heard much more frequently than in the previous lessons. Of course, this could also be due to the fact that the class was only asked to explore two functions here as opposed to a completely new app. Nevertheless, in our eyes, their approach has improved.</p>
 </div>
 <div id="systematically-dealing-with-loop-variables" class="section level3" number="3.4.3">
 <h3><span class="header-section-number">3.4.3</span> Systematically dealing with loop variables</h3>
 <p>To develop the concept of loop variables, we briefly moved away from tablets and played the “construction workers’ game.” The goal was to have a visualization of the initial idea of the variables (called “positions” in the app) and how they change (“change by …”) during the construction process. For this we used, analogous to the app, a 7x7 field depicted on a carpet. The lines were also designed to correspond to those in the app. However, such a field can also be created relatively quickly using painter’s tape on the classroom floor. We also had a set of large wooden blocks (12 x 12 x 12 cm) that fit exactly into the squares of the marked playing field. Some students were given construction helmets, labeled with the letters A through D.
 <img src="pictures/code-cubebuilder-en.png" style="width:50.0%" alt="Construction workers’ game &gt;" />
-These four students were also given a sign to put around their necks on which to write their current position with green and blue markers (most suitable here are laminated sheets of paper and non-permanent markers). The surrounding children helped with this, so that this activity did not take too much time. There was also an additional construction supervisor (with a different colored helmet). The teacher now serves as the architect by providing a code. The task of the construction supervisor is to instruct their workers which positions to take in each round and where to add or remove a cube accordingly. Afterwards, the finished structure could be compared to the one in the 3D view on the tablet.</p>
+These four students were also given a sign to put around their necks on which to write their current position with green and blue markers (most suitable here are laminated sheets of paper and non-permanent markers). The surrounding children helped with this, so that this activity did not take too much time. There was also an additional construction supervisor (with a different colored helmet). The teacher now serves as the architect by providing a code. The task of the construction supervisor is to instruct their workers which positions to take in each round and where to build or remove a cube accordingly. Afterwards, the finished structure could be compared to the one in the 3D view on the tablet.</p>
 <p>This game makes the dynamics of the process become apparent. The construction workers represent the positions specified in the code, which change throughout the course of the construction process. The construction supervisor has the task of executing the code correctly, e.g. counting the number of cycles of a loop. Of course, this game can be enriched with different roles and characters as you go along.</p>
 <p>After the first round, the roles can be switched among the students, so that all students had to play an active part at least once. It may even be a good idea to divide the class into 2 groups and prepare 2 playing fields, otherwise there will simply be too many people standing around the field and possibly even in each other’s way.
 It was surprising for us that the students had hardly any problems with the “change” command, although the coordinates given in it represent a shift and no longer a position. The command supports this with its notation “change(…, <strong>by</strong>: …),” whereas positions are written as “buildCube(<strong>at</strong>: …).” The game provides practice in using the commands by having to explicitly calculate the new positions. In addition, the app’s code tracing also shows what the current value of a position is at any given time. The different use of coordinates for positions and shifts is comparable to the position and direction vectors in secondary school.</p>
 <p>In our run-through, the following lesson block had some students who had difficulties with their code going to the carpet on their own and retracing the construction process there. As a teacher, you should therefore make this field (or alternatively one with small wooden cubes) permanently available, if space permits.</p>
-<p><strong><em>3rd wall construction: Loop with loop variables.</em></strong> With the help of loop variables, the 11x6 wall now requires only 6 loops of the type “do 11 times.” In every loop a position has been set, on which is built and then changed by <code>(1,0)</code> inside the loop. This further reduces the entire code to 30 lines of code.</p>
+<p><strong><em>3rd wall construction: Loop with loop variables.</em></strong> With the help of loop variables, the 11x6 wall now requires only 6 loops of the type “do 11 times.” Inside every loop, a position is set on which a cube is built, and then this position is changed by <code>(1,0)</code>. This further reduces the entire code to 30 lines of code.</p>
 </div>
 </div>
 <div id="advanced-exercises" class="section level2" number="3.5">
@@ -530,7 +529,7 @@ do 11 times {
 Now, it was still necessary to translate this into the cubeling programming language, i.e., lastly expressing the construction of the tower in code. This results in a loop within the loop. One student from the class generated this code while their iPad was projected live on the board. Afterwards, everyone recreated this code again for themselves and tested how changing 11 and 6 using the red arrows could easily add or remove rows or columns from the wall. The code was thus reduced to 7 lines - from the original 66.</p>
 <p>It can also be discussed that the code tracing makes it clear that this code is not particularly practical when it comes to the stability of the construction process (since it is built tower by tower and not floor by floor). This is due to the programming language, as you do not have to change the positions for towers, thus reducing the number of lines of code. As an additional task at the end of the lesson, the students can think about how the code would have to look if we wanted to build one row on top of the other instead. Is it still as easy to add further rows or columns? Why not?</p>
 </div>
-<div id="komplexeUebungen" class="section level3" number="3.5.4">
+<div id="complexexercises" class="section level3" number="3.5.4">
 <h3><span class="header-section-number">3.5.4</span> Complex exercises</h3>
 <p>Finally, the students were sent screenshots of more complex structures via AirDrop, which they now had to recreate as effectively as possible using loops and loop variables. The tasks become more and more complicated, building up to a triple loop for a large cube.</p>
 <div class="task">
@@ -568,8 +567,8 @@ Now, it was still necessary to translate this into the cubeling programming lang
 </div>
 <div class="footnotes">
 <hr />
-<ol start="3">
-<li id="fn3"><p>For example ones found on <a href="http://www.holzwuerfel.com">www.holzwuerfel.com</a><a href="Coding.html#fnref3" class="footnote-back">↩︎</a></p></li>
+<ol start="1">
+<li id="fn1"><p>For example ones found on <a href="http://www.holzwuerfel.com">www.holzwuerfel.com</a><a href="Coding.html#fnref1" class="footnote-back">↩︎</a></p></li>
 </ol>
 </div>
             </section>
@@ -582,7 +581,6 @@ Now, it was still necessary to translate this into the cubeling programming lang
     </div>
   </div>
 <script src="libs/gitbook-2.6.7/js/app.min.js"></script>
-<script src="libs/gitbook-2.6.7/js/lunr.js"></script>
 <script src="libs/gitbook-2.6.7/js/clipboard.min.js"></script>
 <script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
 <script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
@@ -622,6 +620,10 @@ gitbook.start({
 "text": null
 },
 "download": null,
+"search": {
+"engine": "fuse",
+"options": null
+},
 "toc": {
 "collapse": "subsection"
 },
