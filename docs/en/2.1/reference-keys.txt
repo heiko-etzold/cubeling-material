@@ -51,11 +51,11 @@ distinction-between-process-and-product
 loops-and-loop-variables
 introduction-to-repeat-loops
 exploration-of-loop-variables
-systematically-teaching-loop-variables
-vertiefende-übungen
+systematically-dealing-with-loop-variables
+advanced-exercises
 exercises-on-loop-variables
 discussions-on-live-coding
 double-loops
 komplexeUebungen
 summary-and-next-steps
-Literatur
+Literature
