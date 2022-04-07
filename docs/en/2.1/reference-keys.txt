@@ -34,7 +34,7 @@ remove-a-line-of-code
 move-a-line-of-code
 changing-numbers
 code-tracing
-Raumvorstellung
+Shadow
 Coding
 classification-and-goals
 introduction-to-processes-of-description

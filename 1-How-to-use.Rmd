@@ -1,9 +1,3 @@
----
-output:
-  pdf_document: default
-  html_document: default
----
-
 # How to use the Cubeling app {#how-to-use}
 
 
