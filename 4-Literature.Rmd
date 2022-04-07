@@ -1,0 +1,60 @@
+# Additional material and literature {#Literature}
+
+## Additional material {.unlisted .unnumbered #Material}
+
+***general***
+
+* printable building plan template (2x2cm per grid)
+  * [as a pdf file](files/Cubeling-BuildingPlan-v2-en.pdf){target="_blank"}
+  * [as a pages file](files/Cubeling-BuildingPlan-v2-en.pages){target="_blank"}
+  * [as a docx file](files/Cubeling-BuildingPlan-v2-en.docx){target="_blank"}  
+  
+* printable building plan template compact (each grid 1x1cm)
+  * [as a pdf file](files/Cubeling-BuildingPlan-Compact-v2-en.pdf){target="_blank"}
+  * [as a pages file](files/Cubeling-BuildingPlan-Compact-v2-en.pages){target="_blank"}
+  * [as a docx file](files/Cubeling-BuildingPlan-Compact-v2-en.docx){target="_blank"}  
+  
+* printable multiview orthographic projection template (2 views)
+  * [as a pdf file](files/Cubeling-Multiview-v2-en.pdf){target="_blank"}
+  * [as a pages file](files/Cubeling-Multiview-v2-en.pages){target="_blank"}
+  * [as a docx file](files/Cubeling-Multiview-v2-en.docx){target="_blank"}  
+  
+* printable multiview orthographic projection template (3 views)
+  * [as a pdf file](files/Cubeling-Multiview3-v2-en.pdf){target="_blank"}
+  * [as a pages file](files/Cubeling-Multiview3-v2-en.pages){target="_blank"}
+  * [as a docx file](files/Cubeling-Multiview3-v2-en.docx){target="_blank"}  
+  
+* printable isometric graph paper template
+  * [as a pdf file](files/Cubeling-Isometric-v2-en.pdf){target="_blank"}
+  * [as a pages file](files/Cubeling-Isometric-v2-en.pages){target="_blank"}
+  * [as a docx file](files/Cubeling-Isometric-v2-en.docx){target="_blank"}  
+  * [Dot pattern as a cinderella file](files/Cubeling-Isometric.cdy){target="_blank"}  
+
+
+***for coding with Cubeling***
+
+* Worksheet
+  * [as a pdf file](files/Cubeling-Worksheet-v2-en.pdf){target="_blank"}
+  * [as a pages file](files/Cubeling-Worksheet-v2-en.pages){target="_blank"}
+  * [as a docx file](files/Cubeling-Worksheet-v2-en.docx){target="_blank"}  
+  
+* Presentation with tasks  
+  * [as a pdf file](files/Cubeling-Tasks-v2-en.pdf){target="_blank"}
+  * [as a keynote file](files/Cubeling-Tasks-v2-en.key){target="_blank"}
+  * [as a pptx file](files/Cubeling-Tasks-v2-en.pptx){target="_blank"}
+
+* Solutions for complex exercises (section \@ref(complexexercises)) as cubl files  
+*The solutions do not necessarily represent the optimal code.*
+  * [Structure 1](files/code-task1.cubl){target="_blank"}
+  * [Structure 2](files/code-task2.cubl){target="_blank"}
+  * [Structure 3](files/code-task3.cubl){target="_blank"}
+  * [Structure 4](files/code-task4.cubl){target="_blank"}
+  * [Structure 5](files/code-task5.cubl){target="_blank"}
+  * [Structure 6](files/code-task6.cubl){target="_blank"}
+  * [Structure 7](files/code-task7.cubl){target="_blank"}
+  * [Structure 8](files/code-task8.cubl){target="_blank"}
+  
+## Literature (German) {.unlisted .unnumbered}
+`r if (knitr::is_html_output()) '<div id="refs"></div>'`
+
+
