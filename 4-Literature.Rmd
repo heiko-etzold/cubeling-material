@@ -4,27 +4,27 @@
 
 ***general***
 
-* Building plan template (2x2cm per grid)
+* printable building plan template (2x2cm per grid)
   * [as a pdf file](files/Cubeling-BuildingPlan-v2-de.pdf){target="_blank"}
   * [as a pages file](files/Cubeling-BuildingPlan-v2-de.pages){target="_blank"}
   * [as a docx file](files/Cubeling-BuildingPlan-v2-de.docx){target="_blank"}  
   
-* Building plan template compact (each grid 1x1cm)
+* printable building plan template compact (each grid 1x1cm)
   * [as a pdf file](files/Cubeling-BuildingPlan-Compact-v2-de.pdf){target="_blank"}
   * [as a pages file](files/Cubeling-BuildingPlan-Compact-v2-de.pages){target="_blank"}
   * [as a docx file](files/Cubeling-BuildingPlan-Compact-v2-de.docx){target="_blank"}  
   
-* Multiview orthographic projection template (2 views)
+* printable multiview orthographic projection template (2 views)
   * [as a pdf file](files/Cubeling-Multiview-v2-de.pdf){target="_blank"}
   * [as a pages file](files/Cubeling-Multiview-v2-de.pages){target="_blank"}
   * [as a docx file](files/Cubeling-Multiview-v2-de.docx){target="_blank"}  
   
-* Multiview orthographic projection template (3 views)
+* printable multiview orthographic projection template (3 views)
   * [as a pdf file](files/Cubeling-Multiview3-v2-de.pdf){target="_blank"}
   * [as a pages file](files/Cubeling-Multiview3-v2-de.pages){target="_blank"}
   * [as a docx file](files/Cubeling-Multiview3-v2-de.docx){target="_blank"}  
   
-* Isometric graph paper template
+* printable isometric graph paper template
   * [as a pdf file](files/Cubeling-Isometric-v2-de.pdf){target="_blank"}
   * [as a pages file](files/Cubeling-Isometric-v2-de.pages){target="_blank"}
   * [as a docx file](files/Cubeling-Isometric-v2-de.docx){target="_blank"}  
