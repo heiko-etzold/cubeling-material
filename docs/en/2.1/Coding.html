@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <title>3 Coding with Cubeling | Cubeling – Teachers’ Guide</title>
   <meta name="description" content="Instructions on how to use the app Cubeling and handout for its use in mathematics classes" />
-  <meta name="generator" content="bookdown 0.22 and GitBook 2.6.7" />
+  <meta name="generator" content="bookdown 0.24 and GitBook 2.6.7" />
 
   <meta property="og:title" content="3 Coding with Cubeling | Cubeling – Teachers’ Guide" />
   <meta property="og:type" content="book" />
@@ -33,7 +33,8 @@
 <link rel="prev" href="Shadow.html"/>
 <link rel="next" href="Literature.html"/>
 <script src="libs/header-attrs-2.11/header-attrs.js"></script>
-<script src="libs/jquery-2.2.3/jquery.min.js"></script>
+<script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
 <link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
 <link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
 <link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
@@ -41,7 +42,6 @@
 <link href="libs/gitbook-2.6.7/css/plugin-search.css" rel="stylesheet" />
 <link href="libs/gitbook-2.6.7/css/plugin-fontsettings.css" rel="stylesheet" />
 <link href="libs/gitbook-2.6.7/css/plugin-clipboard.css" rel="stylesheet" />
-
 
 
 
@@ -183,18 +183,18 @@ div.csl-indent {
             <section class="normal" id="section-">
 <div id="Coding" class="section level1" number="3">
 <h1><span class="header-section-number">3</span> Coding with Cubeling</h1>
-<p>The goal of this section is not to turn your students into programmers with the help of digital cubes. Rather, the aim is to develop a <strong>feeling for an algorithmic perspective</strong> on building connected cube structures and to focus on the <strong>process of construction</strong>. This process is documented, made <em>translatable</em> for a computer, and basic coding structures like loops are made visible to showcase the <strong>potential of these structures</strong>.</p>
-<p>Cubeling’s code view was developed in connection with a trial at a school in Brandenburg. Based on the experiences gained in that project week, this chapter presents a possible sequence of four teaching blocks that can be used to explore coding in the Cubeling app. Of course, a more spread out and gradual incorporation into math lessons is also possible.</p>
+<p>The goal of this section is not to teach programming to your students using digital cubes. Rather, the aim is to develop a <strong>feeling for an algorithmic perspective</strong> on building connected cube structures and to focus on the <strong>process of construction</strong>. This process is documented, made <em>translatable</em> for a computer, and basic coding structures like loops are made visible to showcase the <strong>potential of these structures</strong>.</p>
+<p>Cubeling’s code view was developed in connection with a trial at a school in Brandenburg. Based on the experiences gained in that trial, this chapter presents a possible sequence of four teaching blocks that can be used to explore coding in the Cubeling app. Of course, a more gradual incorporation into mathematics lessons is also possible.</p>
 <div id="classification-and-goals" class="section level2" number="3.1">
 <h2><span class="header-section-number">3.1</span> Classification and goals</h2>
-<p>Coding with Cubeling addresses skills in the fields of both mathematics and media informatics. This section is based on the German educational context.</p>
+<p>Coding with Cubeling addresses skills in the fields of both mathematics and media informatics. This section is based on the German educational context, however, it is applicable to many other educational jurisdictions.</p>
 <p><strong><em>Mathematics Educational Standards.</em></strong> With regard to the educational standards for primary school level <span class="citation">(KMK, <a href="Literature.html#ref-KMK:2005" role="doc-biblioref">2005</a>)</span>, the competency of <strong>representation</strong> is particularly encouraged: Students can create, select, and use appropriate representations for working on mathematical problems and can compare and evaluate representations with one another. At secondary school levels <span class="citation">(KMK, <a href="Literature.html#ref-KMK:2004" role="doc-biblioref">2004</a>)</span>, the concept also furthers the competencies <strong>use of mathematical representations</strong> (especially creating and using standard representations of mathematical objects and situations, interpreting or modifying given representations reasonably, evaluating different representations and forms of representation in a purpose-oriented way) and <strong>dealing with symbolic, technical, and formal elements of mathematics</strong> (here specifically, using mathematical aids and digital mathematical tools directly, applying formal mathematical procedures, and selecting and using digital mathematical tools efficiently depending on the situation and purpose).</p>
-<p>This is all implemented in the app’s concept with particularly the <strong>guiding principle of space and shape</strong> in mind.</p>
-<p>The individual tasks most definitely also address numerous other general and content-related mathematical competencies, but the ones mentioned here represent the main goals of the concept.</p>
-<p><strong><em>KMK: Education in the digital world.</em></strong> The concept also contributes to fulfilling some of the competencies that were issued by the Standing Conference of the Ministers of Education and Cultural Affairs conference in their strategy for “Education in the digital world” <span class="citation">(KMK, <a href="Literature.html#ref-KMK:2016" role="doc-biblioref">2016</a>)</span>. Particularly noteworthy here are: <strong>Recognizing and formulating algorithms</strong> (5.5), <strong>Knowing and understanding operating principles and basic principles of the digital world</strong> (5.5.1), <strong>Recognizing and formulating algorithmic structures in the digital tools used</strong> (5.5.2), and <strong>planning and using a structured, algorithmic sequence to solve a problem</strong> (5.5.3).</p>
-<p><strong><em>D-EDK: Media and Informatics.</em></strong> In the Curriculum 21 on the subject of “Media and Informatics” <span class="citation">(D-EDK, <a href="Literature.html#ref-D-EDK:2016" role="doc-biblioref">2016</a>)</span> issued by the German-Swiss conference of Directors of Education, some more detailed goals for education in connection with digital media are stated, which are targeted when coding with the Cubeling app. Particular emphasis in put on the following competencies (MI2.2): Students can <strong>read and manually execute simple sequences with loops and parameters</strong>; they understand that a <strong>computer can only execute predefined instructions</strong> and that a <strong>program is a sequence of such instructions</strong>; they can <strong>write and test programs with loops and parameters</strong>; they can <strong>formulate their own algorithms in the form of functioning and correct computer programs with variables</strong>; and they can <strong>compare and evaluate different algorithms for solving the same problem</strong>.</p>
+<p>This is all implemented within the conceptual design of the app, with the <strong>guiding principle of space and shape</strong> particularly in mind.</p>
+<p>The individual tasks also address numerous other general and content-related mathematical competencies, but the ones mentioned here represent the main goals of the concept.</p>
+<p><strong><em>KMK: Education in the digital world.</em></strong> The app also contributes to fulfilling some of the competencies that were issued by the Standing Conference of the Ministers of Education and Cultural Affairs conference in their strategy for “Education in the digital world” <span class="citation">(KMK, <a href="Literature.html#ref-KMK:2016" role="doc-biblioref">2016</a>)</span>. Particularly noteworthy here are: <strong>Recognizing and formulating algorithms</strong> (5.5), <strong>Knowing and understanding operating principles and basic principles of the digital world</strong> (5.5.1), <strong>Recognizing and formulating algorithmic structures in the digital tools used</strong> (5.5.2), and <strong>planning and using a structured, algorithmic sequence to solve a problem</strong> (5.5.3).</p>
+<p><strong><em>D-EDK: Media and Informatics.</em></strong> In the Curriculum 21 on the subject of “Media and Informatics” <span class="citation">(D-EDK, <a href="Literature.html#ref-D-EDK:2016" role="doc-biblioref">2016</a>)</span> issued by the German-Swiss conference of Directors of Education, further detailed goals for education in connection with digital media are stated, which are targeted when coding with the Cubeling app. Particular emphasis in put on the following competencies (MI2.2): Students can <strong>read and manually execute simple sequences with loops and parameters</strong>; they understand that a <strong>computer can only execute predefined instructions</strong> and that a <strong>program is a sequence of such instructions</strong>; they can <strong>write and test programs with loops and parameters</strong>; they can <strong>formulate their own algorithms in the form of functioning and correct computer programs with variables</strong>; and they can <strong>compare and evaluate different algorithms for solving the same problem</strong>.</p>
 <blockquote>
-<p>Self-discovery is of particular importance here. The experiences gained in cube building tasks lead to the discovery of general methods, which can be tested for effectiveness and efficiency during coding and possibly improved. The fact that this has to be done in a playful and action-oriented way is realized by the building of cube structures and the connections drawn to experiences from math lessons.</p>
+<p>Self-discovery is of particular importance here. The experiences gained in cube building tasks lead to the discovery of general methods, which can be tested for effectiveness and efficiency during coding and possibly improved. The fact that this has to be done in a playful and action-oriented way is realized by the building of cube structures and the connections drawn to experiences from mathematics lessons.</p>
 </blockquote>
 </div>
 <div id="introduction-to-processes-of-description" class="section level2" number="3.2">
@@ -205,7 +205,7 @@ div.csl-indent {
 Dice;<br />
 iPads with the Cubeling app installed;<br />
 <a href="files/Cubeling-Worksheet-v2-de.pdf" target="_blank">Worksheet</a> (tasks 1 to 4);<br />
-Possibly the <a href="files/Cubeling-Tasks-v2-de.pdf" target="_blank">presentation with tasks</a></p>
+Possibly the <a href="files/Cubeling-Tasks-v2-de.pdf" target="_blank">presentation with tasks</a> (various file formats)</p>
 </blockquote>
 <p>Recommended app settings:</p>
 <blockquote>
@@ -231,12 +231,12 @@ Toss a die and do all actions that are assigned to a number less than or equal t
 </p>
 </div>
 <p>A large box with wooden cubes was placed on the teacher’s desk. We used wooden cubes of the size 2 x 2 x 2 cm.<a href="#fn3" class="footnote-ref" id="fnref3"><sup>3</sup></a></p>
-<p>The first pragmatic purpose was clearly the creation of the name tags. In addition, this task also includes the deliberate estimation of quantities, and the last task even already touches on the upcoming activities with the cubes.</p>
+<p>The first pragmatic purpose was clearly the creation of the name tags. In addition, this task also includes the deliberate estimation of quantities, and the last task introduces children to upcoming activities with the cubes.</p>
 <p>This phase already allows for various differentiation possibilities: Students who were able to finish their (few) tasks early can help others or complete further tasks voluntarily.</p>
 </div>
 <div id="formulating-the-goal" class="section level3" number="3.2.2">
 <h3><span class="header-section-number">3.2.2</span> Formulating the goal</h3>
-<p>After this activity, the goal of the project was explained, namely that cube structures are to be created with the help of computers. As a small preview of what creative realms this can lead to, the popular game “Minecraft” was referenced, to which students reacted enthusiastically. Concrete knowledge about the computer game on the part of the teacher is not necessary. It is merely a matter of motivating the students and finding ties to their own lives.</p>
+<p>After this activity, the goal of the project was explained, namely that cube structures are to be created with the help of computers. As a small preview of what creative realms this can lead to, the popular game “Minecraft” was referred to. Concrete knowledge about the computer game on the part of the teacher is not necessary. It is merely a matter of motivating the students and finding connections to their own lives.</p>
 <div class="hint">
 <p>
 <strong>Lesson goal</strong><br />
@@ -252,38 +252,38 @@ We want to use computers to build connected cube structures. The computer helps 
 Imagine an alien standing in front of your door tomorrow morning. It has learned your language quickly due to its high intelligence, but it has never come across a shape that is not round. For your new board game, however, you need a cube. Try to explain to the creature what a cube is.
 </p>
 <p>
-Act out the situation with the person sitting next to you by pretending to be the alien! The alien here is completely unknowledgeable and should ask critical questions if it does not understand something. Afterwards, switch roles.
+Act out the situation with the person sitting next to you, where one of you is pretending to be the alien! The alien here is completely unknowledgeable and should ask critical questions if it does not understand something. Afterwards, switch roles.
 </p>
 </div>
-<p>Especially the last point should be emphasized by the teacher, because the students in our session tended to take their previous knowledge as given and “probed” the other student less. But that is exactly the goal of the exercise! The point is to describe the shape of a cube as clearly and precisely as possible, so that everyone is able to unambiguously conceive this object. The alien serves as a representative object, for which it is necessary to describe with exactness.</p>
-<p>Due to the openness of the task, there is no one correct solution. Therefore, in our case, the students tried to draw, build, or use terms like “corners,” “sides,” or “edges” to describe the shape. Depending on how much time you want to take for this task, you could discuss when a cube is mathematically well-defined or not. It is important to work out the different ways in which the descriptions were carried out: verbally, through gestures, graphically, crafting, etc. In each of these cases, it can be discussed that an unambiguous, unequivocal description is not so easy. The advantages and disadvantages of each method of description can also be discussed. Describing cubes, cube structures, or the construction process itself will be a common thread throughout the entire lesson. The alien situation has demonstrated the necessity of describing something and can now be referred back to in the further course of the lesson.</p>
+<p>The last point should be emphasized by the teacher, because the students in our session tended to take their previous knowledge as given and “probed” the other student less. But that is exactly the goal of the exercise! The point is to describe the shape of a cube as clearly and precisely as possible, so that everyone is able to unambiguously conceive this object. The alien serves as a representative object, for which it is necessary to describe with exactness.</p>
+<p>Due to the openness of the task, there is no one correct solution. Therefore, in our case, the students tried to draw, build, or use terms like “corners,” “sides,” or “edges” to describe the shape. Depending on how much time you want to take for this task, you could discuss when a cube is mathematically well-defined or not. It is important to work out the different ways in which the descriptions were carried out: verbally, through gestures, graphically, crafting, etc. In each of these cases, it can be discussed that an unambiguous, unequivocal description is not so easy. The advantages and disadvantages of each method of description can also be discussed. Describing cubes, cube structures, or the construction process itself will be a common thread throughout the entire lesson. The alien situation has demonstrated the necessity of describing something and can now be referred back to in the course of the lesson.</p>
 </div>
 <div id="describing-cube-structures" class="section level3" number="3.2.4">
 <h3><span class="header-section-number">3.2.4</span> Describing cube structures</h3>
 <p>The next step is now to describe a more complex shape: a connected cube structure. The students received the following task:</p>
 <div class="task">
 <p>
-Put a privacy shield between you and the person sitting next to you. Think of a cube structure with 10 cubes and build it on your side. Next, explain to your partner how they can build this structure. Then, compare your cube structures and switch roles.
+Put a privacy shield between you and the person sitting next to you. Think of a cube structure with 10 cubes and build it on your side of the dividing shield. Next, explain to your partner how they can build this structure. Then, compare your cube structures and switch roles.
 </p>
 <p>
 What problems arose when describing the building process of the cube structure?
 </p>
 </div>
 <p>The goal of this task is for students to recognize that it could be helpful to not only describe the finished structure, but also the process of how it was built. It also trains the development of a “command system”: Students had to think very carefully about which actions to mention without being misunderstood. Similar to the previous task, a wide variety of solutions were presented. For example, students divided their structures into smaller “easier units” , such as a row, a tower, or a 2 x 2 x 2 cube. They even gave interesting instructions like, “Make a 2 x 4 rectangle!” A further approach was to number the pieces and positions on the table - similar to a coordinate system or a chessboard. Most agreed, when discussing it as a class, that it makes the most sense to start with one cube and to then describe the next moves by using its spatial directions to specify on which side a certain number cubes should be placed. Instead of only “building” the structure, one group even described a larger, easier shape and then had cubes removed from it.</p>
-<p>Many of these ideas and approaches are helpful to call on later when the students are “coding.” For example, the breaking down into “smaller units” is an essential approach in informatics and is reflected in the coding in the Cubeling app (e.g. building a row using loops). The idea of numbering is particularly prominent in the app through the checkerboard pattern and the desire for concrete locations of the cubes. Positions and changes of position can be used to specify exactly in what direction the cubes are to be built, and the idea of removing cubes from a larger shape will also be found in a similar form in a later exercise.</p>
+<p>Many of these ideas and approaches are helpful to call on later when the students are “coding.” For example, the breaking down into “smaller units” is an essential approach in informatics and is reflected in the coding in the Cubeling app (e.g., building a row using loops). The idea of numbering is particularly prominent in the app through the checkerboard pattern and the desire for concrete locations of the cubes. Positions and changes of position can be used to specify exactly in what direction the cubes are to be built, and the idea of removing cubes from a larger shape will also be found in a similar form in a later exercise.</p>
 </div>
 <div id="free-exploration-of-the-app" class="section level3" number="3.2.5">
 <h3><span class="header-section-number">3.2.5</span> Free exploration of the app</h3>
 <p>Compared to the alien situation, it is now the iPad that should be viewed as an “alien”: It needs to be told exactly how to build a specific cube structure. The children, in groups of two, were given 10 minutes (after a short instruction how to use the iPads) to experiment at will with the Cubeling app. The settings on all iPads were set to 7 rows/columns. Loops and variables were initially deactivated and the type of cube was set to “wooden cubes.”</p>
 <div class="task">
 <p>
-Imagine you are architects and want to describe a cube structure to a computer so that it can model it. Unambiguity and clarity are of particular importance here.
+Imagine you are architects and want to describe a cube structure to a computer so that it can model it. Clear and precise instructions are of particular importance here.
 </p>
 <p>
 Find out everything the Cubeling app can do.
 </p>
 </div>
-<p>The free experimenting trains children’s quick comprehension skills and essentially allows everyone to adjust to and become familiar with a new (in this case virtual) environment at their own speed. To increase communication and so that not as many technical devices are needed, the children can work in pairs.</p>
+<p>The free experimenting trains children’s comprehension skills and essentially allows everyone to adjust to and become familiar with a new (in this case virtual) environment at their own speed. To increase communication and so that not as many technical devices are needed, the children can work in pairs.</p>
 <p>Afterwards, the most important functions of the app were compiled in a class discussion. At this point, it is not yet necessary to explain every minor detail. The most important questions that should be clarified in this round are the following:</p>
 <div class="hint">
 <ul>
@@ -307,8 +307,8 @@ What do the colors blue and green represent?
 </li>
 </ul>
 </div>
-<p>These questions are important in that they help the students get to know the most important functions and, as the project progresses, they can use the technical terms for the different views when communicating with each other.</p>
-<p>The code view is thus another possibility (apart from those usually already known) to display cube structures. This view does not necessarily have a special meaning at this point but is rather just one of many. What power it actually possesses will be explored as the project progresses.</p>
+<p>These questions are important in that they help the students adjust to, and become familiar with, the most important functions and, as their learning progresses, they can use the technical terms for the different views when communicating with each other.</p>
+<p>The code view is thus another possibility (apart from those usually already known) to display cube structures. This view does not necessarily have a special meaning at this point but is rather just one of many. What power it actually possesses will be explored as the lessons progress.</p>
 </div>
 <div id="exercises-on-building-cube-structures" class="section level3" number="3.2.6">
 <h3><span class="header-section-number">3.2.6</span> Exercises on building cube structures</h3>
@@ -318,7 +318,7 @@ What do the colors blue and green represent?
 Complete tasks 1 to 4 on the <a href="files/Cubeling-Worksheet-v2-de.pdf" target="_blank">worksheet</a>!
 </p>
 </div>
-<p>Tasks 1 to 4 guide the students through the individual views and functions of the app in a structured way. Some practical references (e.g., using cubes to construct letters on a grid pattern, as pixels do on the displays in the train) are also included and can be made the subject of discussion verbally. Task 3 (“Build the largest possible X!”) already reveals a special feature: In the code view, it is theoretically possible to build beyond the 7x7 grid and thus build an “infinitely” large X. This is, of course, not feasible in practice, and even a size of 100 squares in each direction is very tedious without a loop. This issue is again addressed in task 4 (“What happens when I build a cube outside the given range?”). The overall purpose of the tasks is to better understand the concept of the app’s code view. Students should not only be able to use the app but also understand why some functionalities or graphical symbols are presented the way they are.</p>
+<p>Tasks 1 to 4 guide the students through the individual views and functions of the app in a structured way. Some practical references (e.g., using cubes to construct letters on a grid pattern, as pixels do on the displays in the train) are also included and can be used in verbal discussions. Task 3 (“Build the largest possible X!”) already reveals a special feature: In the code view, it is theoretically possible to build beyond the 7x7 grid and thus build an “infinitely” large X. This is, of course, not feasible in practice, and even a size of 100 squares in each direction is very tedious without a loop. This issue is again addressed in task 4 (“What happens when I build a cube outside the given range?”). The overall purpose of the tasks is to better understand the concept of the app’s code view. Students should not only be able to use the app but also understand why some functionalities or graphical symbols are presented the way they are.</p>
 </div>
 </div>
 <div id="working-with-the-code-view" class="section level2" number="3.3">
@@ -327,7 +327,7 @@ Complete tasks 1 to 4 on the <a href="files/Cubeling-Worksheet-v2-de.pdf" target
 <blockquote>
 <p>iPads with the Cubeling app installed;<br />
 <a href="files/Cubeling-Worksheet-v2-de.pdf" target="_blank">Worksheet</a> (tasks 5 to 7);<br />
-Possibly the <a href="files/Cubeling-Tasks-v2-de.pdf" target="_blank">presentation with tasks</a></p>
+Possibly the <a href="files/Cubeling-Tasks-v2-de.pdf" target="_blank">presentation with tasks</a> (various file formats)</p>
 </blockquote>
 <p>Recommended app settings:</p>
 <blockquote>
@@ -344,7 +344,7 @@ No loops or variables</p>
 This stage also provides opportunity for making ties to working with negative numbers and describing locations in the plane with the help of a special coordinate system. We did not go into depth here, instead working rather intuitively with everything, which did not present any difficulties for the students. The changeable values for variables provided support: If you touch a coordinate in the code view, you can change it step by step using the green or blue arrows - also into the negative range.</p>
 <!-- <center> -->
 <!-- </center> -->
-<p>The decision to be able to build beyond the borders provided by the app’s grid, in both the positive and negative direction, was in part implemented to avoid faulty codes: At the latest, problems would arise with larger loops. In principle, the app is designed in such a way that hardly any errors occur, and the questions in task 4 draw attention to those few that are possible. The key here is to encourage the children to ask questions like “What happens if…?” Incorrect or incomplete lines of code are not executed.</p>
+<p>The decision to be able to build beyond the borders provided by the app’s grid, in both the positive and negative direction, was in part implemented to avoid faulty codes: If not already before, problems would definitely arise with larger loops. In principle, the app is designed in such a way that hardly any errors occur, and the questions in task 4 draw attention to the few that are possible. The key here is to encourage the children to ask questions like “What happens if…?” Incorrect or incomplete lines of code are not executed.</p>
 </div>
 <div id="using-the-code-view" class="section level3" number="3.3.2">
 <h3><span class="header-section-number">3.3.2</span> Using the code view</h3>
@@ -366,12 +366,12 @@ green_\mathrm{old} + green_\mathrm{new} &amp;= n+1, \mathrm{therefore}\\
 green_\mathrm{new} &amp;= n+1 - green_\mathrm{old}
 \end{align}
 \]</span></p>
-<p>Whether the variables <span class="math inline">\(n\)</span>, <span class="math inline">\(green_\mathrm{old}\)</span>, and <span class="math inline">\(green_\mathrm{new}\)</span> should actually be used or not depends greatly on the class. However, due to the concrete association with the built cube structures, no difficulties presented themselves in our run-through. Interestingly, this observed connection is independent of whether <span class="math inline">\(n\)</span> is even or odd - though, when <span class="math inline">\(n\)</span> is even, no cubes can be on the axis of reflection, but when n is odd, they can.</p>
-<p>In task 5 (step-by-step addition of lines of code to build three cube structures), cubes must be built and removed from structure 1 to structure 2 and structure 3, respectively. The goal is to gain a first insight into the fact that during the construction of a cube structure, several “partial structures” are already created as well. This progression is easy to follow in the code.</p>
+<p>Whether the variables <span class="math inline">\(n\)</span>, <span class="math inline">\(green_\mathrm{old}\)</span>, and <span class="math inline">\(green_\mathrm{new}\)</span> should actually be used or not depends greatly on the class. However, due to the concrete association with the built cube structures, no difficulties presented themselves in our run-through. Interestingly, this observed connection is independent of whether <span class="math inline">\(n\)</span> is even or odd - though, when <span class="math inline">\(n\)</span> is even, no cubes can be on the axis of reflection, but when n is odd, they can be.</p>
+<p>In task 5 (step-by-step addition of lines of code to build three cube structures), cubes must be built and removed from structure 1 to structure 2 and structure 3, respectively. The goal is to gain a first insight into the fact that during the construction of a cube structure, several “partial structures” are also created as well. This progression is easy to follow in the code.</p>
 <center>
 <img src="pictures/cubes-front.png" title="fig:" style="width:75.0%" alt="Cube structure" />
 </center>
-<p>We used task 7 as an additional task for students that finished ahead of everyone else. Here, the children generated their own structures. For further differentiation, you can ask about “particularly difficult” views. It can be addressed that some views are not unique and therefore one can easily confuse their partner. Supporting questions here are:</p>
+<p>We used task 7 as an additional task for students that finished before everyone else. Here, the children generated their own structures. For further differentiation, you can ask about “particularly difficult” views. It can be addressed that some views are not unique and therefore one can easily confuse their partner. Supporting questions here are:</p>
 <div class="hint">
 <ul>
 <li>Which views are unique?</li>
@@ -379,7 +379,7 @@ green_\mathrm{new} &amp;= n+1 - green_\mathrm{old}
 <li>Can I build two different buildings that have the same multiview orthographic projection, the same oblique view, or the same isometric view?</li>
 </ul>
 </div>
-<p>The fact that not all views allow building cubes by touch is precisely due to the uniqueness. Only the 3D view and - for wooden cubes - the building plan and code view are unique. This discussion provides a good transition from the content of math lessons (uniqueness of projections, descriptions) to the code view in the app and thus to coding and working with algorithms. Coding (or programming) is therefore “only” an additional form of representation and made easily accessible to the children via the example of cube structures.</p>
+<p>The fact that not all views allow building cubes by touch is precisely due to the uniqueness. Only the 3D view and - for wooden cubes - the building plan and code view are unique. This discussion provides a good transition from the content of mathematics lessons (uniqueness of projections, descriptions) to the code view in the app and thus to coding and working with algorithms. Coding (or programming) is therefore “only” an additional form of representation and made easily accessible to the children via the example of cube structures.</p>
 </div>
 <div id="distinction-between-process-and-product" class="section level3" number="3.3.3">
 <h3><span class="header-section-number">3.3.3</span> Distinction between process and product</h3>
@@ -391,13 +391,13 @@ green_\mathrm{new} &amp;= n+1 - green_\mathrm{old}
 <ul>
 <li>Has the same structure been created?</li>
 <li>Does it look like the one on the table at the front?</li>
-<li>Is the structure positioned correctly?</li>
+<li>Is the structure positioned in the same way?</li>
 <li>Can you find a difference in any of the different views?</li>
 <li>Is one structure constructed “better” than the other? What might “better” mean in this context?</li>
 </ul>
 </div>
-<p>In most cases, the same structure as the one up front at the teacher’s desk was built. However, due to a non-existent coordinate system, the structures were in different positions. In addition, it is possible to build cubes in a different order and to correct mistakes (for example, incorrectly placed cubes), which can still be seen in the code view. Especially the code view should stand out here, because it is not only the only always unique view, but it also stores information about the process of creation.</p>
-<p>The discussion about a “better” construction can easily lead to the advantages of “coding.” For this purpose, the students were reminded of the initial scenario (“Imagine you are architects”). The length of the code (as few errors as possible) as an evaluation criterion or the sequence in which the construction of a structure is planned can hence be of significance. To illustrate this, a student can be asked to construct a small wall of wooden blocks on the teacher’s desk. Mostly likely, for reasons of stability, they will not build and assemble little individual towers but rather stack rows on top of each other. The order can therefore also be of relevance in practice.</p>
+<p>In most cases, the same structure as the one on the table at the front was built. However, due to a non-existent coordinate system, the structures were in different positions. In addition, it is possible to build cubes in a different order and to correct mistakes (for example, incorrectly placed cubes), which can still be seen in the code view. Especially the code view should stand out here, because it is not only the only always unique view, but it also stores information about the process of creation.</p>
+<p>The discussion about a “better” construction can easily lead to the advantages of “coding.” For this purpose, the students were reminded of the initial scenario (“Imagine you are architects”). The length of the code (as few errors as possible) as an evaluation criterion or the sequence in which the construction of a structure is planned can hence be of significance. To illustrate this, a student can be asked to construct a small wall of wooden blocks on the teacher’s desk. Mostly likely, for reasons of stability, they will not build and assemble little individual towers of cubes but rather stack rows on top of each other. The order can therefore also be of relevance in practice.</p>
 <center>
 <img src="pictures/cubes-order.png" title="fig:" style="width:75.0%" alt="Sequence of construction" />
 </center>
@@ -406,7 +406,7 @@ green_\mathrm{new} &amp;= n+1 - green_\mathrm{old}
 <p>Compared to all other views, the code view provides us not only with a unique representation of the cube structure but also with a description of the construction process.</p>
 </div>
 <p>The idea that a program or an algorithm is a fixed sequence of well-defined actions is fundamental and significant in many school subjects. Even though the informatics terms do not have to (but can) be discussed at this point, an intuitive idea of them is developed, which is elaborated by the use of loops and variables in the next two lesson blocks.</p>
-<p>Furthermore, the number of different ways to build the same cube structure were talked about:</p>
+<p>Furthermore, the number of different ways to build the same cube structure were discussed:</p>
 <div class="task">
 <ul>
 <li>How many different ways are there to build the cube structure without using a remove command?</li>
@@ -422,7 +422,7 @@ green_\mathrm{new} &amp;= n+1 - green_\mathrm{old}
 <p>You will need:</p>
 <blockquote>
 <p>iPads with the Cubeling app installed;<br />
-Possibly the <a href="files/Cubeling-Tasks-v2-de.pdf" target="_blank">presentation with tasks</a></p>
+Possibly the <a href="files/Cubeling-Tasks-v2-de.pdf" target="_blank">presentation with tasks</a> (various file formats)</p>
 </blockquote>
 <p>Recommended app settings:</p>
 <blockquote>
@@ -438,9 +438,9 @@ Allow loops and variables</p>
 <div class="task">
 <p>Build a wall that is 11 cubes long and 6 cubes high!</p>
 </div>
-<p>The task indirectly forces the use of the code view, since only it can build cubes outside of the 10x10 grid.</p>
+<p>The task indirectly forces the use of the code view, since it is only possible to build outside the 10x10 grid in this view.</p>
 <p><img src="pictures/code-wall-en.png" style="width:50.0%" alt="ideal wall construction &gt;" />
-Afterwards, it was discussed that it seems to be extremely complicated and time-consuming to erect such a simple, in terms of its shape, cube structure. To motivate the students and as an outlook, the class can be briefly shown how, at the end of the lesson, the structure can be built with only 7 instead of the previous 66 rows. Additionally, the class can be stunned with how easily the height or length of the wall can be changed at will using the red arrow keys. This sparked noticeable amazement and ambition in the class, making the referral to the end goal a suitable lesson starter in this case.</p>
+Afterwards, it was discussed that it seems to be extremely complicated and time-consuming to erect such a simple, in terms of its shape, cube structure. To motivate the students and as an outlook, the class can be briefly shown at the end of the lesson how the structure can be built with only 7 instead of the previous 66 rows. Additionally, the class can be surprised by how easily the height or length of the wall can be changed using the red arrow keys. This sparked noticeable amazement and ambition in the class, making the referral to the end goal a suitable lesson starter in this case.</p>
 <p>The structure can theoretically be much more easily described verbally. Because of this, one can refer to the verbal possibilities devised in the first lesson to describe a structure: For example, one can say “Do … x times!” Such an action is called a loop. To be able to use them in the app, loops and variables have to be allowed in the settings. Afterwards, we showed the children how to easily build a tower 50 cubes high with only 2 commands. The meaning of the curly brackets are explained during this (everything written inside them is repeated) and how they can change the number of repetitions using the red arrows (similar to the variables for specifying coordinates). They are then asked to try it out for themselves using the following example:</p>
 <div class="task">
 <p>Build a bulky 2x2 tower with a height of 30!</p>
@@ -448,7 +448,7 @@ Afterwards, it was discussed that it seems to be extremely complicated and time-
 <p>The students were not used to the order of commands here. One would naturally rather say “Build cube at position … and do this … times!”; the code first requires the number of repetitions (“do … times”) and only then is the actual build-cube command inserted inside the curly brackets. By moving lines of code into the loop, however, this can also be done in the more intuitive order.</p>
 <p><img src="pictures/code-tower-en.png" style="width:50.0%" alt="Comparison for construction of tower &gt;" />
 This task again invites a discussion on the “best” code possible. For example, the codes shown in the figures both produce the same end product. Sequence tracing is a good basis for the discussion of these two possibilities. For this, we projected two iPads simultaneously onto the board using the software “Reflector” and then the children took turns showing the code tracing step by step. It became apparent that the first version builds the tower “floor by floor,” whereas the second version builds it “tower by tower.” The former is therefore not only shorter in its code, but the order of construction is also much more stable. This astonished many students, because even those who coded the first version did not necessarily expect a cube to be placed on each of the four squares before the next floor was built. This is mainly due to the fact that the code is executed “live,” i.e., if you type the second, third, or fourth command inside the loop, the complete code is executed immediately and the 3D view only shows the newly built cube towers - but not the order in which they were created.</p>
-<p>Of course, it remains to mention that the second version is not wrong, just less clever. The distinction between looking at the process or the product from the previous teaching unit becomes clear once again.
+<p>Of course, it remains to mention that the second version is not wrong, but less suitable. The distinction between looking at the process or the product from the previous teaching unit becomes clear once again.
 In their playful zeal, the children will probably try to exhaust the height of the tower. Here, however, the iPad also reaches its limits, meaning when something is repeated 500 or so times, the iPad is likely to crash. In this case, close the app completely and launch it anew.</p>
 <p><strong><em>2nd wall construction: Loops without loop variables.</em></strong> Now that the students have been introduced to loops, they can build the 11x6 wall again. This is possible (as long as one doesn’t use double loops) with eleven loops of the type “do 6 times” - this results in a total of 33 lines of code.</p>
 </div>
@@ -458,15 +458,15 @@ In their playful zeal, the children will probably try to exhaust the height of t
 <div class="task">
 <p>Investigate for yourself what you can do with the commands <code>position</code> and <code>change</code>!</p>
 </div>
-<p>Similar to the first lesson unit, the focus was put on making discoveries by testing things out. It was interesting to note that the students were already using the functions somewhat more purposefully than in the first unit. The question “What happens if I …?” was heard much more frequently than in the previous lessons. Of course, this could also be due to the fact that the class was only asked to explore two functions here as opposed to a completely new app. Nevertheless, in our eyes, their approach has improved.</p>
+<p>Similar to the first lesson unit, the focus was put on making discoveries by testing things out. It was interesting to note that the students were already using the functions somewhat more purposefully than in the first unit. The question “What happens if I …?” was heard much more frequently than in the previous lessons. Of course, this could also be due to the fact that the class was only asked to explore two functions here as opposed to a completely new app. Nevertheless, from our perspective, their approach has improved.</p>
 </div>
 <div id="systematically-dealing-with-loop-variables" class="section level3" number="3.4.3">
 <h3><span class="header-section-number">3.4.3</span> Systematically dealing with loop variables</h3>
 <p>To develop the concept of loop variables, we briefly moved away from tablets and played the “construction workers’ game.” The goal was to have a visualization of the initial idea of the variables (called “positions” in the app) and how they change (“change by …”) during the construction process. For this we used, analogous to the app, a 7x7 field depicted on a carpet. The lines were also designed to correspond to those in the app. However, such a field can also be created relatively quickly using painter’s tape on the classroom floor. We also had a set of large wooden blocks (12 x 12 x 12 cm) that fit exactly into the squares of the marked playing field. Some students were given construction helmets, labeled with the letters A through D.
 <img src="pictures/code-cubebuilder-en.png" style="width:50.0%" alt="Construction workers’ game &gt;" />
-These four students were also given a sign to put around their necks on which to write their current position with green and blue markers (most suitable here are laminated sheets of paper and non-permanent markers). The surrounding children helped with this, so that this activity did not take too much time. There was also an additional construction supervisor (with a different colored helmet). The teacher now serves as the architect by providing a code. The task of the construction supervisor is to instruct their workers which positions to take in each round and where to build or remove a cube accordingly. Afterwards, the finished structure could be compared to the one in the 3D view on the tablet.</p>
+These four students were also given a sign to put around their necks on which to write their current position with green and blue markers (most suitable here are laminated sheets of paper and non-permanent markers). The remaining children helped with this, so that this activity did not take too much time. There was also an additional construction supervisor (with a different colored helmet). The teacher now serves as the architect by providing a code. The task of the construction supervisor is to instruct their workers which positions to take in each round and where to build or remove a cube accordingly. Afterwards, the finished structure could be compared to the one in the 3D view on the tablet.</p>
 <p>This game makes the dynamics of the process become apparent. The construction workers represent the positions specified in the code, which change throughout the course of the construction process. The construction supervisor has the task of executing the code correctly, e.g. counting the number of cycles of a loop. Of course, this game can be enriched with different roles and characters as you go along.</p>
-<p>After the first round, the roles can be switched among the students, so that all students had to play an active part at least once. It may even be a good idea to divide the class into 2 groups and prepare 2 playing fields, otherwise there will simply be too many people standing around the field and possibly even in each other’s way.
+<p>After the first round, the students can switch roles, so that all students had to play an active part at least once. It may even be a good idea to divide the class into 2 groups and prepare 2 playing fields, otherwise there will simply be too many people standing around the field and possibly even in each other’s way.
 It was surprising for us that the students had hardly any problems with the “change” command, although the coordinates given in it represent a shift and no longer a position. The command supports this with its notation “change(…, <strong>by</strong>: …),” whereas positions are written as “buildCube(<strong>at</strong>: …).” The game provides practice in using the commands by having to explicitly calculate the new positions. In addition, the app’s code tracing also shows what the current value of a position is at any given time. The different use of coordinates for positions and shifts is comparable to the position and direction vectors in secondary school.</p>
 <p>In our run-through, the following lesson block had some students who had difficulties with their code going to the carpet on their own and retracing the construction process there. As a teacher, you should therefore make this field (or alternatively one with small wooden cubes) permanently available, if space permits.</p>
 <p><strong><em>3rd wall construction: Loop with loop variables.</em></strong> With the help of loop variables, the 11x6 wall now requires only 6 loops of the type “do 11 times.” Inside every loop, a position is set on which a cube is built, and then this position is changed by <code>(1,0)</code>. This further reduces the entire code to 30 lines of code.</p>
@@ -477,9 +477,9 @@ It was surprising for us that the students had hardly any problems with the “c
 <p>Up to this point, the students have become familiar with the entire app and should be able to use it on their own. The aim of this next block was extensive practice and actually working on mathematical or programming tasks.</p>
 <div id="exercises-on-loop-variables" class="section level3" number="3.5.1">
 <h3><span class="header-section-number">3.5.1</span> Exercises on loop variables</h3>
-<p>The first is to now move from the mundane execution of a code to the creation of your own by adhering to certain patterns. The use of loop variables is the most complex topic here and, as expected, requires some practice. Thus, at the beginning of the lesson, we briefly verbally reviewed what “position” and “change” commands can do. Then, the students were given the following task:</p>
+<p>The first is to now move from the mundane execution of a code to the creation of your own by adhering to certain patterns. The use of loop variables is the most complex topic here and, as expected, required some practice. Thus, at the beginning of the lesson, we briefly verbally reviewed what “position” and “change” commands can do. Then, the students were given the following task:</p>
 <div class="task">
-<p>Build a cube on any random square!
+<p>Build a cube on any square!
 From this square, continue building a row of 40 cubes in the following directions:<br />
 - to the right<br />
 - to the front<br />
@@ -491,11 +491,11 @@ From this square, continue building a row of 40 cubes in the following direction
 - diagonally to the back right</p>
 </div>
 <p>Depending on how you look at the 3D view, you can also have “upwards” instead of “to the front” and “downwards” instead of “behind it.” We first used the term “upwards,” which resulted in some students building in height.</p>
-<p>The final result is a pattern that resembles a star. We also projected the final product on the board. The exercise might seem to be very time-consuming and simply a mindless repetition of the same thing over and over again. However, it proved challenging for the students to enter the correct changes of the loop variables. Especially dealing with transitions into negative numbers was - understandably - not intuitive. Still, the children remained on top of it - the prospect of the finished cube structure seems to have been motivation enough to want to successfully solve the task.</p>
+<p>The final result is a pattern that resembles a star. We also projected the final product on the board. The exercise might seem to be very time-consuming and simply a mindless repetition of the same thing. However, it proved challenging for the students to enter the correct changes of the loop variables. Especially dealing with transitions into negative numbers was - understandably - not intuitive. Still, the children remained on top of it - the prospect of the finished cube structure seems to have been motivation enough to want to successfully solve the task.</p>
 </div>
 <div id="discussions-on-live-coding" class="section level3" number="3.5.2">
 <h3><span class="header-section-number">3.5.2</span> Discussions on live coding</h3>
-<p>The fact that the app always executes the code immediately is certainly intended to help the students. Nevertheless, it can also confuse learners, which should be addressed in class. In fact, this occurred relatively frequently. Suppose one built a cube on the square (4,4) and now wants to build a row of 40 cubes forward from there. The finished code looks like this:</p>
+<p>The fact that the app always executes the code immediately is certainly intended to help the students. Nevertheless, it can also confuse students, which should be addressed in class. In fact, such confusion occurred frequently. Suppose one built a cube on the square (4,4) and now you want to build a row of 40 cubes forward from there. The finished code looks like this:</p>
 <center>
 <img src="pictures/code-star1-en.png" title="fig:" style="width:50.0%" alt="Command for row of 40" />
 </center>
@@ -503,11 +503,11 @@ From this square, continue building a row of 40 cubes in the following direction
 <center>
 <img src="pictures/code-star2-en.png" title="fig:" style="width:50.0%" alt="Row of 40 without the “change” command" />
 </center>
-<p>At this point, the live code returns a tower at (4,5). The students now thought they had done something wrong, since they surely did not want to have a tower here. It was then discussed with the class why the app was doing this. If the students get too confused, a good first step is to temporarily hide the left side of the app and check it only after the code is complete. This live code discussion can certainly be had at a different point in time. We have included it here because a lot of students noticed it when building the rows of 40.</p>
+<p>At this point, the live code returns a tower at (4,5). The students now thought they had done something wrong, since they probably did not want to build a tower there. It was then discussed with the class why the app was doing this. If the students get too confused, a good first step is to temporarily hide the left side of the app and check it only after the code is complete. This live code discussion can certainly be had at a different point in time. We have included it here because a lot of students noticed it when building the rows of 40.</p>
 </div>
 <div id="double-loops" class="section level3" number="3.5.3">
 <h3><span class="header-section-number">3.5.3</span> Double loops</h3>
-<p><strong><em>4th wall construction: Double loops.</em></strong> Most of the children felt relatively confident with the use of the loop variables after the exercise. Before the students were now allowed to engage in final practice, the assessment of the most compact way to build the 11x6 wall took place. By again utilzing the practical demonstration on the playing field carpet, the code was first developed, in words, as a class: You build 6 cubes on top of each other and then move one square to the right. You have to do this whole process 11 times in a row.</p>
+<p><strong><em>4th wall construction: Double loops.</em></strong> Most of the children felt relatively confident with the use of the loop variables after the exercise. Before the students were now allowed to engage in final practice, the assessment of the most compact way to build the 11x6 wall took place. By again utilizing the practical demonstration on the playing field carpet, the code was first developed, in words, as a class: You build 6 cubes on top of each other and then move one square to the right. You have to do this whole process 11 times in a row.</p>
 <p>The development of the code with words was very helpful and was recorded on the board in a “pseudo” language:</p>
 <p><em>Step 1</em>:</p>
 <pre><code>build a tower of 6 
@@ -531,17 +531,17 @@ Now, it was still necessary to translate this into the cubeling programming lang
 </div>
 <div id="complexexercises" class="section level3" number="3.5.4">
 <h3><span class="header-section-number">3.5.4</span> Complex exercises</h3>
-<p>Finally, the students were sent screenshots of more complex structures via AirDrop, which they now had to recreate as effectively as possible using loops and loop variables. The tasks become more and more complicated, building up to a triple loop for a large cube.</p>
+<p>Finally, the students were sent screenshots of more complex structures via AirDrop, which they then had to recreate as effectively as possible using loops and loop variables. The tasks become more and more complicated, building up to a triple loop for a large cube.</p>
 <div class="task">
 <p>Write a code to build the cube structures!</p>
 </div>
-<p>These tasks again offer the potential to discuss different ways of solving the problem and to think about optimizing the code. At the same time, the creativity of the students can be encouraged here when creating their own structures.</p>
+<p>These tasks again offer the potential to discuss different ways of solving the problem and to think about optimizing the code. At the same time, the creativity of the students can be encouraged here as they create their own structures.</p>
 </div>
 </div>
 <div id="summary-and-next-steps" class="section level2" number="3.6">
 <h2><span class="header-section-number">3.6</span> Summary and next steps</h2>
-<p>At the end of the lesson, the class was asked to evaluate the project phase and express any wishes. A common answer was that they had learned how practical and powerful the code view is, and that they had initially shied away from working with it but now actually prefer it (“At the start I did not find coding very exciting, I preferred building in the 3D view. But now that we have the loops, I prefer to do it with the code.”). In addition, some children wished for colored cubes in the app or the ability to code with the stacking cubes as well, to, for example, be able to construct houses with windows. There was a lot of enthusiasm visible for learning “how to be an architect” and how to code, with many students asking questions like inquiring about the alternative method for the 11x6 wall, even after the bell had rung. We were also frequently asked if there was a way to use the app for playing around at home. The interest of the class and the enthusiasm about this rather unusual way of solving tasks was very apparent.</p>
-<p>From a didactic point of view, we want to once again emphasize that the app is limited in complexity. Colored cubes or stackable cubes are not possible and are not something we are working on. The aim is to use the app to gain an insight into the basic ideas of coding, in particular of loops, using the representation of cube structures. Further learning can then be done with programs such as Minecraft (see e.g. <a href="https://minecraft.fandom.com/wiki/Coordinates" class="uri">https://minecraft.fandom.com/wiki/Coordinates</a>), where there are seemingly no limits to one’s creativity.</p>
+<p>At the end of the lesson, the class was asked to evaluate the project phase and express any wishes. A common answer was that they had learned how practical and powerful the code view is, and that they had initially shied away from working with it but now actually preferred it (“At the start I did not find coding very exciting, I preferred building in the 3D view. But now that we have the loops, I prefer to do it with the code.”). In addition, some children wished for colored cubes in the app or the ability to code with the stacking cubes as well, to, for example, be able to construct houses with windows. There was a lot of enthusiasm visible for learning “how to be an architect” and how to code, with many students asking questions like inquiring about the alternative method for the 11x6 wall, even after the bell had rung. We were also frequently asked if there was a way to use the app for playing around at home. The interest of the class and the enthusiasm about this rather unusual way of solving tasks was very apparent.</p>
+<p>From a didactic point of view, we want emphasise once again that the app is limited in complexity. Colored cubes or stackable cubes are not possible and are not something we are working on. The aim is to use the app to gain an insight into the basic ideas of coding, in particular of loops, using the representation of cube structures. Further learning can then be done with programs such as Minecraft (see e.g. <a href="https://minecraft.fandom.com/wiki/Coordinates" class="uri">https://minecraft.fandom.com/wiki/Coordinates</a>), where there are seemingly no limits to one’s creativity.</p>
 <!-- ## Mächtige Schleifen -->
 <!-- Nur, um einen kleinen Einblick zu geben, wie *mächtig* die Klötzchenprogrammierung sein kann: Es ist auch möglich, Schleifen zu programmieren, d. h. Dinge, die sich immer wieder wiederholen. Betrachten Sie dazu mal den folgenden Code: -->
 <!-- ``` -->
@@ -581,7 +581,6 @@ Now, it was still necessary to translate this into the cubeling programming lang
     </div>
   </div>
 <script src="libs/gitbook-2.6.7/js/app.min.js"></script>
-<script src="libs/gitbook-2.6.7/js/lunr.js"></script>
 <script src="libs/gitbook-2.6.7/js/clipboard.min.js"></script>
 <script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
 <script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
@@ -621,6 +620,10 @@ gitbook.start({
 "text": null
 },
 "download": null,
+"search": {
+"engine": "fuse",
+"options": null
+},
 "toc": {
 "collapse": "subsection"
 },

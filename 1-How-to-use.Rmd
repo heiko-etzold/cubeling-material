@@ -24,7 +24,7 @@ You can add and remove cubes in both the 3D view and in the building plan mode^[
 The **trash can button** at the bottom center allows you to **delete** the entire connected cube structure.
 
 > **Didactic note**    
-> Naturally, the actions **add cube** and **remove cube** also exist when working with real cubes. In the app, however, there are relatively strong constraints for this: You do not have to first pick up a cube, you do not have to align it perfectly to the checkerboard pattern, you do not have to let it go -- the only thing you have to do is click on the square where you want it. On the one hand, you lose out on a range of real, haptic experiences (which goes to show that you should not forgo real cubes entirely). On the other hand, this gives students with motor impairments the opportunity to solve more complex tasks with the help of cube structures, which they might not be able to do with real objects. 
+> Naturally, the actions **add cube** and **remove cube** also exist when working with real cubes. In the app, however, there are relatively strong constraints for this: You do not have to first pick up a cube, you do not have to align it perfectly to the checkerboard pattern, you do not have to let it go -- the only thing you have to do is click on the square where you want it. On the one hand, you lose out on a range of real, haptic experiences (which goes to show that you should not forgo real cubes entirely). On the other hand, this gives students with fine motor control limitations the opportunity to solve more complex tasks with the help of cube structures, which they might not be able to do with real objects. 
 
 
 ## Global settings {#global-settings}
@@ -39,9 +39,9 @@ knitr::include_graphics("pictures/settings-en.png")
 
 * You can also change the **size of the board** -- ranging between 3x3 and 10x10.
 
-* Additionally, you can choose between wooden cubes, stackable cubes, and magic cubes. Apart from the slight visual differences between the cubes, there is also a difference in their building behavior.
+* Additionally, you can choose between wooden cubes, stackable cubes, and magic cubes. In addition to slight visual differences, there is also a difference in the building behaviour of the cubes.
   * **Wooden cubes** can only be stacked on top of each other, i.e., a cube always needs to lie either on top of another cube or directly on the board.
-  * **Stackable cubes**, on the contrary, can also be attached laterally. This plays a role when removing cubes as well: Wooden cubes can only be removed from top to bottom, whereas stacking cubes can be removed freely, as long as no cubes would be floating mid-air.
+  * **Stackable cubes**, on the contrary, can also be attached laterally. This plays a role when removing cubes as well: Wooden cubes can only be removed from top to bottom, whereas stacking cubes can be removed freely, as long as no cubes are left "floating" in the air.
   * **Magic cubes** can float. The construction is the same as with wooden cubes, but you can remove magic cubes freely, so that it is possible to have floating cubes remain. 
 
 * You can also decide whether **loops** and **variables** are possible in the code view. You can find more on this in section \@ref(how-to-code).
@@ -52,11 +52,11 @@ knitr::include_graphics("pictures/settings-en.png")
 
 ### Rotate and zoom into connected cube structure
 
-Rotate the 3D view using one finger and zoom in or out with two. This practically gives you the ability to move around the cube structure (view the structure from all sides). It is also possible to view the structure from below.
+Rotate the 3D view using one finger and zoom in or out with two. This gives you the ability to move around the cube structure (view the structure from all sides). It is also possible to view the structure from below.
 
 ### Shadow walls and transparency {#Schatteneinstellung}
 
-By clicking on the three dots at the bottom left, you can build **shadow walls** and increase the **transparency** of the cubes.
+By clicking on the three dots at the bottom left, you can build **shadow walls** and change the **transparency** of the cubes.
 
 ```{r echo=FALSE, fig.cap="Configuring the shadow walls", fig.align='center', out.width='75%'}
 knitr::include_graphics("pictures/app-shadow.png")
@@ -74,11 +74,11 @@ knitr::include_graphics("pictures/app-outline.png")
 
 ### Further views
 
-You can use the toggle buttons at the bottom to switch between views. On the left, you have the, by now familiar, 3D view and the building plan. On the right, in addition to the building plan, you can choose between the **multiview orthographic projection**, the **oblique view in cavalier perspective**, the **isometric view**, and (for wooden cubes) a **code view**. Again, if you change something in one view, you will immediately see the change in the others as well.
+You can use the toggle buttons at the bottom to switch between views. On the left you have the familiar 3D view and the building plan. On the right, in addition to the building plan, you can choose between the **multiview orthographic projection**, the **oblique view in cavalier perspective**, the **isometric view**, and (for wooden cubes) a **code view**. Again, if you change something in one view, you will immediately see the change in the others as well.
 
 However, cubes cannot be added when you are in the multiview orthographic projection or one of the oblique views -- this is only possible in the 3D view and (for wooden cubes) in the building plan as well as the code view.
 
-It is still possible to completely hide the left or right view via the toggles at the respective corners.
+It is possible to completely hide the left or right view via the toggles at the respective corners.
 
 > Hiding a view can be useful if, for example, you provide a building plan and have your students build the connected cube structure using real cubes. Then, they can use the app to check their creations.
 
@@ -105,7 +105,7 @@ knitr::include_graphics("pictures/app-isometric.png")
 
 ### Code-view
 
-***This function is only available when using wooden cubes and never on iPhones.***
+***This function is only available when using wooden cubes and is not a feature available on iPhones.***
 
 There is also a code view, which documents the building process of the cube structure. Here, once again, a variety of actions are possible, which will be discussed in more detail in chapter \@ref(how-to-code).
 
@@ -116,7 +116,7 @@ knitr::include_graphics("pictures/app-code-en.png")
 
 ## Export and import
 
-If you click on the **folder button** in the middle (next to the trash can), it is possible to export the entire connected cube structure or individual views, as well as open a previously saved cube structure.
+If you click on the **folder button** in the middle (next to the trash can), it is possible to export either the entire connected cube structure or only individual views, as well as open a previously saved cube structure.
 
 ```{r echo=FALSE, fig.cap="Export and import", fig.align='center', out.width='75%'}
 knitr::include_graphics("pictures/app-export-en.png")
@@ -129,17 +129,17 @@ Select which of the six views you want to export. Then you can save or share the
 
 ### Export code as text
 
-***This function is only available when using wooden cubes and never on iPhones.***
+***This function is only available when using wooden cubes and is not a feature available on iPhones.***
 
 The code documenting the construction process of the cube structure can be saved or shared as a **txt-file**. 
 
 ### Save connected cube structure
 
-Click here to save or share the entire cube structure, including all the settings that were used during its build.
+Click here to save or share the entire cube structure, including all the settings that were used during its construction.
 
 The exported file is a **cubl file**, a custom file format for the Cubeling app.
 
-> If you share a cube structure (via AirDrop or email, for example) with your students who also have the Cubeling app, they can immediately open the cube structure on their devices.
+> If you share a cube structure (via AirDrop or email, for example) with your students who also have the Cubeling app, they can open the cube structure on their devices.
 
 
 ### Open connected cube structure
@@ -163,7 +163,7 @@ knitr::include_graphics("pictures/code-1-en.png")
 
 ### Add a line of code
 
-It is possible to add commands yourself. For this, the corresponding **buttons** at the bottom of the code view need to be **selected**:
+It is possible for users to manually add commands. For this, the corresponding **buttons** at the bottom of the code view need to be **selected**:
 
 * **`buildCube(at: (number,number))`** inserts a cube at the specified coordinates.
 * **`removeCube(at: (number,number))`** removes a cube (should it exist).
@@ -207,7 +207,7 @@ knitr::include_graphics("pictures/code-move-en.png")
 
 
 
-> At this point, it could be interesting to see how changing the order of lines of code changes the resulting cube structure. As long as only `buildCube` commands are used, this does produce very exciting results. But as soon as loops or variables are included, or the `removeCube` command is used, this can lead to interesting discoveries.
+> At this point, it could be interesting to see how changing the order of lines of code changes the resulting cube structure. As long as only `buildCube` commands are used, this does not produce very exciting results. However, as soon as loops or variables are included, or the `removeCube` command is used, this can lead to interesting discoveries.
 
 You can also drag individual lines of code into or out of existing loops. 
 

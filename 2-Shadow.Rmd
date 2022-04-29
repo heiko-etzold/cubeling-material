@@ -1,8 +1,8 @@
 # Build with Cubeling {#Shadow}
 
-***This chapter does not yet exist.*** 
+***This chapter has not been written yet.*** 
 
-Until then, you can find some inspiration for using the Cubeling app in connection with teaching spatial abilities (in German) at @Ladel:2017, @Bonig:2018, @Pilgrim:2018, @PIKASdigi:2020 or @Rahn:2020.
+Until then, you can find some inspiration for using the Cubeling app in connection with teaching spatial reasoning (in German) at @Ladel:2017, @Bonig:2018, @Pilgrim:2018, @PIKASdigi:2020 or @Rahn:2020.
 
 <!-- ## Erstkontakt zur App -->
 
