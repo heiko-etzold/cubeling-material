@@ -175,7 +175,7 @@ This stage also provides opportunity for making ties to working with negative nu
 
 <!-- <center> -->
 <!-- </center> -->
-The decision to be able to build beyond the borders provided by the app's grid, in both the positive and negative direction, was in part implemented to avoid faulty codes: If not already before, problems would definitely arise with larger loops. In principle, the app is designed in such a way that hardly any errors occur, and the questions in task 4 draw attention to the few that are possible. The key here is to encourage the children to ask questions like "What happens if...?". Incorrect or incomplete lines of code are not executed.
+The decision to be able to build beyond the borders provided by the app's grid, in both the positive and negative direction, was in part implemented to avoid faulty codes, which would otherwise arise with larger loops. In principle, the app is designed in such a way that hardly any errors occur, and the questions in task 4 draw attention to the few that are possible. The key here is to encourage the children to ask questions like "What happens if...?". Incorrect or incomplete lines of code are not executed.
 
 
 ### Using the code view
@@ -244,9 +244,9 @@ Compare the structure you have created with that of your neighbor. The following
 - Is one structure constructed "better" than the other? What might "better" mean in this context?
 :::
 
-In most cases, the same structure as the one on the table at the front was built. However, due to a non-existent coordinate system, the structures were in different positions. In addition, it is possible to build cubes in a different order and to correct mistakes (for example, incorrectly placed cubes), which can still be seen in the code view. Especially the code view should stand out here, because it is not only the only always unique view, but it also stores information about the process of creation.
+In most cases, the same structure as the one on the table at the front was built. However, due to a non-existent coordinate system, the structures were in different positions. In addition, it is possible to build cubes in a different order and to correct mistakes (for example, incorrectly placed cubes), which can still be seen in the code view. Especially the code view should stand out here: It always generates a unique view; and also stores information about the process of creation.
 
-The discussion about a "better" construction can easily lead to the advantages of "coding". For this purpose, the students were reminded of the initial scenario ("Imagine you are architects"). The length of the code (as few errors as possible) as an evaluation criterion or the sequence in which the construction of a structure is planned can hence be of significance. To illustrate this, a student can be asked to construct a small wall of wooden blocks on the teacher's desk. Mostly likely, for reasons of stability, they will not build and assemble little individual towers of cubes but rather stack rows on top of each other. The order can therefore also be of relevance in practice.
+The discussion about a "better" construction can easily lead to the advantages of "coding". For this purpose, the students were reminded of the initial scenario ("Imagine you are architects"). The length of the code (as few errors as possible) as an evaluation criterion or the sequence in which the construction of a structure is planned can hence be of significance. To illustrate this, a student can be asked to construct a small wall of wooden blocks on the teacher's desk. Mostly likely, for reasons of stability, they will not build and assemble columns of cubes next to each other but rather stack rows on top of each other. The order can therefore also be of relevance in practice.
 	
 <center>
 ![Sequence of construction](pictures/cubes-order.png){width=75%}
@@ -308,7 +308,7 @@ Afterwards, it was discussed that it seems to be extremely complicated and time-
 The structure can theoretically be much more easily described verbally. Because of this, one can refer to the verbal possibilities devised in the first lesson to describe a structure: For example, one can say "Do ... x times!". Such an action is called a loop. To be able to use them in the app, loops and variables have to be allowed in the settings. Afterwards, we showed the children how to easily build a tower 50 cubes high with only 2 commands. The meaning of the curly brackets are explained during this (everything written inside them is repeated) and how they can change the number of repetitions using the red arrows (similar to the variables for specifying coordinates). They are then asked to try it out for themselves using the following example:
 
 ::: {.task}
-Build a bulky 2x2 tower with a height of 30!
+Build a 2x2 tower with a height of 30!
 :::
 
 The students were not used to the order of commands here. One would naturally rather say "Build cube at position ... and do this ... times!"; the code first requires the number of repetitions ("do ... times") and only then is the actual build-cube command inserted inside the curly brackets. By moving lines of code into the loop, however, this can also be done in the more intuitive order.

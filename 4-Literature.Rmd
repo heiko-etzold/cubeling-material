@@ -44,7 +44,7 @@
   * [as a pptx file](files/Cubeling-Tasks-v2-en.pptx){target="_blank"}
 
 * Solutions for complex exercises (section \@ref(complexexercises)) as cubl files  
-*The solutions do not necessarily represent the optimal code.*
+*NB: The solutions do not necessarily represent the optimal code.*
   * [Structure 1](files/code-task1.cubl){target="_blank"}
   * [Structure 2](files/code-task2.cubl){target="_blank"}
   * [Structure 3](files/code-task3.cubl){target="_blank"}

@@ -19,7 +19,7 @@ The app uses two basic actions:
   **Touch and hold a cube** to remove it.
 
 This explanation can also be found in the app by tapping on the **i** at the bottom left.
-You can add and remove cubes in both the 3D view and in the building plan mode^[In the building plan view, you can only add or remove cubes if you have selected wooden cubes, otherwise the uniqueness of the structure could not be guaranteed]. When you change something **in one view**, the same modification is immediately and **automatically adopted in the other view**.
+You can add and remove cubes in both the 3D view and in the building plan mode^[In the building plan view, you can only add or remove cubes if you have selected wooden cubes. The reason for this is to guarantee the uniqueness of the structure.]. When you change something **in one view**, the same modification is immediately and **automatically adopted in the other view**.
 
 The **trash can button** at the bottom center allows you to **delete** the entire connected cube structure.
 
@@ -116,7 +116,7 @@ knitr::include_graphics("pictures/app-code-en.png")
 
 ## Export and import
 
-If you click on the **folder button** in the middle (next to the trash can), it is possible to export either the entire connected cube structure or only individual views, as well as open a previously saved cube structure.
+If you click on the **folder button** in the middle (next to the trash can), it is possible to export either the entire connected cube structure, or only individual views, as well as open a previously saved cube structure.
 
 ```{r echo=FALSE, fig.cap="Export and import", fig.align='center', out.width='75%'}
 knitr::include_graphics("pictures/app-export-en.png")
