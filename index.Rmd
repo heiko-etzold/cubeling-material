@@ -1,19 +1,19 @@
 ---
-title: "Cubeling -- Teachers' Guide"
-description: "Instructions on how to use the app Cubeling and handout for its use in mathematics classes"
-author: "Heiko Etzold, translated by Joanna Radack"
+title: "Klötzchen -- Leitfaden für Lehrerinnen und Lehrer"
+description: "Anleitung zur Bedienung der Klötzchen-App und Handreichung für ihren Einsatz im Mathematikunterricht"
+author: "Heiko Etzold, Lena Holzwarth, Mario Reindl, Jessica Schon"
 date: |
-  version 2.1, `r format(Sys.time(), '%B %Y')`; optimized for version 7.1 of Cubeling App
+  Version 3.0, `r format(Sys.time(), '%B %Y')`; optimiert für Version 7.1 der Klötzchen-App
 
   <div style="font-style: normal">
-    > cite as: Etzold, H. (`r format(Sys.time(), '%Y')`). *Cubeling -- Teachers' Guide* (version 2.1). <a href="https://heiko-etzold.github.io/cubeling-material/en/2.1">https\://heiko-etzold.github.io/cubeling-material/en/2.1</a></div>
+    > zitiere als: Etzold, H., Holzwarth, L., Reindl, M., & Schon, J. (`r format(Sys.time(), '%Y')`). *Klötzchen -- Leitfaden für Lehrerinnen und Lehrer* (Version 3.0). <a href="https://heiko-etzold.github.io/cubeling-material/de/3.0">https\://heiko-etzold.github.io/cubeling-material/de/3.0</a></div>
 site: bookdown::bookdown_site
 output:
   bookdown::gitbook:
     config:
       toc:
         before:
-          <li><a href="index.html"><b>Cubeling Guide</b></a></li>
+          <li><a href="index.html"><b>Klötzchen-Leitfaden</b></a></li>
         after:
           <li><a href="https://creativecommons.org/licenses/by-sa/4.0/"><img src="pictures/by-sa.png" height="20px"/></a></li>
       sharing:
@@ -25,13 +25,9 @@ output:
     css: "own.css"
     split_bib: false
 documentclass: book
-github-repo: "heiko-etzold/cubeling-material/tree/en.2.1"
+github-repo: "heiko-etzold/cubeling-material/tree/de.3.0"
 bibliography: "references.bib"
 csl: "apa.csl"
 link-citations: yes
-url: "https://heiko-etzold.github.io/cubeling-material/en/2.1"
+url: "https://heiko-etzold.github.io/cubeling-material/de/3.0"
 ---
-
-# Introduction {- #Introduction}
-
-

@@ -1,20 +1,20 @@
 # Change these setting for your language and version
 
-language <- "en"
+language <- "de"
 
-title <- "Cubeling -- Teachers' Guide"
-shortTitle <- "Cubeling Guide"
-description <- "Instructions on how to use the app Cubeling and handout for its use in mathematics classes"
+title <- "Klötzchen -- Leitfaden für Lehrerinnen und Lehrer"
+shortTitle <- "Klötzchen-Leitfaden"
+description <- "Anleitung zur Bedienung der Klötzchen-App und Handreichung für ihren Einsatz im Mathematikunterricht"
 
-versionText <- "version"
-guideVersion <- "2.1"
+versionText <- "Version"
+guideVersion <- "3.0"
 appVersion <- "7.1"
-optimizedTextA <- "; optimized for version "
-optimizedTextB <- " of Cubeling App"
+optimizedTextA <- "; optimiert für Version "
+optimizedTextB <- " der Klötzchen-App"
 
-authors <- "Heiko Etzold, translated by Joanna Radack"
-authorsForCitation <- "Etzold, H."
-citeText <- "cite as"
+authors <- "Heiko Etzold, Lena Holzwarth, Mario Reindl, Jessica Schon"
+authorsForCitation <- "Etzold, H., Holzwarth, L., Reindl, M., & Schon, J."
+citeText <- "zitiere als"
 gitHubName <- "heiko-etzold"
 gitHubProject <- "cubeling-material"
 
