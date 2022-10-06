@@ -56,7 +56,6 @@ Da wir das Projekt in einer für uns fremden Klasse durchgeführt haben, stellte
 Zum Warmwerden und ersten Kennenlernen erhielten die Schülerinnen und Schüler folgende Aufgabe:
   
 ```{block, type="task"}
-**Aufgabe**  
 Erwürfel dir eine Zahl und führt alle Aktionen aus, die kleiner oder gleich dieser Zahl sind:  
 **1** Bastel ein Namensschildchen!  
 **2** Schreibe vor deinen Namen ein Adjektiv, das denselben Anfangsbuchstaben besitzt wie dein Vorname!  
